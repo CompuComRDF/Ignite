@@ -1,0 +1,65 @@
+﻿BLOCK,TYPE,PARAM,ACTION
+IVR100,EXEC,"session['DNISConfig'] = util.checkDNIS('Tenants', session['dnis'] )",IVR100A
+IVR100A,EXEC,session['languageMenu'] = json.loads(session['DNISConfig']['languageMenu']),IVR100B
+IVR100B,EXEC,session['queueName'] = session['DNISConfig']['tenantID'] + 'GEN_' + session['languageMenu']['default'],IVR100C
+IVR100C,EXEC,session['vmQueueName'] = session['DNISConfig']['tenantID'] + 'GEN_' + session['languageMenu']['default'] + '_VM',IVR100D
+IVR100D,EXEC,session['dynamoFlow']= json.loads(session['DNISConfig']['dynamoFlow']),IVR105
+IVR105,CASE,session['languageMenu']['default'],En:IVR110A|Fr:IVR120A|Es:IVR130A|Pt:IVR140A|else:IVR110A
+IVR110A,LANGUAGE,en-US,IVR110B
+IVR110B,EXEC,session['multiLangSelection'] = 'En',IVR110Q
+IVR110Q,SETQUEUE,en-US:session['queueName'],IVR150
+IVR120A,LANGUAGE,fr-CA,IVR120B
+IVR120B,EXEC,session['multiLangSelection'] = 'Fr',IVR120Q
+IVR120Q,SETQUEUE,fr-CA:session['queueName'],IVR150
+IVR130A,LANGUAGE,es-MX,IVR130B
+IVR130B,EXEC,session['multiLangSelection'] = 'Es',IVR130Q
+IVR130Q,SETQUEUE,es-MX:session['queueName'],IVR150
+IVR140A,LANGUAGE,pt-BR,IVR140B
+IVR140B,EXEC,session['multiLangSelection'] = 'Pt',IVR140Q
+IVR140Q,SETQUEUE,pt-BR:session['queueName'],IVR150
+IVR150,EVAL,len(session['languageMenu']['options']) > 1,true:IVR160|false:IVR170
+IVR160,MENU,eval:session['languageMenu']['greeting'],eval:session['languageMenu']['options']
+IVR170,PLAY,eval:session['languageMenu']['greeting'],IVR185
+EN,LANGUAGE,en-US,EN-1
+EN-1,EXEC,session['multiLangSelection'] = 'En',IVR180E1
+FR,LANGUAGE,fr-CA,FR-1
+FR-1,EXEC,session['multiLangSelection'] = 'Fr',IVR180E1
+ES,LANGUAGE,es-MX,ES-1
+ES-1,EXEC,session['multiLangSelection'] = 'Es',IVR180E1
+PT,LANGUAGE,pt-BR,PT-1
+PT-1,EXEC,session['multiLangSelection'] = 'Pt',IVR180E1
+IVR180E1,EXEC,session['queueName'] = session['DNISConfig']['companyID'] + 'GEN_' + session['multiLangSelection'],IVR180E2
+IVR180E2,EXEC,session['vmQueueName'] = session['DNISConfig']['companyID'] + 'GEN_' + session['multiLangSelection']  + '_VM',IVR180Q
+IVR180Q,SETQUEUE,en-US:session['queueName']|fr-CA:session['queueName']|es-MX:session['queueName']|pt-BR:session['queueName'],IVR185
+IVR185,EVAL,queues.checkBusinessHours(),true:IVR200|false:IVR190
+IVR190,MENU,tts:closed,1:Q1100|maxaction:IVR300
+IVR200,EVAL,len(session['dynamoFlow']) == 0,true:CONTINUE|false:IVR210
+IVR210,EXEC,session['DBMenuID'] = 'DB01',IVR220
+IVR220,MENU,eval:session['dynamoFlow'][session['DBMenuID']]['DBPrompt'][session['multiLangSelection']],eval:session['dynamoFlow'][session['DBMenuID']]['DBMenu']
+MENU,EXEC,session['DBMenuID'] = session['dynamoFlow'][session['DBMenuID']]['DBActions'][session['menuSelection']],IVR220
+QUEUE,EXEC,session['queueName'] = session['dynamoFlow'][session['DBMenuID']]['DBActions'][session['menuSelection']] + 'GEN_' + session['multiLangSelection'],QUEUE-1
+QUEUE-1,EXEC,session['vmQueueName'] = session['dynamoFlow'][session['DBMenuID']]['DBActions'][session['menuSelection']] + 'GEN_' + session['multiLangSelection'] + '_VM',QUEUE-2
+QUEUE-2,SETQUEUE,en-US:session['queueName']|fr-CA:session['queueName']|es-MX:session['queueName']|pt-BR:session['queueName'],CONTINUE
+CONTINUE,PLAY,tts:monitor,PQ100
+IVR300,PLAY,tts:goodbye,DISCONNECT
+PQ100,EXEC,session['queuemetrics'] = queues.getQueueMetrics(session['queueID']),PQ110
+PQ110,EVAL,session['function']=='agent',true:PQ125|false:PQ200
+PQ125,EVAL,session['queuemetrics']['agentsOnline'] > 0,true:PQ150|false:PQ200
+PQ150,PLAY,text:The queue is open and staffed.  Please transfer the caller now.,PQ200
+PQ200,EVAL,session['queuemetrics']['contactsInQueue'] < 30,true:PQ300|false:PQ400
+PQ300,EVAL,session['queuemetrics']['agentsOnline'] > 0,true:PQ500|false:PQ400
+PQ400,MENU,tts:noagents,1:Q1100|maxaction:IVR300
+PQ500,PLAY,tts:pleasehold,PQ600
+PQ600,QUEUE,,Q100
+Q100,PLAY,wav:Music_Jazz_MyTimetoFly_Inst_60s,Q200
+Q200,EVAL,queues.withinWaitCapacity(300),true:Q300|false:Q400
+Q300,PLAY,tts:busy,Q500
+Q400,PLAY,tts:highvolume,Q500
+Q500,PLAY,wav:Music_Jazz_MyTimetoFly_Inst_60s,Q600
+Q600,EVAL,queues.agentsOnline(),true:Q1000|false:Q900
+Q900,MENU,tts:noagents,1:Q1100|maxaction:IVR300
+Q1000,MENU,tts:stillbusy,1:Q1100|8:Q500|timeout:Q500|maxaction:Q500
+Q1100,RECORD,tts:voicemail,Q1200
+Q1200,PLAY,tts:saved,IVR300
+Q2000,SETQUEUE,en-US:session['queue']|fr-CA:session['queue']|es-MX:session['queue']|pt-BR:session['queue'],Q2100
+Q2100,QUEUE,,Q100

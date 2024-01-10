@@ -1,0 +1,14 @@
+﻿BLOCK,TYPE,PARAM,ACTION
+START,EXEC,session['vmretrieved'] = False,VM225
+VM225,RECORD,"text:Please leave your message after the tone.  When finished, press the pound key for more options.",VM300
+VM250,EXEC,util.getVoiceRecording(),VM300
+VM300,MENU,"text: To save your message, press 1.  To listen to your message, press 2.  To erase and re-record, press 3.  To cancel, press 4.",1:VM400|2:VM500|3:VM325|4:VM600|maxaction:VM400
+VM325,EVAL,session['vmretrieved'],true:VM330|false:VM350
+VM330,EXEC,util.deleteVoiceRecording(session['language']),START
+VM350,PLAY,text:Please hold while I delete your message|var:util.deleteVoiceRecording(session['language']),VM375
+VM375,EXEC,session['vmretrieved'] = True,START
+VM400,PLAY,text: Your message has been saved.  Good bye.,RETURN
+VM500,PLAY,text:Please hold while I retrieve your message|var:util.getVoiceRecording(),VM525
+VM525,EXEC,session['vmretrieved'] = True,VM300
+VM600,EXEC,util.deleteVoiceRecording(session['language']),VM625
+VM625,PLAY,text:Your message has been cancelled.  Good bye.,RETURN
