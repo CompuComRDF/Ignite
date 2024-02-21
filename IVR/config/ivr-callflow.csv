@@ -1,9 +1,9 @@
 ﻿BLOCK,TYPE,PARAM,ACTION
-IVR100,EXEC,"session['DNISConfig'] = util.checkDNIS('Tenants', session['dnis'] )",IVR100A
+IVR100,EXEC,session['DNISConfig'] = util.igniteStart(),IVR100A
 IVR100A,EXEC,session['languageMenu'] = json.loads(session['DNISConfig']['languageMenu']),IVR100B
 IVR100B,EXEC,session['queueName'] = session['DNISConfig']['tenantID'] + 'GEN_' + session['languageMenu']['default'],IVR100C
 IVR100C,EXEC,session['vmQueueName'] = session['DNISConfig']['tenantID'] + 'GEN_' + session['languageMenu']['default'] + '_VM',IVR100D
-IVR100D,EXEC,session['dynamoFlow']= json.loads(session['DNISConfig']['dynamoFlow']),IVR105
+IVR100D,EXEC,session['callFlow']= json.loads(session['DNISConfig']['callFlow']),IVR105
 IVR105,CASE,session['languageMenu']['default'],En:IVR110A|Fr:IVR120A|Es:IVR130A|Pt:IVR140A|else:IVR110A
 IVR110A,LANGUAGE,en-US,IVR110B
 IVR110B,EXEC,session['multiLangSelection'] = 'En',IVR110Q
@@ -33,12 +33,12 @@ IVR180E2,EXEC,session['vmQueueName'] = session['DNISConfig']['companyID'] + 'GEN
 IVR180Q,SETQUEUE,en-US:session['queueName']|fr-CA:session['queueName']|es-MX:session['queueName']|pt-BR:session['queueName'],IVR185
 IVR185,EVAL,queues.checkBusinessHours(),true:IVR200|false:IVR190
 IVR190,MENU,tts:closed,1:Q1100|maxaction:IVR300
-IVR200,EVAL,len(session['dynamoFlow']) == 0,true:CONTINUE|false:IVR210
+IVR200,EVAL,len(session['callFlow']) == 0,true:CONTINUE|false:IVR210
 IVR210,EXEC,session['DBMenuID'] = 'DB01',IVR220
-IVR220,MENU,eval:session['dynamoFlow'][session['DBMenuID']]['DBPrompt'][session['multiLangSelection']],eval:session['dynamoFlow'][session['DBMenuID']]['DBMenu']
-MENU,EXEC,session['DBMenuID'] = session['dynamoFlow'][session['DBMenuID']]['DBActions'][session['menuSelection']],IVR220
-QUEUE,EXEC,session['queueName'] = session['dynamoFlow'][session['DBMenuID']]['DBActions'][session['menuSelection']] + 'GEN_' + session['multiLangSelection'],QUEUE-1
-QUEUE-1,EXEC,session['vmQueueName'] = session['dynamoFlow'][session['DBMenuID']]['DBActions'][session['menuSelection']] + 'GEN_' + session['multiLangSelection'] + '_VM',QUEUE-2
+IVR220,MENU,eval:session['callFlow'][session['DBMenuID']]['DBPrompt'][session['multiLangSelection']],eval:session['callFlow'][session['DBMenuID']]['DBMenu']
+MENU,EXEC,session['DBMenuID'] = session['callFlow'][session['DBMenuID']]['DBActions'][session['menuSelection']],IVR220
+QUEUE,EXEC,session['queueName'] = session['callFlow'][session['DBMenuID']]['DBActions'][session['menuSelection']] + 'GEN_' + session['multiLangSelection'],QUEUE-1
+QUEUE-1,EXEC,session['vmQueueName'] = session['callFlow'][session['DBMenuID']]['DBActions'][session['menuSelection']] + 'GEN_' + session['multiLangSelection'] + '_VM',QUEUE-2
 QUEUE-2,SETQUEUE,en-US:session['queueName']|fr-CA:session['queueName']|es-MX:session['queueName']|pt-BR:session['queueName'],CONTINUE
 CONTINUE,PLAY,tts:monitor,PQ100
 IVR300,PLAY,tts:goodbye,DISCONNECT
