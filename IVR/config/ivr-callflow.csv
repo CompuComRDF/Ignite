@@ -28,8 +28,8 @@ ES,LANGUAGE,es-MX,ES-1
 ES-1,EXEC,session['multiLangSelection'] = 'Es',IVR180E1
 PT,LANGUAGE,pt-BR,PT-1
 PT-1,EXEC,session['multiLangSelection'] = 'Pt',IVR180E1
-IVR180E1,EXEC,session['queueName'] = session['DNISConfig']['companyID'] + 'GEN_' + session['multiLangSelection'],IVR180E2
-IVR180E2,EXEC,session['vmQueueName'] = session['DNISConfig']['companyID'] + 'GEN_' + session['multiLangSelection']  + '_VM',IVR180Q
+IVR180E1,EXEC,session['queueName'] = session['DNISConfig']['tenantID'] + 'GEN_' + session['multiLangSelection'],IVR180E2
+IVR180E2,EXEC,session['vmQueueName'] = session['DNISConfig']['tenantID'] + 'GEN_' + session['multiLangSelection']  + '_VM',IVR180Q
 IVR180Q,SETQUEUE,en-US:session['queueName']|fr-CA:session['queueName']|es-MX:session['queueName']|pt-BR:session['queueName'],IVR185
 IVR185,EVAL,queues.checkBusinessHours(),true:IVR200|false:IVR190
 IVR190,MENU,tts:closed,1:Q1100|maxaction:IVR300
