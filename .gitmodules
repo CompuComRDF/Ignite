@@ -1,0 +1,3 @@
+[submodule "Console/ignite-console"]
+	path = Console/ignite-console
+	url = https://github.com/CompuComRDF/Ignite

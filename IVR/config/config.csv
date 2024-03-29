@@ -15,7 +15,7 @@ globalTimeoutPrompt,tts:NoInput1|tts:NoInput2
 globalMaxtriesPrompt,tts:MaxInputXfer
 globalMaxtriesAction,PQ100
 globalMenuRepeat,*
-globalMenuPrevious,
+globalMenuPrevious,9
 globalZeroPrompt,agent
 globalInputTerm,#
 speechAnalytics,off
