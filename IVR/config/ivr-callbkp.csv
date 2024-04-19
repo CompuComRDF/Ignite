@@ -1,9 +1,8 @@
 ﻿BLOCK,TYPE,PARAM,ACTION
-IVR100,EXEC,session['languageMenu'] = json.loads(session['DNISConfig']['languageMenu']),IVR100A
-IVR100A,EXEC,session['queueName'] = session['DNISConfig']['appID']  if session['DNISConfig']['appID'] == 'BasicQueue'  else session['DNISConfig']['appID'] + '_' + session['languageMenu']['default'],IVR100B
-IVR100B,EXEC,session['vmQueueName'] = session['DNISConfig']['appID'] + '_' + session['languageMenu']['default'] + '_VM',IVR100C
-IVR100C,EXEC,session['flowIndex'] = 0,IVR100D
-IVR100D,EXEC,session['flowControl'] = json.loads(session['DNISConfig']['flowControl']),IVR105
+IVR100,EXEC,session['DNISConfig'] = util.igniteStart(),IVR100A
+IVR100A,EXEC,session['languageMenu'] = json.loads(session['DNISConfig']['languageMenu']),IVR100B
+IVR100B,EXEC,session['queueName'] = session['DNISConfig']['appID']  if session['DNISConfig']['appID'] == 'BasicQueue'  else session['DNISConfig']['appID'] + '_' + session['languageMenu']['default'],IVR100C
+IVR100C,EXEC,session['vmQueueName'] = session['DNISConfig']['appID'] + '_' + session['languageMenu']['default'] + '_VM',IVR105
 IVR105,CASE,session['languageMenu']['default'],En:IVR110A|Fr:IVR120A|Es:IVR130A|Pt:IVR140A|else:IVR110A
 IVR110A,LANGUAGE,en-US,IVR110B
 IVR110B,EXEC,session['multiLangSelection'] = 'En',IVR110Q
@@ -30,34 +29,24 @@ PT,LANGUAGE,pt-BR,PT-1
 PT-1,EXEC,session['multiLangSelection'] = 'Pt',IVR180E1
 IVR180E1,EXEC,session['queueName'] = session['DNISConfig']['appID'] + '_' + session['multiLangSelection'],IVR180E2
 IVR180E2,EXEC,session['vmQueueName'] = session['DNISConfig']['appID'] + '_' + session['multiLangSelection']  + '_VM',IVR180Q
-IVR180Q,SETQUEUE,en-US:session['queueName']|fr-CA:session['queueName']|es-MX:session['queueName']|pt-BR:session['queueName'],LOOP
-IVR181,EVAL,session['queueName'] == 'BasicQueue',true:IVR301|false:LOOP
-LOOP,EXEC,session['flowIndex']  += 1,IVR200
-IVR200,CASE,session['flowControl'][str(session['flowIndex'])],Emergency:IVR210A|Broadcast:IVR220A|Holidays:IVR230A|BusinessHours:IVR240A|Custom:IVR250A|MainMenu:IVR260A|MenuTree:IVR270A|else:CONTINUE
-IVR210A,PLAY,"eval:util.getSysAdmin(""EM01"")",LOOP
-IVR220A,PLAY,"eval:util.getSysAdmin(""BM01"")",IVR220B
-IVR220B,PLAY,"eval:util.getSysAdmin(""BM02"")",IVR220C
-IVR220C,PLAY,"eval:util.getSysAdmin(""BM03"")",LOOP
-IVR230A,EVAL,queues.checkHoliday(),true:IVR230B|false:LOOP
-IVR230B,PLAY,tts:holiday,1:Q1100|maxaction:IVR300
-IVR240A,EVAL,queues.checkBusinessHours(),true:LOOP|false:IVR240B
-IVR240B,MENU,tts:closed,1:Q1100|maxaction:IVR300
-IVR250A,EVAL,"session['DNISConfig']['CallFlow'].replace("" "","""")==""""",true:LOOP|false:IVR250B
-IVR250B,SUB,session['DNISConfig']['CallFlow'],IVR250C
-IVR250C,EVAL,session['transfer'],true:LOOP|false:IVR300
-IVR260A,EXEC,"session[""mm_attempts""] = 0",IVR260B
-IVR260B,MENU,session['DNISConfig']['mainMenu']['prompt'][session['language']],invalid:IVR260C
-IVR260C,EVAL,session['menuSelection'] in session['DNISConfig']['mainMenu']['options'],true:IVR260D|false:IVR260G
-IVR260D,EXEC,session['queueName'] = session['DNISConfig']['mainMenu']['options'][session['menuSelection']] + '_' + session['multiLangSelection'],IVR260E
-IVR260E,EXEC,session['vmQueueName'] =session['DNISConfig']['mainMenu']['options'][session['menuSelection']] + '_' + session['languageMenu']['default'] + '_VM',IVR260F
-IVR260F,SETQUEUE,en-US:session['queueName']|fr-CA:session['queueName']|es-MX:session['queueName']|pt-BR:session['queueName'],CONTINUE
-IVR260G,EXEC,"session[""mm_attempts""] += 1",IVR260H
-IVR260H,EVAL,"session[""bm_attempts""] < session['globalMenuAttempts']",true:IVR260I|false:IVR260L
-IVR260I,CASE,"session[""mm_attempts""] ",1:IVR260J|else:IVR260K
-IVR260J,PLAY,tts:InvalidInput,IVR260B
-IVR260K,PLAY,tts:InvalidInput2,IVR260B
-IVR260L,PLAY,tts:MaxInputXfer,CONTINUE
-IVR270A,TREE,tree:M1,CONTINUE
+IVR180Q,SETQUEUE,en-US:session['queueName']|fr-CA:session['queueName']|es-MX:session['queueName']|pt-BR:session['queueName'],IVR182
+IVR181,EVAL,session['queueName'] == 'BasicQueue',true:IVR301|false:IVR182
+IVR182,PLAY,"eval:util.getSysAdmin(""BM01"")",IVR183
+IVR183,PLAY,"eval:util.getSysAdmin(""BM02"")",IVR184
+IVR184,PLAY,"eval:util.getSysAdmin(""BM03"")",IVR185
+IVR185,EVAL,queues.checkHoliday(),true:186|false:IVR187
+IVR186,PLAY,tts:holiday,1:Q1100|maxaction:IVR300
+IVR187,EVAL,queues.checkBusinessHours(),true:IVR200|false:IVR190
+IVR190,MENU,tts:closed,1:Q1100|maxaction:IVR300
+IVR200,EVAL,"session['DNISConfig']['callFlow'].replace("" "","""")==""""",true:CONTINUE|false:IVR205
+IVR205,SUB,session['DNISConfig']['callFlow'],IVR206
+IVR206,EVAL,session['transfer'],true:CONTINUE|false:IVR300
+IVR210,EXEC,session['DBMenuID'] = 'DB01',IVR220
+IVR220,MENU,eval:session['DNISConfig']['callFlow'][session['DBMenuID']]['DBPrompt'][session['multiLangSelection']],eval:session['DNISConfig']['callFlow'][session['DBMenuID']]['DBMenu']
+MENU,EXEC,session['DBMenuID'] = session['DNISConfig']['callFlow'][session['DBMenuID']]['DBActions'][session['menuSelection']],IVR220
+QUEUE,EXEC,session['queueName'] = session['DNISConfig']['callFlow'][session['DBMenuID']]['DBActions'][session['menuSelection']] + '_' + session['multiLangSelection'],QUEUE-1
+QUEUE-1,EXEC,session['vmQueueName'] = session['DNISConfig']['callFlow'][session['DBMenuID']]['DBActions'][session['menuSelection']] + '_' + session['multiLangSelection'] + '_VM',QUEUE-2
+QUEUE-2,SETQUEUE,en-US:session['queueName']|fr-CA:session['queueName']|es-MX:session['queueName']|pt-BR:session['queueName'],CONTINUE
 CONTINUE,PLAY,tts:monitor,PQ100
 IVR300,PLAY,tts:goodbye,DISCONNECT
 IVR301,PLAY,text: Please contact your administrator.  Goodbye.,DISCONNECT
