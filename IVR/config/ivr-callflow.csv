@@ -42,9 +42,10 @@ IVR230A,EVAL,queues.checkHoliday(),true:IVR230B|false:LOOP
 IVR230B,PLAY,tts:holiday,1:Q1100|maxaction:IVR300
 IVR240A,EVAL,queues.checkBusinessHours(),true:LOOP|false:IVR240B
 IVR240B,MENU,tts:closed,1:Q1100|maxaction:IVR300
-IVR250A,EVAL,"session['DNISConfig']['CallFlow'].replace("" "","""")==""""",true:LOOP|false:IVR250B
-IVR250B,SUB,session['DNISConfig']['CallFlow'],IVR250C
-IVR250C,EVAL,session['transfer'],true:LOOP|false:IVR300
+IVR250A,EXEC,session['DNISConfig']['callFlow'] = session['DNISConfig']['tenantID'] + '/' + session['DNISConfig']['callFlow'] ,IVR250B
+IVR250B,EVAL,"session['DNISConfig']['callFlow'].replace("" "","""")==""""",true:LOOP|false:IVR250C
+IVR250C,SUB,session['DNISConfig']['callFlow'],IVR250D
+IVR250D,EVAL,session['transfer'],true:LOOP|false:IVR300
 IVR260A,EXEC,"session[""mm_attempts""] = 0",IVR260B
 IVR260B,MENU,session['DNISConfig']['mainMenu']['prompt'][session['language']],invalid:IVR260C
 IVR260C,EVAL,session['menuSelection'] in session['DNISConfig']['mainMenu']['options'],true:IVR260D|false:IVR260G
