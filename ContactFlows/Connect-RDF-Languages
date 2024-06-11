@@ -1,1 +1,718 @@
-{"Version":"2019-10-30","StartAction":"ca58a56e-7f3f-478a-a91b-2b1fa4764799","Metadata":{"entryPointPosition":{"x":40,"y":40},"ActionMetadata":{"9ce94d97-5e91-45d3-a14d-83878039bdbe":{"position":{"x":589.6,"y":701.6},"children":["7c736179-f9c4-4206-9c8d-f24ee37b1173"],"overrideConsoleVoice":true,"fragments":{"SetContactData":"7c736179-f9c4-4206-9c8d-f24ee37b1173"},"overrideLanguageAttribute":true},"7c736179-f9c4-4206-9c8d-f24ee37b1173":{"position":{"x":589.6,"y":701.6},"dynamicParams":[]},"16dcf4d9-c9d9-43e2-b627-abc38332e9a2":{"position":{"x":590.4,"y":858.4},"children":["7f253193-1d50-4b3a-89c7-7cfdd57095a5"],"overrideConsoleVoice":false,"fragments":{"SetContactData":"7f253193-1d50-4b3a-89c7-7cfdd57095a5"},"overrideLanguageAttribute":true},"7f253193-1d50-4b3a-89c7-7cfdd57095a5":{"position":{"x":590.4,"y":858.4},"dynamicParams":[]},"faf56914-28cc-4576-8afd-e1f3e07a692d":{"position":{"x":588.8,"y":1028},"children":["5f34645d-2b55-4a53-8136-06391e1e36ed"],"overrideConsoleVoice":false,"fragments":{"SetContactData":"5f34645d-2b55-4a53-8136-06391e1e36ed"},"overrideLanguageAttribute":true},"5f34645d-2b55-4a53-8136-06391e1e36ed":{"position":{"x":588.8,"y":1028},"dynamicParams":[]},"3acf68de-28f6-4e65-a086-b99d5d676d21":{"position":{"x":590.4,"y":1191.2},"children":["dedde9a1-7ffc-4c10-ab40-6a6b85678e9e"],"overrideConsoleVoice":true,"fragments":{"SetContactData":"dedde9a1-7ffc-4c10-ab40-6a6b85678e9e"},"overrideLanguageAttribute":true},"dedde9a1-7ffc-4c10-ab40-6a6b85678e9e":{"position":{"x":590.4,"y":1191.2},"dynamicParams":[]},"61baf4bf-916a-43b3-8fb9-8d91a79592cc":{"position":{"x":591.2,"y":1360},"children":["cfa01351-d98e-4720-b430-cc8479b296f8"],"overrideConsoleVoice":true,"fragments":{"SetContactData":"cfa01351-d98e-4720-b430-cc8479b296f8"},"overrideLanguageAttribute":true},"cfa01351-d98e-4720-b430-cc8479b296f8":{"position":{"x":591.2,"y":1360},"dynamicParams":[]},"56edff0f-8a1c-439a-a1db-75c1ad1858ea":{"position":{"x":590.4,"y":1534.4},"children":["9a07b99f-ad9c-4578-ab02-64629eeb46d3"],"overrideConsoleVoice":true,"fragments":{"SetContactData":"9a07b99f-ad9c-4578-ab02-64629eeb46d3"},"overrideLanguageAttribute":true},"9a07b99f-ad9c-4578-ab02-64629eeb46d3":{"position":{"x":590.4,"y":1534.4},"dynamicParams":[]},"5cd822a9-0445-49e3-82fa-9ccc4ec62ae2":{"position":{"x":576,"y":25.6},"children":["b3f82503-f112-478c-942b-2087f63e3363"],"overrideConsoleVoice":true,"fragments":{"SetContactData":"b3f82503-f112-478c-942b-2087f63e3363"},"overrideLanguageAttribute":true},"b3f82503-f112-478c-942b-2087f63e3363":{"position":{"x":576,"y":25.6},"dynamicParams":[]},"fad308d0-6708-439a-86dc-5a4760047e6b":{"position":{"x":580.8,"y":200},"children":["b3ca0b17-dbfb-46d8-9a33-5c36c955774a"],"overrideConsoleVoice":true,"fragments":{"SetContactData":"b3ca0b17-dbfb-46d8-9a33-5c36c955774a"},"overrideLanguageAttribute":true},"b3ca0b17-dbfb-46d8-9a33-5c36c955774a":{"position":{"x":580.8,"y":200},"dynamicParams":[]},"ad9d35d9-2124-48e7-b3da-582df4b57ef5":{"position":{"x":583.2,"y":376},"children":["be158e15-35fa-4fff-998a-92c3279c4466"],"overrideConsoleVoice":true,"fragments":{"SetContactData":"be158e15-35fa-4fff-998a-92c3279c4466"},"overrideLanguageAttribute":true},"be158e15-35fa-4fff-998a-92c3279c4466":{"position":{"x":583.2,"y":376},"dynamicParams":[]},"bd71ebfd-cf07-41b5-af23-5a5a4321350f":{"position":{"x":589.6,"y":547.2},"children":["cfc51934-bcf4-4138-820f-4710a8c25d80"],"overrideConsoleVoice":true,"fragments":{"SetContactData":"cfc51934-bcf4-4138-820f-4710a8c25d80"},"overrideLanguageAttribute":true},"cfc51934-bcf4-4138-820f-4710a8c25d80":{"position":{"x":589.6,"y":547.2},"dynamicParams":[]},"db65f5a8-3d04-484f-af20-e9ba74bfd9c7":{"position":{"x":1068.8,"y":68.8}},"ca58a56e-7f3f-478a-a91b-2b1fa4764799":{"position":{"x":256.8,"y":36.8},"conditions":[],"conditionMetadata":[{"id":"38075485-e13a-4ec1-9146-4c4a578a11f7","operator":{"name":"Equals","value":"Equals","shortDisplay":"="},"value":"fr-CA"},{"id":"e104f29a-d144-44bf-b37c-ebd61a8eab93","operator":{"name":"Equals","value":"Equals","shortDisplay":"="},"value":"es-MX"},{"id":"2f71aa09-cbb9-4d9a-8aff-49128dab7347","operator":{"name":"Equals","value":"Equals","shortDisplay":"="},"value":"pt-BR"},{"id":"2ab60a23-2260-4ad9-9a3b-655d1e7fe12e","operator":{"name":"Equals","value":"Equals","shortDisplay":"="},"value":"ca-ES"},{"id":"cbcaff1a-9a40-4ffc-bdb7-5abf523cb158","operator":{"name":"Equals","value":"Equals","shortDisplay":"="},"value":"da-DK"},{"id":"96acddab-3e8b-43de-8e4b-40a96c603cb4","operator":{"name":"Equals","value":"Equals","shortDisplay":"="},"value":"en-AU"},{"id":"943b604a-d592-4463-8d54-1c47deb5865e","operator":{"name":"Equals","value":"Equals","shortDisplay":"="},"value":"fr-BE"},{"id":"cb8250c8-10d1-489c-95dc-451f17c3e47d","operator":{"name":"Equals","value":"Equals","shortDisplay":"="},"value":"ja-JP"},{"id":"cf1c0850-8292-4f16-9542-c00ae11d37c5","operator":{"name":"Equals","value":"Equals","shortDisplay":"="},"value":"nb-NO"}]}},"Annotations":[],"name":"Connect-RDF-Languages","description":"","status":"published","hash":{}},"Actions":[{"Parameters":{"TextToSpeechEngine":"Neural","TextToSpeechStyle":"None","TextToSpeechVoice":"Arlet"},"Identifier":"9ce94d97-5e91-45d3-a14d-83878039bdbe","Type":"UpdateContactTextToSpeechVoice","Transitions":{"NextAction":"7c736179-f9c4-4206-9c8d-f24ee37b1173"}},{"Parameters":{"LanguageCode":"ca-ES"},"Identifier":"7c736179-f9c4-4206-9c8d-f24ee37b1173","Type":"UpdateContactData","Transitions":{"NextAction":"db65f5a8-3d04-484f-af20-e9ba74bfd9c7","Errors":[{"NextAction":"db65f5a8-3d04-484f-af20-e9ba74bfd9c7","ErrorType":"NoMatchingError"}]}},{"Parameters":{"TextToSpeechVoice":"Naja"},"Identifier":"16dcf4d9-c9d9-43e2-b627-abc38332e9a2","Type":"UpdateContactTextToSpeechVoice","Transitions":{"NextAction":"7f253193-1d50-4b3a-89c7-7cfdd57095a5"}},{"Parameters":{"LanguageCode":"da-DK"},"Identifier":"7f253193-1d50-4b3a-89c7-7cfdd57095a5","Type":"UpdateContactData","Transitions":{"NextAction":"db65f5a8-3d04-484f-af20-e9ba74bfd9c7","Errors":[{"NextAction":"db65f5a8-3d04-484f-af20-e9ba74bfd9c7","ErrorType":"NoMatchingError"}]}},{"Parameters":{"TextToSpeechVoice":"Russell"},"Identifier":"faf56914-28cc-4576-8afd-e1f3e07a692d","Type":"UpdateContactTextToSpeechVoice","Transitions":{"NextAction":"5f34645d-2b55-4a53-8136-06391e1e36ed"}},{"Parameters":{"LanguageCode":"en-AU"},"Identifier":"5f34645d-2b55-4a53-8136-06391e1e36ed","Type":"UpdateContactData","Transitions":{"NextAction":"db65f5a8-3d04-484f-af20-e9ba74bfd9c7","Errors":[{"NextAction":"db65f5a8-3d04-484f-af20-e9ba74bfd9c7","ErrorType":"NoMatchingError"}]}},{"Parameters":{"TextToSpeechEngine":"Neural","TextToSpeechStyle":"None","TextToSpeechVoice":"Isabelle"},"Identifier":"3acf68de-28f6-4e65-a086-b99d5d676d21","Type":"UpdateContactTextToSpeechVoice","Transitions":{"NextAction":"dedde9a1-7ffc-4c10-ab40-6a6b85678e9e"}},{"Parameters":{"LanguageCode":"fr-BE"},"Identifier":"dedde9a1-7ffc-4c10-ab40-6a6b85678e9e","Type":"UpdateContactData","Transitions":{"NextAction":"db65f5a8-3d04-484f-af20-e9ba74bfd9c7","Errors":[{"NextAction":"db65f5a8-3d04-484f-af20-e9ba74bfd9c7","ErrorType":"NoMatchingError"}]}},{"Parameters":{"TextToSpeechEngine":"Neural","TextToSpeechStyle":"None","TextToSpeechVoice":"Kazuha"},"Identifier":"61baf4bf-916a-43b3-8fb9-8d91a79592cc","Type":"UpdateContactTextToSpeechVoice","Transitions":{"NextAction":"cfa01351-d98e-4720-b430-cc8479b296f8"}},{"Parameters":{"LanguageCode":"ja-JP"},"Identifier":"cfa01351-d98e-4720-b430-cc8479b296f8","Type":"UpdateContactData","Transitions":{"NextAction":"db65f5a8-3d04-484f-af20-e9ba74bfd9c7","Errors":[{"NextAction":"db65f5a8-3d04-484f-af20-e9ba74bfd9c7","ErrorType":"NoMatchingError"}]}},{"Parameters":{"TextToSpeechEngine":"Neural","TextToSpeechStyle":"None","TextToSpeechVoice":"Ida"},"Identifier":"56edff0f-8a1c-439a-a1db-75c1ad1858ea","Type":"UpdateContactTextToSpeechVoice","Transitions":{"NextAction":"9a07b99f-ad9c-4578-ab02-64629eeb46d3"}},{"Parameters":{"LanguageCode":"nb-NO"},"Identifier":"9a07b99f-ad9c-4578-ab02-64629eeb46d3","Type":"UpdateContactData","Transitions":{"NextAction":"db65f5a8-3d04-484f-af20-e9ba74bfd9c7","Errors":[{"NextAction":"db65f5a8-3d04-484f-af20-e9ba74bfd9c7","ErrorType":"NoMatchingError"}]}},{"Parameters":{"TextToSpeechEngine":"Neural","TextToSpeechStyle":"None","TextToSpeechVoice":"Gabrielle"},"Identifier":"5cd822a9-0445-49e3-82fa-9ccc4ec62ae2","Type":"UpdateContactTextToSpeechVoice","Transitions":{"NextAction":"b3f82503-f112-478c-942b-2087f63e3363"}},{"Parameters":{"LanguageCode":"fr-CA"},"Identifier":"b3f82503-f112-478c-942b-2087f63e3363","Type":"UpdateContactData","Transitions":{"NextAction":"db65f5a8-3d04-484f-af20-e9ba74bfd9c7","Errors":[{"NextAction":"db65f5a8-3d04-484f-af20-e9ba74bfd9c7","ErrorType":"NoMatchingError"}]}},{"Parameters":{"TextToSpeechVoice":"Andres","TextToSpeechEngine":"Neural","TextToSpeechStyle":"None"},"Identifier":"fad308d0-6708-439a-86dc-5a4760047e6b","Type":"UpdateContactTextToSpeechVoice","Transitions":{"NextAction":"b3ca0b17-dbfb-46d8-9a33-5c36c955774a"}},{"Parameters":{"LanguageCode":"es-MX"},"Identifier":"b3ca0b17-dbfb-46d8-9a33-5c36c955774a","Type":"UpdateContactData","Transitions":{"NextAction":"db65f5a8-3d04-484f-af20-e9ba74bfd9c7","Errors":[{"NextAction":"db65f5a8-3d04-484f-af20-e9ba74bfd9c7","ErrorType":"NoMatchingError"}]}},{"Parameters":{"TextToSpeechVoice":"Vitoria","TextToSpeechEngine":"Neural","TextToSpeechStyle":"None"},"Identifier":"ad9d35d9-2124-48e7-b3da-582df4b57ef5","Type":"UpdateContactTextToSpeechVoice","Transitions":{"NextAction":"be158e15-35fa-4fff-998a-92c3279c4466"}},{"Parameters":{"LanguageCode":"pt-BR"},"Identifier":"be158e15-35fa-4fff-998a-92c3279c4466","Type":"UpdateContactData","Transitions":{"NextAction":"db65f5a8-3d04-484f-af20-e9ba74bfd9c7","Errors":[{"NextAction":"db65f5a8-3d04-484f-af20-e9ba74bfd9c7","ErrorType":"NoMatchingError"}]}},{"Parameters":{"TextToSpeechEngine":"Neural","TextToSpeechStyle":"None","TextToSpeechVoice":"Justin"},"Identifier":"bd71ebfd-cf07-41b5-af23-5a5a4321350f","Type":"UpdateContactTextToSpeechVoice","Transitions":{"NextAction":"cfc51934-bcf4-4138-820f-4710a8c25d80"}},{"Parameters":{"LanguageCode":"en-US"},"Identifier":"cfc51934-bcf4-4138-820f-4710a8c25d80","Type":"UpdateContactData","Transitions":{"NextAction":"db65f5a8-3d04-484f-af20-e9ba74bfd9c7","Errors":[{"NextAction":"db65f5a8-3d04-484f-af20-e9ba74bfd9c7","ErrorType":"NoMatchingError"}]}},{"Parameters":{},"Identifier":"db65f5a8-3d04-484f-af20-e9ba74bfd9c7","Type":"EndFlowModuleExecution","Transitions":{}},{"Parameters":{"ComparisonValue":"$.Attributes.promptType"},"Identifier":"ca58a56e-7f3f-478a-a91b-2b1fa4764799","Type":"Compare","Transitions":{"NextAction":"bd71ebfd-cf07-41b5-af23-5a5a4321350f","Conditions":[{"NextAction":"5cd822a9-0445-49e3-82fa-9ccc4ec62ae2","Condition":{"Operator":"Equals","Operands":["fr-CA"]}},{"NextAction":"fad308d0-6708-439a-86dc-5a4760047e6b","Condition":{"Operator":"Equals","Operands":["es-MX"]}},{"NextAction":"ad9d35d9-2124-48e7-b3da-582df4b57ef5","Condition":{"Operator":"Equals","Operands":["pt-BR"]}},{"NextAction":"9ce94d97-5e91-45d3-a14d-83878039bdbe","Condition":{"Operator":"Equals","Operands":["ca-ES"]}},{"NextAction":"16dcf4d9-c9d9-43e2-b627-abc38332e9a2","Condition":{"Operator":"Equals","Operands":["da-DK"]}},{"NextAction":"faf56914-28cc-4576-8afd-e1f3e07a692d","Condition":{"Operator":"Equals","Operands":["en-AU"]}},{"NextAction":"3acf68de-28f6-4e65-a086-b99d5d676d21","Condition":{"Operator":"Equals","Operands":["fr-BE"]}},{"NextAction":"61baf4bf-916a-43b3-8fb9-8d91a79592cc","Condition":{"Operator":"Equals","Operands":["ja-JP"]}},{"NextAction":"56edff0f-8a1c-439a-a1db-75c1ad1858ea","Condition":{"Operator":"Equals","Operands":["nb-NO"]}}],"Errors":[{"NextAction":"bd71ebfd-cf07-41b5-af23-5a5a4321350f","ErrorType":"NoMatchingCondition"}]}}],"Settings":{"InputParameters":[],"OutputParameters":[],"Transitions":[{"DisplayName":"Success","ReferenceName":"Success","Description":""},{"DisplayName":"Error","ReferenceName":"Error","Description":""}]}}
+{
+    "Version": "2019-10-30",
+    "StartAction": "ca58a56e-7f3f-478a-a91b-2b1fa4764799",
+    "Metadata": {
+        "entryPointPosition": {
+            "x": 40,
+            "y": 40
+        },
+        "ActionMetadata": {
+            "ca58a56e-7f3f-478a-a91b-2b1fa4764799": {
+                "position": {
+                    "x": 256.8,
+                    "y": 36.8
+                },
+                "conditions": [],
+                "conditionMetadata": [
+                    {
+                        "id": "2adfc93a-0dfa-4a10-a302-3c69863e3d5e",
+                        "operator": {
+                            "name": "Equals",
+                            "value": "Equals",
+                            "shortDisplay": "="
+                        },
+                        "value": "fr-CA"
+                    },
+                    {
+                        "id": "8bf08277-873e-4987-86b6-965913b857cd",
+                        "operator": {
+                            "name": "Equals",
+                            "value": "Equals",
+                            "shortDisplay": "="
+                        },
+                        "value": "es-MX"
+                    },
+                    {
+                        "id": "d94fac38-8cfb-4a32-ad4d-363ffc36fe4a",
+                        "operator": {
+                            "name": "Equals",
+                            "value": "Equals",
+                            "shortDisplay": "="
+                        },
+                        "value": "pt-BR"
+                    },
+                    {
+                        "id": "ff4d929f-21f9-4ecf-8ead-c1e55808e755",
+                        "operator": {
+                            "name": "Equals",
+                            "value": "Equals",
+                            "shortDisplay": "="
+                        },
+                        "value": "ca-ES"
+                    },
+                    {
+                        "id": "f139c726-bec8-4c7a-8998-2689ca704ac5",
+                        "operator": {
+                            "name": "Equals",
+                            "value": "Equals",
+                            "shortDisplay": "="
+                        },
+                        "value": "da-DK"
+                    },
+                    {
+                        "id": "31a914fb-f592-400e-b9d4-52abbb202655",
+                        "operator": {
+                            "name": "Equals",
+                            "value": "Equals",
+                            "shortDisplay": "="
+                        },
+                        "value": "en-AU"
+                    },
+                    {
+                        "id": "9ae1fdc3-be9b-4461-9dfc-ff1b76bb6278",
+                        "operator": {
+                            "name": "Equals",
+                            "value": "Equals",
+                            "shortDisplay": "="
+                        },
+                        "value": "fr-BE"
+                    },
+                    {
+                        "id": "e25e5ff5-d3e8-4ab4-943a-462074e9da5b",
+                        "operator": {
+                            "name": "Equals",
+                            "value": "Equals",
+                            "shortDisplay": "="
+                        },
+                        "value": "ja-JP"
+                    },
+                    {
+                        "id": "36000fa2-f597-45c8-bcbc-4bb3d65911b7",
+                        "operator": {
+                            "name": "Equals",
+                            "value": "Equals",
+                            "shortDisplay": "="
+                        },
+                        "value": "nb-NO"
+                    }
+                ]
+            },
+            "9ce94d97-5e91-45d3-a14d-83878039bdbe": {
+                "position": {
+                    "x": 589.6,
+                    "y": 701.6
+                },
+                "children": [
+                    "2ef70594-5742-469c-b31c-866b8168f25b"
+                ],
+                "overrideConsoleVoice": true,
+                "fragments": {
+                    "SetContactData": "2ef70594-5742-469c-b31c-866b8168f25b"
+                },
+                "overrideLanguageAttribute": true
+            },
+            "2ef70594-5742-469c-b31c-866b8168f25b": {
+                "position": {
+                    "x": 589.6,
+                    "y": 701.6
+                },
+                "dynamicParams": []
+            },
+            "16dcf4d9-c9d9-43e2-b627-abc38332e9a2": {
+                "position": {
+                    "x": 590.4,
+                    "y": 858.4
+                },
+                "children": [
+                    "a2d47382-fcc4-4f57-b197-58bbca18428a"
+                ],
+                "overrideConsoleVoice": false,
+                "fragments": {
+                    "SetContactData": "a2d47382-fcc4-4f57-b197-58bbca18428a"
+                },
+                "overrideLanguageAttribute": true
+            },
+            "a2d47382-fcc4-4f57-b197-58bbca18428a": {
+                "position": {
+                    "x": 590.4,
+                    "y": 858.4
+                },
+                "dynamicParams": []
+            },
+            "faf56914-28cc-4576-8afd-e1f3e07a692d": {
+                "position": {
+                    "x": 588.8,
+                    "y": 1028
+                },
+                "children": [
+                    "d2d3c7fc-d4cd-4407-9510-2169708026d0"
+                ],
+                "overrideConsoleVoice": false,
+                "fragments": {
+                    "SetContactData": "d2d3c7fc-d4cd-4407-9510-2169708026d0"
+                },
+                "overrideLanguageAttribute": true
+            },
+            "d2d3c7fc-d4cd-4407-9510-2169708026d0": {
+                "position": {
+                    "x": 588.8,
+                    "y": 1028
+                },
+                "dynamicParams": []
+            },
+            "3acf68de-28f6-4e65-a086-b99d5d676d21": {
+                "position": {
+                    "x": 590.4,
+                    "y": 1191.2
+                },
+                "children": [
+                    "71e3d25e-037d-419e-9818-91323b6cbf4f"
+                ],
+                "overrideConsoleVoice": true,
+                "fragments": {
+                    "SetContactData": "71e3d25e-037d-419e-9818-91323b6cbf4f"
+                },
+                "overrideLanguageAttribute": true
+            },
+            "71e3d25e-037d-419e-9818-91323b6cbf4f": {
+                "position": {
+                    "x": 590.4,
+                    "y": 1191.2
+                },
+                "dynamicParams": []
+            },
+            "61baf4bf-916a-43b3-8fb9-8d91a79592cc": {
+                "position": {
+                    "x": 591.2,
+                    "y": 1360
+                },
+                "children": [
+                    "5b5226a6-532d-4dcd-9ff9-38bc929ee0bc"
+                ],
+                "overrideConsoleVoice": true,
+                "fragments": {
+                    "SetContactData": "5b5226a6-532d-4dcd-9ff9-38bc929ee0bc"
+                },
+                "overrideLanguageAttribute": true
+            },
+            "5b5226a6-532d-4dcd-9ff9-38bc929ee0bc": {
+                "position": {
+                    "x": 591.2,
+                    "y": 1360
+                },
+                "dynamicParams": []
+            },
+            "56edff0f-8a1c-439a-a1db-75c1ad1858ea": {
+                "position": {
+                    "x": 590.4,
+                    "y": 1534.4
+                },
+                "children": [
+                    "9ade56e4-1eae-4d99-9a5e-31336144341f"
+                ],
+                "overrideConsoleVoice": true,
+                "fragments": {
+                    "SetContactData": "9ade56e4-1eae-4d99-9a5e-31336144341f"
+                },
+                "overrideLanguageAttribute": true
+            },
+            "9ade56e4-1eae-4d99-9a5e-31336144341f": {
+                "position": {
+                    "x": 590.4,
+                    "y": 1534.4
+                },
+                "dynamicParams": []
+            },
+            "5cd822a9-0445-49e3-82fa-9ccc4ec62ae2": {
+                "position": {
+                    "x": 576,
+                    "y": 25.6
+                },
+                "children": [
+                    "c709488f-5582-4497-b55e-033f4933cbbc"
+                ],
+                "overrideConsoleVoice": true,
+                "fragments": {
+                    "SetContactData": "c709488f-5582-4497-b55e-033f4933cbbc"
+                },
+                "overrideLanguageAttribute": true
+            },
+            "c709488f-5582-4497-b55e-033f4933cbbc": {
+                "position": {
+                    "x": 576,
+                    "y": 25.6
+                },
+                "dynamicParams": []
+            },
+            "fad308d0-6708-439a-86dc-5a4760047e6b": {
+                "position": {
+                    "x": 580.8,
+                    "y": 200
+                },
+                "children": [
+                    "75a6873b-4ee0-480c-a358-c0281fcb87a8"
+                ],
+                "overrideConsoleVoice": true,
+                "fragments": {
+                    "SetContactData": "75a6873b-4ee0-480c-a358-c0281fcb87a8"
+                },
+                "overrideLanguageAttribute": true
+            },
+            "75a6873b-4ee0-480c-a358-c0281fcb87a8": {
+                "position": {
+                    "x": 580.8,
+                    "y": 200
+                },
+                "dynamicParams": []
+            },
+            "ad9d35d9-2124-48e7-b3da-582df4b57ef5": {
+                "position": {
+                    "x": 583.2,
+                    "y": 376
+                },
+                "children": [
+                    "1220c7fb-4a7c-40dd-a94f-0de0dc264f2b"
+                ],
+                "overrideConsoleVoice": true,
+                "fragments": {
+                    "SetContactData": "1220c7fb-4a7c-40dd-a94f-0de0dc264f2b"
+                },
+                "overrideLanguageAttribute": true
+            },
+            "1220c7fb-4a7c-40dd-a94f-0de0dc264f2b": {
+                "position": {
+                    "x": 583.2,
+                    "y": 376
+                },
+                "dynamicParams": []
+            },
+            "bd71ebfd-cf07-41b5-af23-5a5a4321350f": {
+                "position": {
+                    "x": 589.6,
+                    "y": 547.2
+                },
+                "children": [
+                    "533b1390-c1ea-4d92-8c47-a70d81db19e6"
+                ],
+                "overrideConsoleVoice": true,
+                "fragments": {
+                    "SetContactData": "533b1390-c1ea-4d92-8c47-a70d81db19e6"
+                },
+                "overrideLanguageAttribute": true
+            },
+            "533b1390-c1ea-4d92-8c47-a70d81db19e6": {
+                "position": {
+                    "x": 589.6,
+                    "y": 547.2
+                },
+                "dynamicParams": []
+            },
+            "db65f5a8-3d04-484f-af20-e9ba74bfd9c7": {
+                "position": {
+                    "x": 1068.8,
+                    "y": 68.8
+                }
+            }
+        },
+        "Annotations": []
+    },
+    "Actions": [
+        {
+            "Parameters": {
+                "ComparisonValue": "$.Attributes.promptType"
+            },
+            "Identifier": "ca58a56e-7f3f-478a-a91b-2b1fa4764799",
+            "Type": "Compare",
+            "Transitions": {
+                "NextAction": "bd71ebfd-cf07-41b5-af23-5a5a4321350f",
+                "Conditions": [
+                    {
+                        "NextAction": "5cd822a9-0445-49e3-82fa-9ccc4ec62ae2",
+                        "Condition": {
+                            "Operator": "Equals",
+                            "Operands": [
+                                "fr-CA"
+                            ]
+                        }
+                    },
+                    {
+                        "NextAction": "fad308d0-6708-439a-86dc-5a4760047e6b",
+                        "Condition": {
+                            "Operator": "Equals",
+                            "Operands": [
+                                "es-MX"
+                            ]
+                        }
+                    },
+                    {
+                        "NextAction": "ad9d35d9-2124-48e7-b3da-582df4b57ef5",
+                        "Condition": {
+                            "Operator": "Equals",
+                            "Operands": [
+                                "pt-BR"
+                            ]
+                        }
+                    },
+                    {
+                        "NextAction": "9ce94d97-5e91-45d3-a14d-83878039bdbe",
+                        "Condition": {
+                            "Operator": "Equals",
+                            "Operands": [
+                                "ca-ES"
+                            ]
+                        }
+                    },
+                    {
+                        "NextAction": "16dcf4d9-c9d9-43e2-b627-abc38332e9a2",
+                        "Condition": {
+                            "Operator": "Equals",
+                            "Operands": [
+                                "da-DK"
+                            ]
+                        }
+                    },
+                    {
+                        "NextAction": "faf56914-28cc-4576-8afd-e1f3e07a692d",
+                        "Condition": {
+                            "Operator": "Equals",
+                            "Operands": [
+                                "en-AU"
+                            ]
+                        }
+                    },
+                    {
+                        "NextAction": "3acf68de-28f6-4e65-a086-b99d5d676d21",
+                        "Condition": {
+                            "Operator": "Equals",
+                            "Operands": [
+                                "fr-BE"
+                            ]
+                        }
+                    },
+                    {
+                        "NextAction": "61baf4bf-916a-43b3-8fb9-8d91a79592cc",
+                        "Condition": {
+                            "Operator": "Equals",
+                            "Operands": [
+                                "ja-JP"
+                            ]
+                        }
+                    },
+                    {
+                        "NextAction": "56edff0f-8a1c-439a-a1db-75c1ad1858ea",
+                        "Condition": {
+                            "Operator": "Equals",
+                            "Operands": [
+                                "nb-NO"
+                            ]
+                        }
+                    }
+                ],
+                "Errors": [
+                    {
+                        "NextAction": "bd71ebfd-cf07-41b5-af23-5a5a4321350f",
+                        "ErrorType": "NoMatchingCondition"
+                    }
+                ]
+            }
+        },
+        {
+            "Parameters": {
+                "TextToSpeechEngine": "Neural",
+                "TextToSpeechStyle": "None",
+                "TextToSpeechVoice": "Arlet"
+            },
+            "Identifier": "9ce94d97-5e91-45d3-a14d-83878039bdbe",
+            "Type": "UpdateContactTextToSpeechVoice",
+            "Transitions": {
+                "NextAction": "2ef70594-5742-469c-b31c-866b8168f25b"
+            }
+        },
+        {
+            "Parameters": {
+                "LanguageCode": "ca-ES"
+            },
+            "Identifier": "2ef70594-5742-469c-b31c-866b8168f25b",
+            "Type": "UpdateContactData",
+            "Transitions": {
+                "NextAction": "db65f5a8-3d04-484f-af20-e9ba74bfd9c7",
+                "Errors": [
+                    {
+                        "NextAction": "db65f5a8-3d04-484f-af20-e9ba74bfd9c7",
+                        "ErrorType": "NoMatchingError"
+                    }
+                ]
+            }
+        },
+        {
+            "Parameters": {
+                "TextToSpeechVoice": "Naja"
+            },
+            "Identifier": "16dcf4d9-c9d9-43e2-b627-abc38332e9a2",
+            "Type": "UpdateContactTextToSpeechVoice",
+            "Transitions": {
+                "NextAction": "a2d47382-fcc4-4f57-b197-58bbca18428a"
+            }
+        },
+        {
+            "Parameters": {
+                "LanguageCode": "da-DK"
+            },
+            "Identifier": "a2d47382-fcc4-4f57-b197-58bbca18428a",
+            "Type": "UpdateContactData",
+            "Transitions": {
+                "NextAction": "db65f5a8-3d04-484f-af20-e9ba74bfd9c7",
+                "Errors": [
+                    {
+                        "NextAction": "db65f5a8-3d04-484f-af20-e9ba74bfd9c7",
+                        "ErrorType": "NoMatchingError"
+                    }
+                ]
+            }
+        },
+        {
+            "Parameters": {
+                "TextToSpeechVoice": "Russell"
+            },
+            "Identifier": "faf56914-28cc-4576-8afd-e1f3e07a692d",
+            "Type": "UpdateContactTextToSpeechVoice",
+            "Transitions": {
+                "NextAction": "d2d3c7fc-d4cd-4407-9510-2169708026d0"
+            }
+        },
+        {
+            "Parameters": {
+                "LanguageCode": "en-AU"
+            },
+            "Identifier": "d2d3c7fc-d4cd-4407-9510-2169708026d0",
+            "Type": "UpdateContactData",
+            "Transitions": {
+                "NextAction": "db65f5a8-3d04-484f-af20-e9ba74bfd9c7",
+                "Errors": [
+                    {
+                        "NextAction": "db65f5a8-3d04-484f-af20-e9ba74bfd9c7",
+                        "ErrorType": "NoMatchingError"
+                    }
+                ]
+            }
+        },
+        {
+            "Parameters": {
+                "TextToSpeechEngine": "Neural",
+                "TextToSpeechStyle": "None",
+                "TextToSpeechVoice": "Isabelle"
+            },
+            "Identifier": "3acf68de-28f6-4e65-a086-b99d5d676d21",
+            "Type": "UpdateContactTextToSpeechVoice",
+            "Transitions": {
+                "NextAction": "71e3d25e-037d-419e-9818-91323b6cbf4f"
+            }
+        },
+        {
+            "Parameters": {
+                "LanguageCode": "fr-BE"
+            },
+            "Identifier": "71e3d25e-037d-419e-9818-91323b6cbf4f",
+            "Type": "UpdateContactData",
+            "Transitions": {
+                "NextAction": "db65f5a8-3d04-484f-af20-e9ba74bfd9c7",
+                "Errors": [
+                    {
+                        "NextAction": "db65f5a8-3d04-484f-af20-e9ba74bfd9c7",
+                        "ErrorType": "NoMatchingError"
+                    }
+                ]
+            }
+        },
+        {
+            "Parameters": {
+                "TextToSpeechEngine": "Neural",
+                "TextToSpeechStyle": "None",
+                "TextToSpeechVoice": "Kazuha"
+            },
+            "Identifier": "61baf4bf-916a-43b3-8fb9-8d91a79592cc",
+            "Type": "UpdateContactTextToSpeechVoice",
+            "Transitions": {
+                "NextAction": "5b5226a6-532d-4dcd-9ff9-38bc929ee0bc"
+            }
+        },
+        {
+            "Parameters": {
+                "LanguageCode": "ja-JP"
+            },
+            "Identifier": "5b5226a6-532d-4dcd-9ff9-38bc929ee0bc",
+            "Type": "UpdateContactData",
+            "Transitions": {
+                "NextAction": "db65f5a8-3d04-484f-af20-e9ba74bfd9c7",
+                "Errors": [
+                    {
+                        "NextAction": "db65f5a8-3d04-484f-af20-e9ba74bfd9c7",
+                        "ErrorType": "NoMatchingError"
+                    }
+                ]
+            }
+        },
+        {
+            "Parameters": {
+                "TextToSpeechEngine": "Neural",
+                "TextToSpeechStyle": "None",
+                "TextToSpeechVoice": "Ida"
+            },
+            "Identifier": "56edff0f-8a1c-439a-a1db-75c1ad1858ea",
+            "Type": "UpdateContactTextToSpeechVoice",
+            "Transitions": {
+                "NextAction": "9ade56e4-1eae-4d99-9a5e-31336144341f"
+            }
+        },
+        {
+            "Parameters": {
+                "LanguageCode": "nb-NO"
+            },
+            "Identifier": "9ade56e4-1eae-4d99-9a5e-31336144341f",
+            "Type": "UpdateContactData",
+            "Transitions": {
+                "NextAction": "db65f5a8-3d04-484f-af20-e9ba74bfd9c7",
+                "Errors": [
+                    {
+                        "NextAction": "db65f5a8-3d04-484f-af20-e9ba74bfd9c7",
+                        "ErrorType": "NoMatchingError"
+                    }
+                ]
+            }
+        },
+        {
+            "Parameters": {
+                "TextToSpeechEngine": "Neural",
+                "TextToSpeechStyle": "None",
+                "TextToSpeechVoice": "Liam"
+            },
+            "Identifier": "5cd822a9-0445-49e3-82fa-9ccc4ec62ae2",
+            "Type": "UpdateContactTextToSpeechVoice",
+            "Transitions": {
+                "NextAction": "c709488f-5582-4497-b55e-033f4933cbbc"
+            }
+        },
+        {
+            "Parameters": {
+                "LanguageCode": "fr-CA"
+            },
+            "Identifier": "c709488f-5582-4497-b55e-033f4933cbbc",
+            "Type": "UpdateContactData",
+            "Transitions": {
+                "NextAction": "db65f5a8-3d04-484f-af20-e9ba74bfd9c7",
+                "Errors": [
+                    {
+                        "NextAction": "db65f5a8-3d04-484f-af20-e9ba74bfd9c7",
+                        "ErrorType": "NoMatchingError"
+                    }
+                ]
+            }
+        },
+        {
+            "Parameters": {
+                "TextToSpeechVoice": "Mia",
+                "TextToSpeechEngine": "Neural",
+                "TextToSpeechStyle": "None"
+            },
+            "Identifier": "fad308d0-6708-439a-86dc-5a4760047e6b",
+            "Type": "UpdateContactTextToSpeechVoice",
+            "Transitions": {
+                "NextAction": "75a6873b-4ee0-480c-a358-c0281fcb87a8"
+            }
+        },
+        {
+            "Parameters": {
+                "LanguageCode": "es-MX"
+            },
+            "Identifier": "75a6873b-4ee0-480c-a358-c0281fcb87a8",
+            "Type": "UpdateContactData",
+            "Transitions": {
+                "NextAction": "db65f5a8-3d04-484f-af20-e9ba74bfd9c7",
+                "Errors": [
+                    {
+                        "NextAction": "db65f5a8-3d04-484f-af20-e9ba74bfd9c7",
+                        "ErrorType": "NoMatchingError"
+                    }
+                ]
+            }
+        },
+        {
+            "Parameters": {
+                "TextToSpeechVoice": "Vitoria",
+                "TextToSpeechEngine": "Neural",
+                "TextToSpeechStyle": "None"
+            },
+            "Identifier": "ad9d35d9-2124-48e7-b3da-582df4b57ef5",
+            "Type": "UpdateContactTextToSpeechVoice",
+            "Transitions": {
+                "NextAction": "1220c7fb-4a7c-40dd-a94f-0de0dc264f2b"
+            }
+        },
+        {
+            "Parameters": {
+                "LanguageCode": "pt-BR"
+            },
+            "Identifier": "1220c7fb-4a7c-40dd-a94f-0de0dc264f2b",
+            "Type": "UpdateContactData",
+            "Transitions": {
+                "NextAction": "db65f5a8-3d04-484f-af20-e9ba74bfd9c7",
+                "Errors": [
+                    {
+                        "NextAction": "db65f5a8-3d04-484f-af20-e9ba74bfd9c7",
+                        "ErrorType": "NoMatchingError"
+                    }
+                ]
+            }
+        },
+        {
+            "Parameters": {
+                "TextToSpeechEngine": "Neural",
+                "TextToSpeechStyle": "None",
+                "TextToSpeechVoice": "Stephen"
+            },
+            "Identifier": "bd71ebfd-cf07-41b5-af23-5a5a4321350f",
+            "Type": "UpdateContactTextToSpeechVoice",
+            "Transitions": {
+                "NextAction": "533b1390-c1ea-4d92-8c47-a70d81db19e6"
+            }
+        },
+        {
+            "Parameters": {
+                "LanguageCode": "en-US"
+            },
+            "Identifier": "533b1390-c1ea-4d92-8c47-a70d81db19e6",
+            "Type": "UpdateContactData",
+            "Transitions": {
+                "NextAction": "db65f5a8-3d04-484f-af20-e9ba74bfd9c7",
+                "Errors": [
+                    {
+                        "NextAction": "db65f5a8-3d04-484f-af20-e9ba74bfd9c7",
+                        "ErrorType": "NoMatchingError"
+                    }
+                ]
+            }
+        },
+        {
+            "Parameters": {},
+            "Identifier": "db65f5a8-3d04-484f-af20-e9ba74bfd9c7",
+            "Type": "EndFlowModuleExecution",
+            "Transitions": {}
+        }
+    ],
+    "Settings": {
+        "InputParameters": [],
+        "OutputParameters": [],
+        "Transitions": [
+            {
+                "DisplayName": "Success",
+                "ReferenceName": "Success",
+                "Description": ""
+            },
+            {
+                "DisplayName": "Error",
+                "ReferenceName": "Error",
+                "Description": ""
+            }
+        ]
+    }
+}
