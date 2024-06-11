@@ -1,24 +1,22 @@
-﻿LABEL,en-US,fr-CA,es-MX,pt-BR
-BM01,,,,
-BM02,,,,
-BM03,,,,
-closed,"Our office is currently closed.  Our operating hours are from 8 a.m. to 4:30 p.m. central standard time.  If you would like to leave a voice message, please press 1.","Notre bureau est actuellement fermé. Nos heures d'ouverture sont de 8 h à 16 h 30, heure normale centrale. Si vous souhaitez laisser un message vocal, veuillez appuyer sur 1.","Nuestra oficina se encuentra actualmente cerrada. Nuestro horario de atención es de 8 a.m. a 4:30 p.m. hora estándar central. Si desea dejar un mensaje de voz, por favor presione 1.","Nosso escritório está fechado no momento. Nosso horário de funcionamento é das 8h às 16h30, horário padrão central. Se você quiser deixar uma mensagem de voz, pressione 1."
-holiday,"Today is a holiday and our office is currently closed.  If you would like to leave a voice message, please press 1.","Aujourd'hui est un jour férié et notre bureau est actuellement fermé. Si vous souhaitez laisser un message vocal, veuillez appuyer sur 1.","Hoy es feriado y nuestra oficina está cerrada actualmente. Si desea dejar un mensaje de voz, por favor presione 1.","Hoje é feriado e nosso escritório está fechado no momento. Se você quiser deixar uma mensagem de voz, pressione 1."
-monitor,Your call may be monitored or recorded to help improve our services.,Votre appel peut être surveillé ou enregistré à des fins d’assurance qualité et de formation.,Su llamada puede ser monitoreada o grabada para ayudar a mejorar nuestros servicios.,Sua chamada pode ser monitorada ou gravada para ajudar a melhorar nossos serviços.
-noagents,"We’re sorry, at this time, there are no agents available to take your call.. We can call you back if you would like to leave a message, please press 1.","Malheureusement en ce moment, aucun agent n'est disponible pour répondre à votre besoin. Si vous souhaitez laisser un message vocal, veuillez appuyer sur 1.","Lo sentimos, en este momento no contamos con agentes disponibles para tomar su llamada.  Si quieres dejar un mensaje, te devolveremos la llamada. Pulsa 1.","Pedimos desculpas, no momento não temos agentes disponíveis para atender sua ligação. Podemos ligar de volta se você quiser deixar uma mensagem, pressione 1."
-pleasehold,Please hold while we transfer you to an agent.,Veuillez patienter pendant que nous vous transférons à un représentant.,Espere mientras lo transferimos a un agente.,Aguarde enquanto transferimos você para um agente.
-busy,All agents are currently assisting other callers. Please hold for the next available agent.,Tous les analystes assistent actuellement les autres appelants. Veuillez attendre le prochain analyste disponible.,Todos los agentes están atendiendo actualmente a otras personas que llaman. Espere hasta el próximo agente disponible.,"No momento, todos os agentes estão ajudando outros chamadores. Por favor, aguarde o próximo agente disponível."
-highvolume,We are experiencing unusually high call volumes and extended hold times. Please hold for the next available agent.,Nous sommes confrontés à des volumes d’appels inhabituellement élevés et à des délais d’attente prolongés.,Estamos experimentando un volumen de llamadas inusualmente alto y tiempos de espera prolongados. Espere hasta el próximo agente disponible.,"Estamos enfrentando volumes de chamadas excepcionalmente altos e tempos de espera prolongados. Por favor, aguarde o próximo agente disponível."
-stillbusy,"All agents are still currently assisting other callers. Please hold for the next available agent. If you would like to leave a message, please press 1. To speak to the next available agent press 8 or remain on the line.","Tous les analystes sont toujours en train d'aider les autres appelants. Veuillez attendre le prochain analyste disponible. Si vous souhaitez laisser un message, veuillez appuyer sur 1. Pour parler au prochain analyste disponible, appuyez sur 8 ou restez en ligne.","Actualmente, todos los agentes siguen ayudando a otras personas que llaman. Espere hasta el próximo agente disponible. Si desea dejar un mensaje, pulse 1. Para hablar con el siguiente agente disponible, presione 8 o permanezca en la línea.","No momento, todos os agentes ainda estão ajudando outros chamadores. Por favor, aguarde o próximo agente disponível. Se você quiser deixar uma mensagem, pressione 1. Para falar com o próximo agente disponível, pressione 8 ou permaneça na linha."
-voicemail,Please leave a message after the tone.,Merci de laisser un message après le ton.,Deje un mensaje después del tono.,"Por favor, deixe uma mensagem após o sinal."
-saved,Your message has been saved. An agent will return your call as soon as possible. ,Votre message a été enregistré. Un agent vous rappellera dans les plus brefs délais. ,Se ha guardado tu mensaje. Un agente le devolverá la llamada lo antes posible.,Sua mensagem foi salva. Um agente retornará sua ligação assim que possível.
-goodbye,Thank you for calling. Goodbye.  ,Merci d'avoir appeler. Au revoir.,Gracias por llamar. Adiós.,Obrigado por ligar. Adeus.
-difficulties,"We apologize, we’re experiencing technical difficulties and cannot take your call at this time. Please try again later.","Désolé, nous rencontrons des difficultés techniques et ne pouvons pas répondre à votre appel pour le moment.","Lo sentimos, estamos teniendo problemas técnicos y no podemos atender su llamada en este momento. Inténtalo de nuevo más tarde.","Pedimos desculpas, estamos enfrentando dificuldades técnicas e não podemos atender sua ligação no momento. Por favor, tente novamente mais tarde."
-InvalidInput1,Oops that entry was invalid. Please try again,C'était une entrée invalide. Veuillez réessayer,"Vaya, esa entrada no era válida. Inténtelo de nuevo","Opa, essa entrada era inválida. Por favor, tente novamente"
-InvalidInput2,"Sorry, that choice is still invalid. Please try again.","Désolé, ce choix n'est toujours pas valide. Veuillez réessayer","Lo sentimos, esa opción sigue siendo inválida. Por favor, inténtelo de nuevo.","Desculpe, essa opção ainda é inválida. Por favor, tente novamente."
-NoInput1,We did not receive your entry. Please try again.,Nous n'avons pas reçu votre inscription. Veuillez réessayer.,"No hemos recibido tu entrada. Por favor, inténtalo de nuevo.","Não recebemos sua inscrição. Por favor, tente novamente."
-NoInput2,We still did not receive your entry.  Please try again.,Nous n'avons toujours pas reçu votre inscription. Veuillez réessayer.,"Aún no hemos recibido tu entrada. Por favor, inténtalo de nuevo.","Ainda não recebemos sua inscrição. Por favor, tente novamente."
-MaxInputXfer,,,,
-Hold_Music_30s,,,,
-Hold_Music_60s,,,,
-MainMenu,"Please select from the following options.  To inquire about your bill, make a payment arrangement, submit a meter read, or to schedule a meter exchange appointment, press 1.  If you are moving and need to transfer, disconnect or connect service, press 2.  For information on the status of your new natural gas service, gas line alteration, removal request, or for inquiries on encroachments, press 3.  For all other inquiries, including questions about your online account, please remain on the line.",,,
+LABEL,en-US
+EM01,
+BM01,
+BM02,
+BM03,
+closed,"Our office is currently closed.  Our operating hours are from 8 a.m. to 4:30 p.m.  If you would like to leave a voice message, please press 1."
+holiday,"Today is a holiday and our office is currently closed.  If you would like to leave a voice message, please press 1."
+monitor,Your call may be monitored or recorded to help improve our services.
+noagents,"We’re sorry, at this time, there are no agents available to take your call.  If you would like to leave a voice message, please press 1."
+pleasehold,Please hold while we transfer you to an agent.
+busy,All agents are currently assisting other callers. Please hold for the next available agent.
+highvolume,We are experiencing unusually high call volumes and extended hold times. Please hold for the next available agent.
+stillbusy,"All agents are still currently assisting other callers. Please hold for the next available agent. If you would like to leave a message, please press 1. To speak to the next available agent press 8 or remain on the line."
+voicemail,Please leave a message after the tone.
+saved,Your message has been saved. An agent will return your call as soon as possible. 
+goodbye,Thank you for calling. Goodbye.  
+difficulties,"We apologize, we’re experiencing technical difficulties and cannot take your call at this time. Please try again later."
+InvalidInput1,That was an invalid selection. Please try again
+InvalidInput2,"Sorry, that choice is still invalid. Please try again."
+NoInput1,We did not receive your entry. Please try again.
+NoInput2,We still did not receive your entry.  Please try again.
+MaxInputXfer,"Sorry, we're still having trouble."

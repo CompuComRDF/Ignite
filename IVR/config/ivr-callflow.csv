@@ -34,7 +34,8 @@ IVR180Q,SETQUEUE,en-US:session['queueName']|fr-CA:session['queueName']|es-MX:ses
 IVR181,EVAL,session['queueName'] == 'BasicQueue',true:IVR301|false:LOOP
 LOOP,EXEC,session['flowIndex']  += 1,IVR200
 IVR200,CASE,session['flowControl'][str(session['flowIndex'])],Emergency:IVR210A|Broadcast:IVR220A|Holidays:IVR230A|BusinessHours:IVR240A|Custom:IVR250A|MainMenu:IVR260A|MenuTree:IVR270A|else:CONTINUE
-IVR210A,PLAY,"eval:util.getSysAdmin(""EM01"")",LOOP
+IVR210A,EVAL,"util.getSysAdmin(""EM01"") == """"",true:LOOP|false:IVR215A
+IVR215A,PLAY,"eval:util.getSysAdmin(""EM01"")",IVR300
 IVR220A,PLAY,"eval:util.getSysAdmin(""BM01"")",IVR220B
 IVR220B,PLAY,"eval:util.getSysAdmin(""BM02"")",IVR220C
 IVR220C,PLAY,"eval:util.getSysAdmin(""BM03"")",LOOP
