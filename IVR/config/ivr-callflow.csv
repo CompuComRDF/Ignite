@@ -3,31 +3,33 @@ IVR100,EXEC,session['languageMenu'] = json.loads(session['DNISConfig']['language
 IVR100A,EXEC,session['queueName'] = session['DNISConfig']['appID']  if session['DNISConfig']['appID'] == 'BasicQueue'  else session['DNISConfig']['appID'] + '_' + session['languageMenu']['default'],IVR100B
 IVR100B,EXEC,session['vmQueueName'] = session['DNISConfig']['appID'] + '_' + session['languageMenu']['default'] + '_VM',IVR100C
 IVR100C,EXEC,session['flowIndex'] = 0,IVR100D
-IVR100D,EXEC,session['flowControl'] = json.loads(session['DNISConfig']['flowControl']),IVR105
-IVR105,CASE,session['languageMenu']['default'],En:IVR110A|Fr:IVR120A|Es:IVR130A|Pt:IVR140A|else:IVR110A
-IVR110A,LANGUAGE,en-US,IVR110B
-IVR110B,EXEC,session['multiLangSelection'] = 'En',IVR110Q
+IVR100D,EXEC,session['flowControl'] = json.loads(session['DNISConfig']['flowControl']),IVR110A
+IVR110A,LANGUAGE,json.loads(session['DNISConfig']['language'])[0],IVR110B
+IVR110B,EXEC,session['multiLangSelection'] = json.loads(session['DNISConfig']['language'])[0][0].upper() +  json.loads(session['DNISConfig']['language'])[0][1].lower(),IVR110Q
 IVR110Q,SETQUEUE,en-US:session['queueName'],IVR150
-IVR120A,LANGUAGE,fr-CA,IVR120B
-IVR120B,EXEC,session['multiLangSelection'] = 'Fr',IVR120Q
-IVR120Q,SETQUEUE,fr-CA:session['queueName'],IVR150
-IVR130A,LANGUAGE,es-MX,IVR130B
-IVR130B,EXEC,session['multiLangSelection'] = 'Es',IVR130Q
-IVR130Q,SETQUEUE,es-MX:session['queueName'],IVR150
-IVR140A,LANGUAGE,pt-BR,IVR140B
-IVR140B,EXEC,session['multiLangSelection'] = 'Pt',IVR140Q
-IVR140Q,SETQUEUE,pt-BR:session['queueName'],IVR150
 IVR150,EVAL,len(session['languageMenu']['options']) > 1,true:IVR160|false:IVR170
 IVR160,MENU,eval:session['languageMenu']['greeting'],eval:session['languageMenu']['options']
 IVR170,PLAY,eval:session['languageMenu']['greeting'],IVR181
-EN,LANGUAGE,en-US,EN-1
-EN-1,EXEC,session['multiLangSelection'] = 'En',IVR180E1
-FR,LANGUAGE,fr-CA,FR-1
-FR-1,EXEC,session['multiLangSelection'] = 'Fr',IVR180E1
-ES,LANGUAGE,es-MX,ES-1
-ES-1,EXEC,session['multiLangSelection'] = 'Es',IVR180E1
-PT,LANGUAGE,pt-BR,PT-1
-PT-1,EXEC,session['multiLangSelection'] = 'Pt',IVR180E1
+LANG1,LANGUAGE,json.loads(session['DNISConfig']['language'])[0],LANG1A
+LANG1A,EXEC,session['multiLangSelection'] = json.loads(session['DNISConfig']['language'])[0][0].upper() +  json.loads(session['DNISConfig']['language'])[0][1].lower(),IVR180E1
+LANG2,LANGUAGE,json.loads(session['DNISConfig']['language'])[1],LANG2A
+LANG2A,EXEC,session['multiLangSelection'] = json.loads(session['DNISConfig']['language'])[1][0].upper() +  json.loads(session['DNISConfig']['language'])[1][1].lower(),IVR180E1
+LANG3,LANGUAGE,json.loads(session['DNISConfig']['language'])[2],LANG3A
+LANG3A,EXEC,session['multiLangSelection'] = json.loads(session['DNISConfig']['language'])[2][0].upper() +  json.loads(session['DNISConfig']['language'])[2][1].lower(),IVR180E1
+LANG4,LANGUAGE,json.loads(session['DNISConfig']['language'])[3],LANG4A
+LANG4A,EXEC,session['multiLangSelection'] = json.loads(session['DNISConfig']['language'])[3][0].upper() +  json.loads(session['DNISConfig']['language'])[3][1].lower(),IVR180E1
+LANG5,LANGUAGE,json.loads(session['DNISConfig']['language'])[4],LANG5A
+LANG5A,EXEC,session['multiLangSelection'] = json.loads(session['DNISConfig']['language'])[4][0].upper() +  json.loads(session['DNISConfig']['language'])[4][1].lower(),IVR180E1
+LANG6,LANGUAGE,json.loads(session['DNISConfig']['language'])[5],LANG6A
+LANG6A,EXEC,session['multiLangSelection'] = json.loads(session['DNISConfig']['language'])[5][0].upper() +  json.loads(session['DNISConfig']['language'])[5][1].lower(),IVR180E1
+LANG7,LANGUAGE,json.loads(session['DNISConfig']['language'])[6],LANG7A
+LANG7A,EXEC,session['multiLangSelection'] = json.loads(session['DNISConfig']['language'])[6][0].upper() +  json.loads(session['DNISConfig']['language'])[6][1].lower(),IVR180E1
+LANG8,LANGUAGE,json.loads(session['DNISConfig']['language'])[7],LANG8A
+LANG8A,EXEC,session['multiLangSelection'] = json.loads(session['DNISConfig']['language'])[7][0].upper() +  json.loads(session['DNISConfig']['language'])[7][1].lower(),IVR180E1
+LANG9,LANGUAGE,json.loads(session['DNISConfig']['language'])[8],LANG9A
+LANG9A,EXEC,session['multiLangSelection'] = json.loads(session['DNISConfig']['language'])[8][0].upper() +  json.loads(session['DNISConfig']['language'])[8][1].lower(),IVR180E1
+LANG10,LANGUAGE,json.loads(session['DNISConfig']['language'])[9],LANG10A
+LANG10A,EXEC,session['multiLangSelection'] = json.loads(session['DNISConfig']['language'])[9][0].upper() +  json.loads(session['DNISConfig']['language'])[9][1].lower(),IVR180E1
 IVR180E1,EXEC,session['queueName'] = session['DNISConfig']['appID'] + '_' + session['multiLangSelection'],IVR180E2
 IVR180E2,EXEC,session['vmQueueName'] = session['DNISConfig']['appID'] + '_' + session['multiLangSelection']  + '_VM',IVR180Q
 IVR180Q,SETQUEUE,en-US:session['queueName']|fr-CA:session['queueName']|es-MX:session['queueName']|pt-BR:session['queueName'],LOOP
