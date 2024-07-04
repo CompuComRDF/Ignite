@@ -20,3 +20,6 @@ InvalidInput2,"Sorry, that choice is still invalid. Please try again."
 NoInput1,We did not receive your entry. Please try again.
 NoInput2,We still did not receive your entry.  Please try again.
 MaxInputXfer,"Sorry, we're still having trouble."
+enterID,Please enter your identification number.
+youentered,You entered
+confirmentry,"If this is correct, press 1.  Otherwise, press 2."
