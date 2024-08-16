@@ -3,6 +3,19 @@ EM01,
 BM01,
 BM02,
 BM03,
+SQ01,
+SQ02,
+SQ03,
+SQ04,
+SQ05,
+SQ06,
+SQ07,
+SQ08,
+SQ09,
+SQ10,
+surveygreet,"Thanks for participating in our survey.  Using a scale from 1 to 5, where 1 is poor and 5 is great, please rate us on the following questions."
+surveyend,Your survey results have been saved.  Thanks for participating!
+surveyerror,There was an error processing your survey responses.
 closed,"Our office is currently closed.  Our operating hours are from 8 a.m. to 4:30 p.m.  If you would like to leave a voice message, please press 1."
 holiday,"Today is a holiday and our office is currently closed.  If you would like to leave a voice message, please press 1."
 monitor,Your call may be monitored or recorded to help improve our services.
