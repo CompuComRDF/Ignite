@@ -35,7 +35,7 @@ IVR180E2,EXEC,session['vmQueueName'] = session['DNISConfig']['appID'] + session[
 IVR180Q,SETQUEUE,session['queueName'],LOOP
 IVR181,EVAL,session['queueName'] == 'BasicQueue',true:IVR401|false:LOOP
 LOOP,EXEC,session['flowIndex']  += 1,IVR200
-IVR200,CASE,session['flowControl'][str(session['flowIndex'])],Emergency:IVR210A|Broadcast:IVR215A|Holidays:IVR230A|BusinessHours:IVR240A|Custom:IVR250A|MainMenu:IVR260A|MenuTree:IVR270A|Identification:IVR280A|Survey:IVR290A|else:CONTINUE
+IVR200,CASE,session['flowControl'][str(session['flowIndex'])],Emergency:IVR210A|Broadcast:IVR215A|Holidays:IVR230A|BusinessHours:IVR240A|Custom:IVR250A|MainMenu:IVR260A|MenuTree:IVR270A|Identification:IVR280A|else:CONTINUE
 IVR210A,EVAL,"util.getSysAdmin(""EM01"") == """"",true:LOOP|false:IVR210B
 IVR210B,PLAY,"eval:util.getSysAdmin(""EM01"")",IVR400
 IVR215A,EVAL,"util.getSysAdmin(""BM01"") == """"",true:IVR220A|false:IVR215B
@@ -98,12 +98,14 @@ IVR298C,EXEC,session['survey_results'] += session['menu_selection'],IVR299A
 IVR299A,EVAL,"util.getSysAdmin(""SQ10"") == """"",true:IVR300|false:IVR299B
 IVR299B,MENU,"eval:util.getSysAdmin(""SQ10"")",1:IVR299C|2:IVR299C|3:IVR299C|4:IVR299C|5:IVR299C|maxaction:IVR302
 IVR299C,EXEC,session['survey_results'] += session['menu_selection'],IVR300
-IVR300,EXEC,util.saveSurveyResults(),IVR301
+IVR300,USERDATA,,IVR301
 IVR301,PLAY,tts:surveyend,IVR400
 IVR302,PLAY,tts:surveyerror,IVR400
 IVR400,PLAY,tts:goodbye,DISCONNECT
 IVR401,PLAY,text: Please contact your administrator.  Goodbye.,DISCONNECT
-CONTINUE,PLAY,tts:monitor,PQ100
+CONTINUE,EVAL,"""Survey"" in str(session[""flowControl""])",true:PQ050|false:PQ075
+PQ050,SURVEY,,PQ075
+PQ075,PLAY,tts:monitor,PQ100
 PQ100,EXEC,session['queuemetrics'] = queues.getQueueMetrics(session['queueID']),PQ110
 PQ110,EVAL,session['function']=='agent',true:PQ125|false:PQ200
 PQ125,EVAL,session['queuemetrics']['agentsOnline'] > 0,true:PQ150|false:PQ200
