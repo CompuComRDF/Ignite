@@ -68,37 +68,47 @@ IVR280A,INPUT,tts:enterID,var:user_id|length:session['inputlength']|action:IVR28
 IVR280B,EVAL,"session[""inputconfirm""]",true:IVR280C|false:IVR280D
 IVR280C,MENU,"tts:youentered|slowcharacters:session[""user_id""]|tts:confirmentry",1:IVR280D|2:IVR280A|0:CONTINUE
 IVR280D,USERDATA,"session[""user_id""]",LOOP
+IVR290,EXEC,session['survey_results'] = '',IVR290A
 IVR290A,EVAL,"util.getSysAdmin(""SQ01"") == """"",true:IVR300|false:IVR290B
 IVR290B,MENU,"eval:util.getSysAdmin(""SQ01"")",1:IVR290C|2:IVR290C|3:IVR290C|4:IVR290C|5:IVR290C|maxaction:IVR302
-IVR290C,EXEC,session['survey_results'] += session['menu_selection'],IVR291A
+IVR290C,EXEC,session['survey_results'] += session['menuSelection'],IVR291A
 IVR291A,EVAL,"util.getSysAdmin(""SQ02"") == """"",true:IVR300|false:IVR291B
-IVR291B,MENU,"eval:util.getSysAdmin(""SQ02"")",1:IVR291C|2:IVR291C|3:IVR291C|4:IVR291C|5:IVR291C|maxaction:IVR302
-IVR291C,EXEC,session['survey_results'] += session['menu_selection'],IVR292A
+IVR291B,EXEC,"session['survey_results'] += "",""",IVR291C
+IVR291C,MENU,"eval:util.getSysAdmin(""SQ02"")",1:IVR291D|2:IVR291D|3:IVR291D|4:IVR291D|5:IVR291D|maxaction:IVR302
+IVR291D,EXEC,session['survey_results'] += session['menuSelection'],IVR292A
 IVR292A,EVAL,"util.getSysAdmin(""SQ03"") == """"",true:IVR300|false:IVR292B
-IVR292B,MENU,"eval:util.getSysAdmin(""SQ03"")",1:IVR292C|2:IVR292C|3:IVR292C|4:IVR292C|5:IVR292C|maxaction:IVR302
-IVR292C,EXEC,session['survey_results'] += session['menu_selection'],IVR293A
+IVR292B,EXEC,"session['survey_results'] += "",""",IVR292C
+IVR292C,MENU,"eval:util.getSysAdmin(""SQ03"")",1:IVR292D|2:IVR292D|3:IVR292D|4:IVR292D|5:IVR292D|maxaction:IVR302
+IVR292D,EXEC,session['survey_results'] += session['menuSelection'],IVR293A
 IVR293A,EVAL,"util.getSysAdmin(""SQ04"") == """"",true:IVR300|false:IVR293B
-IVR293B,MENU,"eval:util.getSysAdmin(""SQ04"")",1:IVR293C|2:IVR293C|3:IVR293C|4:IVR293C|5:IVR293C|maxaction:IVR302
-IVR293C,EXEC,session['survey_results'] += session['menu_selection'],IVR294A
+IVR293B,EXEC,"session['survey_results'] += "",""",IVR293C
+IVR293C,MENU,"eval:util.getSysAdmin(""SQ04"")",1:IVR293D|2:IVR293D|3:IVR293D|4:IVR293D|5:IVR293D|maxaction:IVR302
+IVR293D,EXEC,session['survey_results'] += session['menuSelection'],IVR294A
 IVR294A,EVAL,"util.getSysAdmin(""SQ05"") == """"",true:IVR300|false:IVR294B
-IVR294B,MENU,"eval:util.getSysAdmin(""SQ05"")",1:IVR294C|2:IVR294C|3:IVR294C|4:IVR294C|5:IVR294C|maxaction:IVR302
-IVR294C,EXEC,session['survey_results'] += session['menu_selection'],IVR295A
+IVR294B,EXEC,"session['survey_results'] += "",""",IVR294C
+IVR294C,MENU,"eval:util.getSysAdmin(""SQ05"")",1:IVR294D|2:IVR294D|3:IVR294D|4:IVR294D|5:IVR294D|maxaction:IVR302
+IVR294D,EXEC,session['survey_results'] += session['menuSelection'],IVR295A
 IVR295A,EVAL,"util.getSysAdmin(""SQ06"") == """"",true:IVR300|false:IVR295B
-IVR295B,MENU,"eval:util.getSysAdmin(""SQ06"")",1:IVR295C|2:IVR295C|3:IVR295C|4:IVR295C|5:IVR295C|maxaction:IVR302
-IVR295C,EXEC,session['survey_results'] += session['menu_selection'],IVR296A
+IVR295B,EXEC,"session['survey_results'] += "",""",IVR295C
+IVR295C,MENU,"eval:util.getSysAdmin(""SQ06"")",1:IVR295D|2:IVR295D|3:IVR295D|4:IVR295D|5:IVR295D|maxaction:IVR302
+IVR295D,EXEC,session['survey_results'] += session['menuSelection'],IVR296A
 IVR296A,EVAL,"util.getSysAdmin(""SQ07"") == """"",true:IVR300|false:IVR296B
-IVR296B,MENU,"eval:util.getSysAdmin(""SQ07"")",1:IVR296C|2:IVR296C|3:IVR296C|4:IVR296C|5:IVR296C|maxaction:IVR302
-IVR296C,EXEC,session['survey_results'] += session['menu_selection'],IVR297A
+IVR296B,EXEC,"session['survey_results'] += "",""",IVR296C
+IVR296C,MENU,"eval:util.getSysAdmin(""SQ07"")",1:IVR296D|2:IVR296D|3:IVR296D|4:IVR296D|5:IVR296D|maxaction:IVR302
+IVR296D,EXEC,session['survey_results'] += session['menuSelection'],IVR297A
 IVR297A,EVAL,"util.getSysAdmin(""SQ08"") == """"",true:IVR300|false:IVR297B
-IVR297B,MENU,"eval:util.getSysAdmin(""SQ08"")",1:IVR297C|2:IVR297C|3:IVR297C|4:IVR297C|5:IVR297C|maxaction:IVR302
-IVR297C,EXEC,session['survey_results'] += session['menu_selection'],IVR298A
+IVR297B,EXEC,"session['survey_results'] += "",""",IVR297C
+IVR297C,MENU,"eval:util.getSysAdmin(""SQ08"")",1:IVR297D|2:IVR297D|3:IVR297D|4:IVR297D|5:IVR297D|maxaction:IVR302
+IVR297D,EXEC,session['survey_results'] += session['menuSelection'],IVR298A
 IVR298A,EVAL,"util.getSysAdmin(""SQ09"") == """"",true:IVR300|false:IVR298B
-IVR298B,MENU,"eval:util.getSysAdmin(""SQ09"")",1:IVR298C|2:IVR298C|3:IVR298C|4:IVR298C|5:IVR298C|maxaction:IVR302
-IVR298C,EXEC,session['survey_results'] += session['menu_selection'],IVR299A
+IVR298B,EXEC,"session['survey_results'] += "",""",IVR298C
+IVR298C,MENU,"eval:util.getSysAdmin(""SQ09"")",1:IVR298D|2:IVR298D|3:IVR298D|4:IVR298D|5:IVR298D|maxaction:IVR302
+IVR298D,EXEC,session['survey_results'] += session['menuSelection'],IVR299A
 IVR299A,EVAL,"util.getSysAdmin(""SQ10"") == """"",true:IVR300|false:IVR299B
-IVR299B,MENU,"eval:util.getSysAdmin(""SQ10"")",1:IVR299C|2:IVR299C|3:IVR299C|4:IVR299C|5:IVR299C|maxaction:IVR302
-IVR299C,EXEC,session['survey_results'] += session['menu_selection'],IVR300
-IVR300,USERDATA,,IVR301
+IVR299B,EXEC,"session['survey_results'] += "",""",IVR299C
+IVR299C,MENU,"eval:util.getSysAdmin(""SQ10"")",1:IVR299D|2:IVR299D|3:IVR299D|4:IVR299D|5:IVR299D|maxaction:IVR302
+IVR299D,EXEC,session['survey_results'] += session['menuSelection'],IVR300
+IVR300,USERDATA,session['survey_results'],IVR301
 IVR301,PLAY,tts:surveyend,IVR400
 IVR302,PLAY,tts:surveyerror,IVR400
 IVR400,PLAY,tts:goodbye,DISCONNECT
