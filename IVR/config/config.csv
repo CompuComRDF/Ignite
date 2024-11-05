@@ -2,6 +2,7 @@
 tenant,ivr
 callFlow,ivr-callflow.csv
 ttsFile,ivr-tts.csv
+busHoursFile,ivr-bushours.csv
 holidayFile,ivr-holidays.csv
 sysAdminFile,ivr-sysadmin.csv
 menuTreeFile,ivr-menutree.csv
