@@ -5,7 +5,6 @@ ttsFile,ivr-tts.csv
 busHoursFile,ivr-bushours.csv
 holidayFile,ivr-holidays.csv
 sysAdminFile,ivr-sysadmin.csv
-menuTreeFile,ivr-menutree.csv
 connectFlowType,INBOUND
 defaultDNIS,IVR100
 defaultQueue,BasicQueue
@@ -16,9 +15,13 @@ globalInvalidPrompt,tts:InvalidInput1|tts:InvalidInput2
 globalTimeoutPrompt,tts:NoInput1|tts:NoInput2
 globalMaxtriesPrompt,tts:MaxInputXfer
 globalMaxtriesAction,PQ100
-globalMenuRepeat,*
+globalMenuRepeat,7
 globalMenuPrevious,9
 globalZeroPrompt,agent
 globalInputTerm,#
 speechAnalytics,off
 chatAnalytics,off
+queueCapacity,75
+waitCapacity,120
+callBack,off
+voiceMail,off
