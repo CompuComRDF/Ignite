@@ -21,7 +21,7 @@
         "conditions": [],
         "conditionMetadata": [
           {
-            "id": "e802d4d1-b43d-4d93-9d47-12319a04233b",
+            "id": "18f1ef47-5659-45ed-b9bf-79696082725a",
             "operator": {
               "name": "Equals",
               "value": "Equals",
@@ -254,7 +254,7 @@
         "conditions": [],
         "conditionMetadata": [
           {
-            "id": "866c506d-a149-4a34-9606-bc32d95a04bb",
+            "id": "48d3274f-16f2-4db3-b4d9-71092d7b1531",
             "operator": {
               "name": "Equals",
               "value": "Equals",
@@ -338,14 +338,22 @@
         },
         "useDynamic": true
       },
+      "6e28192d-93fd-4ff7-8df9-335733cf7f74": {
+        "position": {
+          "x": 1775.2,
+          "y": 1179.2
+        },
+        "dynamicParams": []
+      },
       "2fee6984-6e55-4b92-9db1-68f056e6b793": {
         "position": {
           "x": 1055.2,
           "y": 336.8
         },
+        "conditions": [],
         "conditionMetadata": [
           {
-            "id": "307c2b74-f77b-4c36-8d39-0f0dc6cf88a8",
+            "id": "5b5a440f-e2d2-4ee5-802e-efad3de40ded",
             "operator": {
               "name": "Equals",
               "value": "Equals",
@@ -354,7 +362,7 @@
             "value": "TREE"
           },
           {
-            "id": "1d909497-b577-4554-98bb-c1afc51c826b",
+            "id": "986346d6-2215-435f-b625-c0fbdb99e3e7",
             "operator": {
               "name": "Equals",
               "value": "Equals",
@@ -363,7 +371,7 @@
             "value": "PLAY"
           },
           {
-            "id": "76abb4ae-93dd-474a-8397-81ff7abcad19",
+            "id": "fa69f8ed-dc51-46ba-947c-ddd8bf823c93",
             "operator": {
               "name": "Equals",
               "value": "Equals",
@@ -372,7 +380,7 @@
             "value": "MENU"
           },
           {
-            "id": "763e411c-2328-420d-92d0-a311f6ca3cc6",
+            "id": "a9f7416f-c37e-47c0-b0c2-d0a3b87180a2",
             "operator": {
               "name": "Equals",
               "value": "Equals",
@@ -381,7 +389,7 @@
             "value": "INPUT"
           },
           {
-            "id": "20f6ffe2-4a3b-4fde-9da1-2186265610dd",
+            "id": "3489584b-f39a-46a2-a008-597444f34340",
             "operator": {
               "name": "Equals",
               "value": "Equals",
@@ -390,7 +398,7 @@
             "value": "RECORD"
           },
           {
-            "id": "fd01ba69-5244-4766-8b63-6901f3752c60",
+            "id": "1b4ffb06-a3cc-49cb-9de9-ded1884d9e91",
             "operator": {
               "name": "Equals",
               "value": "Equals",
@@ -399,7 +407,7 @@
             "value": "XFER"
           },
           {
-            "id": "e1372908-4e88-416d-9518-38dce46df984",
+            "id": "693fcfb5-adb6-44bd-a5a8-fc6f09d2cc37",
             "operator": {
               "name": "Equals",
               "value": "Equals",
@@ -408,7 +416,7 @@
             "value": "LANGUAGE"
           },
           {
-            "id": "e6490fab-0788-43e7-bfc7-938e00b7c637",
+            "id": "0069f282-beba-4f81-b916-e84d53b11af3",
             "operator": {
               "name": "Equals",
               "value": "Equals",
@@ -417,7 +425,7 @@
             "value": "SETQUEUE"
           },
           {
-            "id": "675f42db-8d7d-446d-9e94-b360a9e13553",
+            "id": "1a86021b-3687-43bb-9ae8-7ef444583386",
             "operator": {
               "name": "Equals",
               "value": "Equals",
@@ -426,7 +434,7 @@
             "value": "QUEUE"
           },
           {
-            "id": "09ab5a0f-3f79-441b-a172-bf81ecc90ea9",
+            "id": "dba110c8-7941-42fc-9fdf-d8d9c0b568be",
             "operator": {
               "name": "Equals",
               "value": "Equals",
@@ -435,7 +443,7 @@
             "value": "CONTACT_FLOW"
           },
           {
-            "id": "86bd170b-4c9f-4b54-9aad-3513b785440b",
+            "id": "03ffa5a8-be9e-466b-9dc5-ad1d0791efa2",
             "operator": {
               "name": "Equals",
               "value": "Equals",
@@ -444,7 +452,7 @@
             "value": "CONTACT_MODULE"
           },
           {
-            "id": "e542c705-d5a0-47eb-8534-2993c83cfc12",
+            "id": "f723891c-1e23-43ed-a03d-c82e89e446cc",
             "operator": {
               "name": "Equals",
               "value": "Equals",
@@ -453,7 +461,7 @@
             "value": "LAMBDA"
           },
           {
-            "id": "ec4c50bf-9504-4722-afe0-9cd89987f2a1",
+            "id": "5e83207f-873c-4d88-8005-3de7999c3b39",
             "operator": {
               "name": "Equals",
               "value": "Equals",
@@ -462,7 +470,7 @@
             "value": "SURVEY"
           },
           {
-            "id": "2628f78e-00f2-45f4-9ac7-5315970ac1bc",
+            "id": "5fb70b19-aca7-4fd0-b04b-81bfcadf5e7c",
             "operator": {
               "name": "Equals",
               "value": "Equals",
@@ -471,19 +479,6 @@
             "value": "GETMETRICS"
           }
         ]
-      },
-      "6e28192d-93fd-4ff7-8df9-335733cf7f74": {
-        "position": {
-          "x": 1775.2,
-          "y": 1179.2
-        },
-        "dynamicParams": []
-      },
-      "5c5d3b64-3cf7-4619-a33f-f70c90e4b080": {
-        "position": {
-          "x": 1504,
-          "y": 1180
-        }
       },
       "658017b0-5faa-48f1-8b52-9c11b1099576": {
         "position": {
@@ -500,13 +495,19 @@
         "dynamicParams": [
           "callFlowID"
         ]
+      },
+      "5c5d3b64-3cf7-4619-a33f-f70c90e4b080": {
+        "position": {
+          "x": 1504,
+          "y": 1180
+        }
       }
     },
     "Annotations": [],
     "name": "Connect-RDF-Main",
     "description": "USED BY IGNITE-RDF",
     "type": "contactFlow",
-    "status": "published",
+    "status": "PUBLISHED",
     "hash": {}
   },
   "Actions": [
@@ -902,6 +903,26 @@
     },
     {
       "Parameters": {
+        "Attributes": {
+          "errorMessage": "Set Queue Failure",
+          "blockAction": "ERROR"
+        },
+        "TargetContact": "Current"
+      },
+      "Identifier": "6e28192d-93fd-4ff7-8df9-335733cf7f74",
+      "Type": "UpdateContactAttributes",
+      "Transitions": {
+        "NextAction": "658017b0-5faa-48f1-8b52-9c11b1099576",
+        "Errors": [
+          {
+            "NextAction": "658017b0-5faa-48f1-8b52-9c11b1099576",
+            "ErrorType": "NoMatchingError"
+          }
+        ]
+      }
+    },
+    {
+      "Parameters": {
         "ComparisonValue": "$.Attributes.blockType"
       },
       "Identifier": "2fee6984-6e55-4b92-9db1-68f056e6b793",
@@ -1047,18 +1068,17 @@
     {
       "Parameters": {
         "Attributes": {
-          "errorMessage": "Set Queue Failure",
-          "blockAction": "ERROR"
+          "callFlowID": "$.Attributes.blockAction"
         },
         "TargetContact": "Current"
       },
-      "Identifier": "6e28192d-93fd-4ff7-8df9-335733cf7f74",
+      "Identifier": "658017b0-5faa-48f1-8b52-9c11b1099576",
       "Type": "UpdateContactAttributes",
       "Transitions": {
-        "NextAction": "658017b0-5faa-48f1-8b52-9c11b1099576",
+        "NextAction": "54d367ff-06de-4571-9769-4b544978560c",
         "Errors": [
           {
-            "NextAction": "658017b0-5faa-48f1-8b52-9c11b1099576",
+            "NextAction": "54d367ff-06de-4571-9769-4b544978560c",
             "ErrorType": "NoMatchingError"
           }
         ]
@@ -1072,26 +1092,7 @@
         "NextAction": "658017b0-5faa-48f1-8b52-9c11b1099576",
         "Errors": [
           {
-            "NextAction": "6e28192d-93fd-4ff7-8df9-335733cf7f74",
-            "ErrorType": "NoMatchingError"
-          }
-        ]
-      }
-    },
-    {
-      "Parameters": {
-        "Attributes": {
-          "callFlowID": "$.Attributes.blockAction"
-        },
-        "TargetContact": "Current"
-      },
-      "Identifier": "658017b0-5faa-48f1-8b52-9c11b1099576",
-      "Type": "UpdateContactAttributes",
-      "Transitions": {
-        "NextAction": "54d367ff-06de-4571-9769-4b544978560c",
-        "Errors": [
-          {
-            "NextAction": "54d367ff-06de-4571-9769-4b544978560c",
+            "NextAction": "658017b0-5faa-48f1-8b52-9c11b1099576",
             "ErrorType": "NoMatchingError"
           }
         ]
