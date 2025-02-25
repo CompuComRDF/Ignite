@@ -1,0 +1,77 @@
+{
+  "Version": "2019-10-30",
+  "StartAction": "098007b7-e257-4b7c-9c3c-741d4680517d",
+  "Metadata": {
+    "entryPointPosition": {
+      "x": 242.4,
+      "y": 172
+    },
+    "ActionMetadata": {
+      "5ac71e59-8caa-4f07-99aa-d015f959a110": {
+        "position": {
+          "x": 712,
+          "y": 253.6
+        }
+      },
+      "098007b7-e257-4b7c-9c3c-741d4680517d": {
+        "position": {
+          "x": 432.8,
+          "y": 236
+        },
+        "parameters": {
+          "Messages": [
+            {
+              "PromptId": {
+                "displayName": "CustomerHold.wav"
+              }
+            }
+          ]
+        },
+        "audio": [
+          {
+            "id": "arn:aws:connect:ca-central-1:713881812716:instance/afbbfd41-4937-446f-92d6-e2cc695e8357/prompt/17271d98-3739-4189-8386-0bd427e6ccfa",
+            "text": "CustomerHold.wav",
+            "type": "Prompt"
+          }
+        ]
+      }
+    },
+    "Annotations": [],
+    "name": "Default customer queue",
+    "description": "Default audio played when a customer is waiting in queue.",
+    "type": "customerQueue",
+    "status": "PUBLISHED",
+    "hash": {}
+  },
+  "Actions": [
+    {
+      "Parameters": {},
+      "Identifier": "5ac71e59-8caa-4f07-99aa-d015f959a110",
+      "Type": "DisconnectParticipant",
+      "Transitions": {}
+    },
+    {
+      "Parameters": {
+        "Messages": [
+          {
+            "PromptId": "arn:aws:connect:ca-central-1:713881812716:instance/afbbfd41-4937-446f-92d6-e2cc695e8357/prompt/17271d98-3739-4189-8386-0bd427e6ccfa"
+          },
+          {
+            "Text": "Your call is important to us. All of our representatives are still assisting other callers."
+          }
+        ]
+      },
+      "Identifier": "098007b7-e257-4b7c-9c3c-741d4680517d",
+      "Type": "MessageParticipantIteratively",
+      "Transitions": {
+        "NextAction": "5ac71e59-8caa-4f07-99aa-d015f959a110",
+        "Errors": [
+          {
+            "NextAction": "5ac71e59-8caa-4f07-99aa-d015f959a110",
+            "ErrorType": "NoMatchingError"
+          }
+        ]
+      }
+    }
+  ]
+}

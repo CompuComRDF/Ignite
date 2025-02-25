@@ -1,0 +1,1112 @@
+{
+  "Version": "2019-10-30",
+  "StartAction": "1ab1e276-87f4-4fc9-a3d1-e72f482ae96e",
+  "Metadata": {
+    "entryPointPosition": {
+      "x": 12.8,
+      "y": 2.4
+    },
+    "ActionMetadata": {
+      "a9a1252b-de15-4e27-a836-6ca0bb45bb06": {
+        "position": {
+          "x": 2834.4,
+          "y": 356
+        }
+      },
+      "93e5ada5-b806-403a-b6d9-10336a121bff": {
+        "position": {
+          "x": 799.2,
+          "y": 570.4
+        },
+        "conditions": [],
+        "conditionMetadata": [
+          {
+            "id": "864895c1-80b6-42ae-9afc-e1d23199af2c",
+            "operator": {
+              "name": "Equals",
+              "value": "Equals",
+              "shortDisplay": "="
+            },
+            "value": "Timeout"
+          }
+        ]
+      },
+      "df5af2d0-26ab-4e10-929b-68c50f476185": {
+        "position": {
+          "x": 800.8,
+          "y": 357.6
+        },
+        "conditions": [],
+        "conditionMetadata": [
+          {
+            "id": "1e9d606e-6e98-4e46-a396-b7ecd30389b2",
+            "operator": {
+              "name": "Equals",
+              "value": "Equals",
+              "shortDisplay": "="
+            },
+            "value": "Timeout"
+          }
+        ]
+      },
+      "741d6873-62ba-41ee-ba12-fe47a48d135d": {
+        "position": {
+          "x": 2598.4,
+          "y": 357.6
+        },
+        "parameters": {
+          "ContactFlowId": {
+            "displayName": "Connect-RDF-Main"
+          }
+        },
+        "ContactFlow": {
+          "text": "Connect-RDF-Main"
+        }
+      },
+      "3aba84f5-5552-4d03-b921-4801375fd8fb": {
+        "position": {
+          "x": 1020,
+          "y": 357.6
+        },
+        "dynamicParams": []
+      },
+      "82f202bc-6da5-497e-97e3-0462754e5260": {
+        "position": {
+          "x": 1788,
+          "y": 356
+        },
+        "dynamicParams": []
+      },
+      "a8c56532-0833-4e7b-84d5-26692f1b31e8": {
+        "position": {
+          "x": 1024,
+          "y": 570.4
+        },
+        "dynamicParams": []
+      },
+      "8968a908-70ce-4527-ae15-f0786b35e4cf": {
+        "position": {
+          "x": 842.4,
+          "y": 1715.2
+        },
+        "dynamicParams": []
+      },
+      "6857c67a-9b6c-402c-be22-677a0561a46f": {
+        "position": {
+          "x": 848.8,
+          "y": 1921.6
+        },
+        "dynamicParams": []
+      },
+      "1ab1e276-87f4-4fc9-a3d1-e72f482ae96e": {
+        "position": {
+          "x": 240,
+          "y": 7.2
+        }
+      },
+      "3c143250-f2ea-4600-8828-6eccd9f9bba0": {
+        "position": {
+          "x": 566.4,
+          "y": 570.4
+        },
+        "parameters": {
+          "Text": {
+            "useDynamic": true
+          },
+          "InputEncryption": {
+            "EncryptionKeyId": {
+              "useDynamic": true
+            },
+            "Key": {
+              "useDynamic": true
+            }
+          }
+        },
+        "useDynamic": true,
+        "conditionMetadata": [],
+        "useDynamicForEncryptionKeys": true,
+        "countryCodePrefix": "+1"
+      },
+      "4b7ebbdb-22ed-4cfd-b566-8285daa53cbc": {
+        "position": {
+          "x": 564.8,
+          "y": 356.8
+        },
+        "parameters": {
+          "Text": {
+            "useDynamic": true
+          },
+          "InputEncryption": {
+            "EncryptionKeyId": {
+              "useDynamic": true
+            },
+            "Key": {
+              "useDynamic": true
+            }
+          }
+        },
+        "useDynamic": true,
+        "conditionMetadata": [],
+        "useDynamicForEncryptionKeys": true,
+        "countryCodePrefix": "+1"
+      },
+      "e2bed1b0-dcc6-4802-b465-2a12aea07c76": {
+        "position": {
+          "x": 1850.4,
+          "y": 595.2
+        },
+        "dynamicParams": []
+      },
+      "10c6eb7e-ab3c-48a7-adc4-93f776a211c4": {
+        "position": {
+          "x": 571.2,
+          "y": 1712
+        },
+        "parameters": {
+          "LambdaFunctionARN": {
+            "displayName": "SequenceSHiftSendSMS"
+          },
+          "LambdaInvocationAttributes": {
+            "ProjectId": {
+              "useDynamic": true
+            },
+            "PhoneNumber": {
+              "useDynamic": true
+            },
+            "Message": {
+              "useDynamic": true
+            }
+          }
+        },
+        "dynamicMetadata": {
+          "ProjectId": true,
+          "PhoneNumber": true,
+          "Message": true
+        }
+      },
+      "909beccf-98a8-423a-b14b-5027aac47b2b": {
+        "position": {
+          "x": 238.4,
+          "y": 200
+        },
+        "conditionMetadata": [
+          {
+            "id": "d5f7b889-85e6-44c1-a428-effa60973c33",
+            "operator": {
+              "name": "Equals",
+              "value": "Equals",
+              "shortDisplay": "="
+            },
+            "value": "Payshield-IVR-CustomParameter-Convenience-Fee"
+          },
+          {
+            "id": "ac23e2ae-cc47-43a5-ac4d-030721e82980",
+            "operator": {
+              "name": "Equals",
+              "value": "Equals",
+              "shortDisplay": "="
+            },
+            "value": "Payshield-IVR-Amount"
+          },
+          {
+            "id": "082c92ae-5f2e-4280-ad46-a44a31d47949",
+            "operator": {
+              "name": "Equals",
+              "value": "Equals",
+              "shortDisplay": "="
+            },
+            "value": "Payshield-IVR-PAN"
+          },
+          {
+            "id": "715d872b-886c-473d-a32a-a2a2c838289b",
+            "operator": {
+              "name": "Equals",
+              "value": "Equals",
+              "shortDisplay": "="
+            },
+            "value": "Payshield-IVR-CVV"
+          },
+          {
+            "id": "82405d97-432b-4612-8db9-2957557067c3",
+            "operator": {
+              "name": "Equals",
+              "value": "Equals",
+              "shortDisplay": "="
+            },
+            "value": "Payshield-IVR-ExpiryDate"
+          },
+          {
+            "id": "38a3c495-0d7f-49e8-a733-2940a416a0a1",
+            "operator": {
+              "name": "Equals",
+              "value": "Equals",
+              "shortDisplay": "="
+            },
+            "value": "Payshield-IVR-ProcessTransaction"
+          },
+          {
+            "id": "d0a0f4b8-8636-4409-9a8c-c3ea1520c183",
+            "operator": {
+              "name": "Equals",
+              "value": "Equals",
+              "shortDisplay": "="
+            },
+            "value": "Payshield-IVR-Request-PayshieldTransactionReference"
+          },
+          {
+            "id": "0e518ce8-c2e6-4c42-94a1-10353c33a2ff",
+            "operator": {
+              "name": "Equals",
+              "value": "Equals",
+              "shortDisplay": "="
+            },
+            "value": "SMS"
+          }
+        ]
+      },
+      "1ae3e072-23a0-45cf-82e2-287b065f39d8": {
+        "position": {
+          "x": 1242.4,
+          "y": 569.6
+        },
+        "parameters": {
+          "LambdaFunctionARN": {
+            "useDynamic": true
+          },
+          "LambdaInvocationAttributes": {
+            "Payshield-IVR-CVV": {
+              "useDynamic": true
+            },
+            "Payshield-IVR-KeyID": {
+              "useDynamic": true
+            }
+          }
+        },
+        "dynamicMetadata": {
+          "Payshield-IVR-CVV": true,
+          "Payshield-IVR-KeyID": true
+        },
+        "useDynamic": true
+      },
+      "73f390c3-670e-4e3a-b795-043af9320a92": {
+        "position": {
+          "x": 1548.8,
+          "y": 352.8
+        },
+        "conditions": [],
+        "conditionMetadata": [
+          {
+            "id": "cefe190f-a470-4776-b42a-f63f80a6b641",
+            "operator": {
+              "name": "Equals",
+              "value": "Equals",
+              "shortDisplay": "="
+            },
+            "value": "16"
+          }
+        ]
+      },
+      "05e74ba7-e3ed-45a3-9e9c-97883ab8115b": {
+        "position": {
+          "x": 1257.6,
+          "y": 355.2
+        },
+        "parameters": {
+          "LambdaFunctionARN": {
+            "useDynamic": true
+          },
+          "LambdaInvocationAttributes": {
+            "Payshield-IVR-PAN": {
+              "useDynamic": true
+            },
+            "Payshield-IVR-KeyID": {
+              "useDynamic": true
+            }
+          }
+        },
+        "dynamicMetadata": {
+          "Payshield-IVR-PAN": true,
+          "Payshield-IVR-KeyID": true
+        },
+        "useDynamic": true
+      },
+      "c5cf0b7c-046b-4cda-82fc-afea0318725b": {
+        "position": {
+          "x": 2372,
+          "y": 355.2
+        },
+        "parameters": {
+          "Attributes": {
+            "callFlowID": {
+              "useDynamic": true
+            }
+          }
+        },
+        "dynamicParams": [
+          "callFlowID"
+        ]
+      },
+      "92b06a0f-4241-4b7e-afff-fa7e3ce318ed": {
+        "position": {
+          "x": 567.2,
+          "y": 761.6
+        },
+        "parameters": {
+          "LambdaFunctionARN": {
+            "useDynamic": true
+          },
+          "LambdaInvocationAttributes": {
+            "Payshield-IVR-CustomParameter-Convenience-Fee": {
+              "useDynamic": true
+            }
+          }
+        },
+        "dynamicMetadata": {
+          "Payshield-IVR-CustomParameter-Convenience-Fee": true
+        },
+        "useDynamic": true
+      },
+      "b8f35f73-a0fa-4e2a-b37e-2c32746f34b9": {
+        "position": {
+          "x": 570.4,
+          "y": 945.6
+        },
+        "parameters": {
+          "LambdaFunctionARN": {
+            "useDynamic": true
+          },
+          "LambdaInvocationAttributes": {
+            "Payshield-IVR-Amount": {
+              "useDynamic": true
+            }
+          }
+        },
+        "dynamicMetadata": {
+          "Payshield-IVR-Amount": true,
+          "Payshield-IVR-Currency": false
+        },
+        "useDynamic": true
+      },
+      "505f6984-7eee-4b1d-9468-8b1542696c39": {
+        "position": {
+          "x": 571.2,
+          "y": 1133.6
+        },
+        "parameters": {
+          "LambdaFunctionARN": {
+            "useDynamic": true
+          },
+          "LambdaInvocationAttributes": {
+            "Payshield-IVR-ExpiryDate": {
+              "useDynamic": true
+            }
+          }
+        },
+        "dynamicMetadata": {
+          "Payshield-IVR-ExpiryDate": true
+        },
+        "useDynamic": true
+      },
+      "0aff4fb2-f06e-491e-9508-7f6fa86eadee": {
+        "position": {
+          "x": 574.4,
+          "y": 1316.8
+        },
+        "parameters": {
+          "LambdaFunctionARN": {
+            "useDynamic": true
+          },
+          "LambdaInvocationAttributes": {
+            "Payshield-IVR-CustomerReference1": {
+              "useDynamic": true
+            }
+          }
+        },
+        "dynamicMetadata": {
+          "Payshield-IVR-ProcessTransaction": false,
+          "Payshield-IVR-CustomerReference1": true
+        },
+        "useDynamic": true
+      },
+      "a8eac150-7d4d-49ed-a25b-c4142bda7f97": {
+        "position": {
+          "x": 573.6,
+          "y": 1508.8
+        },
+        "parameters": {
+          "LambdaFunctionARN": {
+            "useDynamic": true
+          },
+          "LambdaInvocationAttributes": {
+            "Payshield-IVR-Request-PayshieldTransactionReference": {
+              "useDynamic": true
+            }
+          }
+        },
+        "dynamicMetadata": {
+          "Payshield-IVR-Request-PayshieldTransactionReference": true
+        },
+        "useDynamic": true
+      },
+      "63bf5ec8-0233-413d-97c0-09a699c8a0cf": {
+        "position": {
+          "x": 2012.8,
+          "y": 360.8
+        },
+        "parameters": {
+          "Attributes": {
+            "Payshield-IVR-Response-Status": {
+              "useDynamic": true
+            },
+            "Payshield-IVR-Response-Approved": {
+              "useDynamic": true
+            },
+            "Payshield-IVR-Response-PayshieldTransactionReference": {
+              "useDynamic": true
+            },
+            "Payshield-IVR-Response-Metadata-Moneriscanada-Receipt-Referencenum": {
+              "useDynamic": true
+            }
+          }
+        },
+        "dynamicParams": [
+          "Payshield-IVR-Response-Status",
+          "Payshield-IVR-Response-Approved",
+          "Payshield-IVR-Response-PayshieldTransactionReference",
+          "Payshield-IVR-Response-Metadata-Moneriscanada-Receipt-Referencenum"
+        ]
+      }
+    },
+    "Annotations": [],
+    "name": "Connect-RDF-Payments",
+    "description": "Payshield Secure Payments IVR",
+    "type": "contactFlow",
+    "status": "published",
+    "hash": {}
+  },
+  "Actions": [
+    {
+      "Parameters": {},
+      "Identifier": "a9a1252b-de15-4e27-a836-6ca0bb45bb06",
+      "Type": "DisconnectParticipant",
+      "Transitions": {}
+    },
+    {
+      "Parameters": {
+        "ComparisonValue": "$.StoredCustomerInput"
+      },
+      "Identifier": "93e5ada5-b806-403a-b6d9-10336a121bff",
+      "Type": "Compare",
+      "Transitions": {
+        "NextAction": "1ae3e072-23a0-45cf-82e2-287b065f39d8",
+        "Conditions": [
+          {
+            "NextAction": "a8c56532-0833-4e7b-84d5-26692f1b31e8",
+            "Condition": {
+              "Operator": "Equals",
+              "Operands": [
+                "Timeout"
+              ]
+            }
+          }
+        ],
+        "Errors": [
+          {
+            "NextAction": "1ae3e072-23a0-45cf-82e2-287b065f39d8",
+            "ErrorType": "NoMatchingCondition"
+          }
+        ]
+      }
+    },
+    {
+      "Parameters": {
+        "ComparisonValue": "$.StoredCustomerInput"
+      },
+      "Identifier": "df5af2d0-26ab-4e10-929b-68c50f476185",
+      "Type": "Compare",
+      "Transitions": {
+        "NextAction": "05e74ba7-e3ed-45a3-9e9c-97883ab8115b",
+        "Conditions": [
+          {
+            "NextAction": "3aba84f5-5552-4d03-b921-4801375fd8fb",
+            "Condition": {
+              "Operator": "Equals",
+              "Operands": [
+                "Timeout"
+              ]
+            }
+          }
+        ],
+        "Errors": [
+          {
+            "NextAction": "05e74ba7-e3ed-45a3-9e9c-97883ab8115b",
+            "ErrorType": "NoMatchingCondition"
+          }
+        ]
+      }
+    },
+    {
+      "Parameters": {
+        "ContactFlowId": "arn:aws:connect:ca-central-1:713881812716:instance/afbbfd41-4937-446f-92d6-e2cc695e8357/contact-flow/ddcb8c3f-904d-4e02-984a-8d036188c0bd"
+      },
+      "Identifier": "741d6873-62ba-41ee-ba12-fe47a48d135d",
+      "Type": "TransferToFlow",
+      "Transitions": {
+        "NextAction": "a9a1252b-de15-4e27-a836-6ca0bb45bb06",
+        "Errors": [
+          {
+            "NextAction": "a9a1252b-de15-4e27-a836-6ca0bb45bb06",
+            "ErrorType": "NoMatchingError"
+          }
+        ]
+      }
+    },
+    {
+      "Parameters": {
+        "Attributes": {
+          "Payshield-IVR-Response-Status": "Timeout",
+          "Payshield-IVR-Response-Approved": "false",
+          "Payshield-IVR-Response-TransactionReference-1": " "
+        },
+        "TargetContact": "Current"
+      },
+      "Identifier": "3aba84f5-5552-4d03-b921-4801375fd8fb",
+      "Type": "UpdateContactAttributes",
+      "Transitions": {
+        "NextAction": "c5cf0b7c-046b-4cda-82fc-afea0318725b",
+        "Errors": [
+          {
+            "NextAction": "c5cf0b7c-046b-4cda-82fc-afea0318725b",
+            "ErrorType": "NoMatchingError"
+          }
+        ]
+      }
+    },
+    {
+      "Parameters": {
+        "Attributes": {
+          "Payshield-IVR-Response-Status": "error",
+          "Payshield-IVR-Response-Approved": "false",
+          "Payshield-IVR-Response-TransactionReference-1": " "
+        },
+        "TargetContact": "Current"
+      },
+      "Identifier": "82f202bc-6da5-497e-97e3-0462754e5260",
+      "Type": "UpdateContactAttributes",
+      "Transitions": {
+        "NextAction": "c5cf0b7c-046b-4cda-82fc-afea0318725b",
+        "Errors": [
+          {
+            "NextAction": "c5cf0b7c-046b-4cda-82fc-afea0318725b",
+            "ErrorType": "NoMatchingError"
+          }
+        ]
+      }
+    },
+    {
+      "Parameters": {
+        "Attributes": {
+          "Payshield-IVR-Response-Status": "Timeout",
+          "Payshield-IVR-Response-Approved": "false",
+          "Payshield-IVR-Response-TransactionReference-1": " "
+        },
+        "TargetContact": "Current"
+      },
+      "Identifier": "a8c56532-0833-4e7b-84d5-26692f1b31e8",
+      "Type": "UpdateContactAttributes",
+      "Transitions": {
+        "NextAction": "c5cf0b7c-046b-4cda-82fc-afea0318725b",
+        "Errors": [
+          {
+            "NextAction": "c5cf0b7c-046b-4cda-82fc-afea0318725b",
+            "ErrorType": "NoMatchingError"
+          }
+        ]
+      }
+    },
+    {
+      "Parameters": {
+        "Attributes": {
+          "Payshield-IVR-Response-Status": "success"
+        },
+        "TargetContact": "Current"
+      },
+      "Identifier": "8968a908-70ce-4527-ae15-f0786b35e4cf",
+      "Type": "UpdateContactAttributes",
+      "Transitions": {
+        "NextAction": "c5cf0b7c-046b-4cda-82fc-afea0318725b",
+        "Errors": [
+          {
+            "NextAction": "c5cf0b7c-046b-4cda-82fc-afea0318725b",
+            "ErrorType": "NoMatchingError"
+          }
+        ]
+      }
+    },
+    {
+      "Parameters": {
+        "Attributes": {
+          "Payshield-IVR-Response-Status": "error"
+        },
+        "TargetContact": "Current"
+      },
+      "Identifier": "6857c67a-9b6c-402c-be22-677a0561a46f",
+      "Type": "UpdateContactAttributes",
+      "Transitions": {
+        "NextAction": "c5cf0b7c-046b-4cda-82fc-afea0318725b",
+        "Errors": [
+          {
+            "NextAction": "c5cf0b7c-046b-4cda-82fc-afea0318725b",
+            "ErrorType": "NoMatchingError"
+          }
+        ]
+      }
+    },
+    {
+      "Parameters": {
+        "FlowLoggingBehavior": "Enabled"
+      },
+      "Identifier": "1ab1e276-87f4-4fc9-a3d1-e72f482ae96e",
+      "Type": "UpdateFlowLoggingBehavior",
+      "Transitions": {
+        "NextAction": "909beccf-98a8-423a-b14b-5027aac47b2b"
+      }
+    },
+    {
+      "Parameters": {
+        "StoreInput": "True",
+        "InputTimeLimitSeconds": "5",
+        "Text": "$.Attributes.sequencePrompt",
+        "DTMFConfiguration": {
+          "DisableCancelKey": "False"
+        },
+        "InputValidation": {
+          "CustomValidation": {
+            "MaximumLength": "3"
+          }
+        },
+        "InputEncryption": {
+          "EncryptionKeyId": "$.Attributes.sequenceKeyID",
+          "Key": "$.Attributes.sequenceKeyCert"
+        }
+      },
+      "Identifier": "3c143250-f2ea-4600-8828-6eccd9f9bba0",
+      "Type": "GetParticipantInput",
+      "Transitions": {
+        "NextAction": "93e5ada5-b806-403a-b6d9-10336a121bff",
+        "Errors": [
+          {
+            "NextAction": "93e5ada5-b806-403a-b6d9-10336a121bff",
+            "ErrorType": "NoMatchingError"
+          }
+        ]
+      }
+    },
+    {
+      "Parameters": {
+        "StoreInput": "True",
+        "InputTimeLimitSeconds": "5",
+        "Text": "$.Attributes.sequencePrompt",
+        "DTMFConfiguration": {
+          "DisableCancelKey": "False"
+        },
+        "InputValidation": {
+          "CustomValidation": {
+            "MaximumLength": "16"
+          }
+        },
+        "InputEncryption": {
+          "EncryptionKeyId": "$.Attributes.sequenceKeyID",
+          "Key": "$.Attributes.sequenceKeyCert"
+        }
+      },
+      "Identifier": "4b7ebbdb-22ed-4cfd-b566-8285daa53cbc",
+      "Type": "GetParticipantInput",
+      "Transitions": {
+        "NextAction": "df5af2d0-26ab-4e10-929b-68c50f476185",
+        "Errors": [
+          {
+            "NextAction": "df5af2d0-26ab-4e10-929b-68c50f476185",
+            "ErrorType": "NoMatchingError"
+          }
+        ]
+      }
+    },
+    {
+      "Parameters": {
+        "Attributes": {
+          "Payshield-IVR-Response-Status": "false",
+          "Payshield-IVR-Response-Approved": "false",
+          "Payshield-IVR-Response-TransactionReference-1": " "
+        },
+        "TargetContact": "Current"
+      },
+      "Identifier": "e2bed1b0-dcc6-4802-b465-2a12aea07c76",
+      "Type": "UpdateContactAttributes",
+      "Transitions": {
+        "NextAction": "c5cf0b7c-046b-4cda-82fc-afea0318725b",
+        "Errors": [
+          {
+            "NextAction": "c5cf0b7c-046b-4cda-82fc-afea0318725b",
+            "ErrorType": "NoMatchingError"
+          }
+        ]
+      }
+    },
+    {
+      "Parameters": {
+        "LambdaFunctionARN": "arn:aws:lambda:ca-central-1:713881812716:function:SequenceSHiftSendSMS",
+        "InvocationTimeLimitSeconds": "8",
+        "LambdaInvocationAttributes": {
+          "ProjectId": "$.Attributes.sequenceProjID",
+          "PhoneNumber": "$.Attributes.sequenceValue",
+          "Message": "$.Attributes.sequencePrompt"
+        },
+        "ResponseValidation": {
+          "ResponseType": "STRING_MAP"
+        }
+      },
+      "Identifier": "10c6eb7e-ab3c-48a7-adc4-93f776a211c4",
+      "Type": "InvokeLambdaFunction",
+      "Transitions": {
+        "NextAction": "8968a908-70ce-4527-ae15-f0786b35e4cf",
+        "Errors": [
+          {
+            "NextAction": "6857c67a-9b6c-402c-be22-677a0561a46f",
+            "ErrorType": "NoMatchingError"
+          }
+        ]
+      }
+    },
+    {
+      "Parameters": {
+        "ComparisonValue": "$.Attributes.sequenceParam"
+      },
+      "Identifier": "909beccf-98a8-423a-b14b-5027aac47b2b",
+      "Type": "Compare",
+      "Transitions": {
+        "NextAction": "e2bed1b0-dcc6-4802-b465-2a12aea07c76",
+        "Conditions": [
+          {
+            "NextAction": "92b06a0f-4241-4b7e-afff-fa7e3ce318ed",
+            "Condition": {
+              "Operator": "Equals",
+              "Operands": [
+                "Payshield-IVR-CustomParameter-Convenience-Fee"
+              ]
+            }
+          },
+          {
+            "NextAction": "b8f35f73-a0fa-4e2a-b37e-2c32746f34b9",
+            "Condition": {
+              "Operator": "Equals",
+              "Operands": [
+                "Payshield-IVR-Amount"
+              ]
+            }
+          },
+          {
+            "NextAction": "4b7ebbdb-22ed-4cfd-b566-8285daa53cbc",
+            "Condition": {
+              "Operator": "Equals",
+              "Operands": [
+                "Payshield-IVR-PAN"
+              ]
+            }
+          },
+          {
+            "NextAction": "3c143250-f2ea-4600-8828-6eccd9f9bba0",
+            "Condition": {
+              "Operator": "Equals",
+              "Operands": [
+                "Payshield-IVR-CVV"
+              ]
+            }
+          },
+          {
+            "NextAction": "505f6984-7eee-4b1d-9468-8b1542696c39",
+            "Condition": {
+              "Operator": "Equals",
+              "Operands": [
+                "Payshield-IVR-ExpiryDate"
+              ]
+            }
+          },
+          {
+            "NextAction": "0aff4fb2-f06e-491e-9508-7f6fa86eadee",
+            "Condition": {
+              "Operator": "Equals",
+              "Operands": [
+                "Payshield-IVR-ProcessTransaction"
+              ]
+            }
+          },
+          {
+            "NextAction": "a8eac150-7d4d-49ed-a25b-c4142bda7f97",
+            "Condition": {
+              "Operator": "Equals",
+              "Operands": [
+                "Payshield-IVR-Request-PayshieldTransactionReference"
+              ]
+            }
+          },
+          {
+            "NextAction": "10c6eb7e-ab3c-48a7-adc4-93f776a211c4",
+            "Condition": {
+              "Operator": "Equals",
+              "Operands": [
+                "SMS"
+              ]
+            }
+          }
+        ],
+        "Errors": [
+          {
+            "NextAction": "e2bed1b0-dcc6-4802-b465-2a12aea07c76",
+            "ErrorType": "NoMatchingCondition"
+          }
+        ]
+      }
+    },
+    {
+      "Parameters": {
+        "LambdaFunctionARN": "$.Attributes.sequenceARN",
+        "InvocationTimeLimitSeconds": "8",
+        "LambdaInvocationAttributes": {
+          "Payshield-IVR-CVV": "$.StoredCustomerInput",
+          "Payshield-IVR-KeyID": "$.Attributes.sequenceKeyID"
+        },
+        "ResponseValidation": {
+          "ResponseType": "STRING_MAP"
+        }
+      },
+      "Identifier": "1ae3e072-23a0-45cf-82e2-287b065f39d8",
+      "Type": "InvokeLambdaFunction",
+      "Transitions": {
+        "NextAction": "63bf5ec8-0233-413d-97c0-09a699c8a0cf",
+        "Errors": [
+          {
+            "NextAction": "63bf5ec8-0233-413d-97c0-09a699c8a0cf",
+            "ErrorType": "NoMatchingError"
+          }
+        ]
+      }
+    },
+    {
+      "Parameters": {
+        "ComparisonValue": "$.External.Payshield-IVR-Response-PAN-Length"
+      },
+      "Identifier": "73f390c3-670e-4e3a-b795-043af9320a92",
+      "Type": "Compare",
+      "Transitions": {
+        "NextAction": "82f202bc-6da5-497e-97e3-0462754e5260",
+        "Conditions": [
+          {
+            "NextAction": "63bf5ec8-0233-413d-97c0-09a699c8a0cf",
+            "Condition": {
+              "Operator": "Equals",
+              "Operands": [
+                "16"
+              ]
+            }
+          }
+        ],
+        "Errors": [
+          {
+            "NextAction": "82f202bc-6da5-497e-97e3-0462754e5260",
+            "ErrorType": "NoMatchingCondition"
+          }
+        ]
+      }
+    },
+    {
+      "Parameters": {
+        "LambdaFunctionARN": "$.Attributes.sequenceARN",
+        "InvocationTimeLimitSeconds": "8",
+        "LambdaInvocationAttributes": {
+          "Payshield-IVR-PAN": "$.StoredCustomerInput",
+          "Payshield-IVR-KeyID": "$.Attributes.sequenceKeyID"
+        },
+        "ResponseValidation": {
+          "ResponseType": "STRING_MAP"
+        }
+      },
+      "Identifier": "05e74ba7-e3ed-45a3-9e9c-97883ab8115b",
+      "Type": "InvokeLambdaFunction",
+      "Transitions": {
+        "NextAction": "73f390c3-670e-4e3a-b795-043af9320a92",
+        "Errors": [
+          {
+            "NextAction": "63bf5ec8-0233-413d-97c0-09a699c8a0cf",
+            "ErrorType": "NoMatchingError"
+          }
+        ]
+      }
+    },
+    {
+      "Parameters": {
+        "Attributes": {
+          "callFlowID": "$.Attributes.blockAction",
+          "sequenceParam": " ",
+          "sequenceValue": " ",
+          "sequenceARN": " ",
+          "sequenceKeyID": " ",
+          "sequenceProjID": " ",
+          "sequenceKeyCert": " ",
+          "sequencePrompt": " "
+        },
+        "TargetContact": "Current"
+      },
+      "Identifier": "c5cf0b7c-046b-4cda-82fc-afea0318725b",
+      "Type": "UpdateContactAttributes",
+      "Transitions": {
+        "NextAction": "741d6873-62ba-41ee-ba12-fe47a48d135d",
+        "Errors": [
+          {
+            "NextAction": "741d6873-62ba-41ee-ba12-fe47a48d135d",
+            "ErrorType": "NoMatchingError"
+          }
+        ]
+      }
+    },
+    {
+      "Parameters": {
+        "LambdaFunctionARN": "$.Attributes.sequenceARN",
+        "InvocationTimeLimitSeconds": "8",
+        "LambdaInvocationAttributes": {
+          "Payshield-IVR-CustomParameter-Convenience-Fee": "$.Attributes.sequenceValue"
+        },
+        "ResponseValidation": {
+          "ResponseType": "STRING_MAP"
+        }
+      },
+      "Identifier": "92b06a0f-4241-4b7e-afff-fa7e3ce318ed",
+      "Type": "InvokeLambdaFunction",
+      "Transitions": {
+        "NextAction": "63bf5ec8-0233-413d-97c0-09a699c8a0cf",
+        "Errors": [
+          {
+            "NextAction": "63bf5ec8-0233-413d-97c0-09a699c8a0cf",
+            "ErrorType": "NoMatchingError"
+          }
+        ]
+      }
+    },
+    {
+      "Parameters": {
+        "LambdaFunctionARN": "$.Attributes.sequenceARN",
+        "InvocationTimeLimitSeconds": "8",
+        "LambdaInvocationAttributes": {
+          "Payshield-IVR-Amount": "$.Attributes.sequenceValue",
+          "Payshield-IVR-Currency": "CAD"
+        },
+        "ResponseValidation": {
+          "ResponseType": "STRING_MAP"
+        }
+      },
+      "Identifier": "b8f35f73-a0fa-4e2a-b37e-2c32746f34b9",
+      "Type": "InvokeLambdaFunction",
+      "Transitions": {
+        "NextAction": "63bf5ec8-0233-413d-97c0-09a699c8a0cf",
+        "Errors": [
+          {
+            "NextAction": "63bf5ec8-0233-413d-97c0-09a699c8a0cf",
+            "ErrorType": "NoMatchingError"
+          }
+        ]
+      }
+    },
+    {
+      "Parameters": {
+        "LambdaFunctionARN": "$.Attributes.sequenceARN",
+        "InvocationTimeLimitSeconds": "8",
+        "LambdaInvocationAttributes": {
+          "Payshield-IVR-ExpiryDate": "$.Attributes.sequenceValue"
+        },
+        "ResponseValidation": {
+          "ResponseType": "STRING_MAP"
+        }
+      },
+      "Identifier": "505f6984-7eee-4b1d-9468-8b1542696c39",
+      "Type": "InvokeLambdaFunction",
+      "Transitions": {
+        "NextAction": "63bf5ec8-0233-413d-97c0-09a699c8a0cf",
+        "Errors": [
+          {
+            "NextAction": "63bf5ec8-0233-413d-97c0-09a699c8a0cf",
+            "ErrorType": "NoMatchingError"
+          }
+        ]
+      }
+    },
+    {
+      "Parameters": {
+        "LambdaFunctionARN": "$.Attributes.sequenceARN",
+        "InvocationTimeLimitSeconds": "8",
+        "LambdaInvocationAttributes": {
+          "Payshield-IVR-ProcessTransaction": "true",
+          "Payshield-IVR-CustomerReference1": "$.Attributes.sequenceValue"
+        },
+        "ResponseValidation": {
+          "ResponseType": "STRING_MAP"
+        }
+      },
+      "Identifier": "0aff4fb2-f06e-491e-9508-7f6fa86eadee",
+      "Type": "InvokeLambdaFunction",
+      "Transitions": {
+        "NextAction": "63bf5ec8-0233-413d-97c0-09a699c8a0cf",
+        "Errors": [
+          {
+            "NextAction": "63bf5ec8-0233-413d-97c0-09a699c8a0cf",
+            "ErrorType": "NoMatchingError"
+          }
+        ]
+      }
+    },
+    {
+      "Parameters": {
+        "LambdaFunctionARN": "$.Attributes.sequenceARN",
+        "InvocationTimeLimitSeconds": "8",
+        "LambdaInvocationAttributes": {
+          "Payshield-IVR-Request-PayshieldTransactionReference": "$.Attributes.sequenceValue"
+        },
+        "ResponseValidation": {
+          "ResponseType": "STRING_MAP"
+        }
+      },
+      "Identifier": "a8eac150-7d4d-49ed-a25b-c4142bda7f97",
+      "Type": "InvokeLambdaFunction",
+      "Transitions": {
+        "NextAction": "63bf5ec8-0233-413d-97c0-09a699c8a0cf",
+        "Errors": [
+          {
+            "NextAction": "63bf5ec8-0233-413d-97c0-09a699c8a0cf",
+            "ErrorType": "NoMatchingError"
+          }
+        ]
+      }
+    },
+    {
+      "Parameters": {
+        "Attributes": {
+          "Payshield-IVR-Response-Status": "$.External.Payshield-IVR-Response-Status",
+          "Payshield-IVR-Response-Approved": "$.External.Payshield-IVR-Response-Approved",
+          "Payshield-IVR-Response-PayshieldTransactionReference": "$.External.Payshield-IVR-Response-PayshieldTransactionReference",
+          "Payshield-IVR-Response-Metadata-Moneriscanada-Receipt-Referencenum": "$.External.Payshield-IVR-Response-Metadata-Moneriscanada-Receipt-Referencenum"
+        },
+        "TargetContact": "Current"
+      },
+      "Identifier": "63bf5ec8-0233-413d-97c0-09a699c8a0cf",
+      "Type": "UpdateContactAttributes",
+      "Transitions": {
+        "NextAction": "c5cf0b7c-046b-4cda-82fc-afea0318725b",
+        "Errors": [
+          {
+            "NextAction": "c5cf0b7c-046b-4cda-82fc-afea0318725b",
+            "ErrorType": "NoMatchingError"
+          }
+        ]
+      }
+    }
+  ]
+}

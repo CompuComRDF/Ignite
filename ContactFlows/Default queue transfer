@@ -1,0 +1,182 @@
+{
+  "Version": "2019-10-30",
+  "StartAction": "e270fd28-94ea-4a6d-afcb-f7a838b86b6f",
+  "Metadata": {
+    "entryPointPosition": {
+      "x": 53.6,
+      "y": 126.4
+    },
+    "ActionMetadata": {
+      "a09f52a9-fb12-4e33-a2c0-32e7ec838096": {
+        "position": {
+          "x": 1328,
+          "y": 410.4
+        }
+      },
+      "8a77edf6-047f-459d-870e-8705b4db8c45": {
+        "position": {
+          "x": 857.6,
+          "y": 213.6
+        }
+      },
+      "b6c455af-9ed1-440a-a83c-d27227d9627f": {
+        "position": {
+          "x": 1328.8,
+          "y": 220
+        }
+      },
+      "1cb85f6f-5a8a-4a76-8121-3c65afaa8adc": {
+        "position": {
+          "x": 852,
+          "y": 19.2
+        }
+      },
+      "127a3beb-5492-433d-822d-5c5389a52a33": {
+        "position": {
+          "x": 1326.4,
+          "y": 19.2
+        }
+      },
+      "9100e7fc-fa48-4354-ac06-a6e0a4ddaeb4": {
+        "position": {
+          "x": 1066.4,
+          "y": 18.4
+        }
+      },
+      "aa2e49ed-9349-4240-9fcd-a9fee50e71a4": {
+        "position": {
+          "x": 609.6,
+          "y": 18.4
+        }
+      },
+      "e270fd28-94ea-4a6d-afcb-f7a838b86b6f": {
+        "position": {
+          "x": 185.6,
+          "y": 27.2
+        },
+        "overrideConsoleVoice": true
+      }
+    },
+    "Annotations": [],
+    "name": "Default queue transfer",
+    "description": "Default flow used to transfer to a queue.",
+    "type": "queueTransfer",
+    "status": "PUBLISHED",
+    "hash": {}
+  },
+  "Actions": [
+    {
+      "Parameters": {},
+      "Identifier": "a09f52a9-fb12-4e33-a2c0-32e7ec838096",
+      "Type": "DisconnectParticipant",
+      "Transitions": {}
+    },
+    {
+      "Parameters": {
+        "Text": "Our representatives are unable to take your call at this time.  We apologize for any inconvenience this may cause. Please try back later or visit us at Saskenergy.com, 24 hours a day, 7 days a week.  Thank you for calling SaskEnergy. Goodbye."
+      },
+      "Identifier": "8a77edf6-047f-459d-870e-8705b4db8c45",
+      "Type": "MessageParticipant",
+      "Transitions": {
+        "NextAction": "a09f52a9-fb12-4e33-a2c0-32e7ec838096",
+        "Errors": [
+          {
+            "NextAction": "a09f52a9-fb12-4e33-a2c0-32e7ec838096",
+            "ErrorType": "NoMatchingError"
+          }
+        ]
+      }
+    },
+    {
+      "Parameters": {
+        "Text": "Failed to transfer to queue. Goodbye."
+      },
+      "Identifier": "b6c455af-9ed1-440a-a83c-d27227d9627f",
+      "Type": "MessageParticipant",
+      "Transitions": {
+        "NextAction": "a09f52a9-fb12-4e33-a2c0-32e7ec838096"
+      }
+    },
+    {
+      "Parameters": {
+        "QueuePriority": "1"
+      },
+      "Identifier": "1cb85f6f-5a8a-4a76-8121-3c65afaa8adc",
+      "Type": "UpdateContactRoutingBehavior",
+      "Transitions": {
+        "NextAction": "9100e7fc-fa48-4354-ac06-a6e0a4ddaeb4"
+      }
+    },
+    {
+      "Parameters": {},
+      "Identifier": "127a3beb-5492-433d-822d-5c5389a52a33",
+      "Type": "TransferContactToQueue",
+      "Transitions": {
+        "NextAction": "b6c455af-9ed1-440a-a83c-d27227d9627f",
+        "Errors": [
+          {
+            "NextAction": "b6c455af-9ed1-440a-a83c-d27227d9627f",
+            "ErrorType": "QueueAtCapacity"
+          },
+          {
+            "NextAction": "b6c455af-9ed1-440a-a83c-d27227d9627f",
+            "ErrorType": "NoMatchingError"
+          }
+        ]
+      }
+    },
+    {
+      "Parameters": {
+        "Text": "Now transferring."
+      },
+      "Identifier": "9100e7fc-fa48-4354-ac06-a6e0a4ddaeb4",
+      "Type": "MessageParticipant",
+      "Transitions": {
+        "NextAction": "127a3beb-5492-433d-822d-5c5389a52a33"
+      }
+    },
+    {
+      "Parameters": {
+        "MetricType": "NumberOfAgentsStaffed"
+      },
+      "Identifier": "aa2e49ed-9349-4240-9fcd-a9fee50e71a4",
+      "Type": "CheckMetricData",
+      "Transitions": {
+        "NextAction": "b6c455af-9ed1-440a-a83c-d27227d9627f",
+        "Conditions": [
+          {
+            "NextAction": "1cb85f6f-5a8a-4a76-8121-3c65afaa8adc",
+            "Condition": {
+              "Operator": "NumberGreaterThan",
+              "Operands": [
+                "0"
+              ]
+            }
+          }
+        ],
+        "Errors": [
+          {
+            "NextAction": "8a77edf6-047f-459d-870e-8705b4db8c45",
+            "ErrorType": "NoMatchingCondition"
+          },
+          {
+            "NextAction": "b6c455af-9ed1-440a-a83c-d27227d9627f",
+            "ErrorType": "NoMatchingError"
+          }
+        ]
+      }
+    },
+    {
+      "Parameters": {
+        "TextToSpeechEngine": "Neural",
+        "TextToSpeechStyle": "None",
+        "TextToSpeechVoice": "Stephen"
+      },
+      "Identifier": "e270fd28-94ea-4a6d-afcb-f7a838b86b6f",
+      "Type": "UpdateContactTextToSpeechVoice",
+      "Transitions": {
+        "NextAction": "aa2e49ed-9349-4240-9fcd-a9fee50e71a4"
+      }
+    }
+  ]
+}

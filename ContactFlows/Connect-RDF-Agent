@@ -1,1 +1,672 @@
-{"Version":"2019-10-30","StartAction":"eb287618-e653-4c2b-9f7b-3ba0caecb2ee","Metadata":{"entryPointPosition":{"x":26.4,"y":72},"ActionMetadata":{"d6e0d265-e02b-4d8b-9f43-59e333776715":{"position":{"x":1921.6,"y":1816},"children":["f75bef2c-8728-43b6-95b7-8d613f7bc892"],"overrideConsoleVoice":true,"fragments":{"SetContactData":"f75bef2c-8728-43b6-95b7-8d613f7bc892"},"overrideLanguageAttribute":true},"f75bef2c-8728-43b6-95b7-8d613f7bc892":{"position":{"x":1921.6,"y":1816},"dynamicParams":[]},"2e78fb21-0a4f-4e53-8620-5bf748c3fb58":{"position":{"x":3628,"y":1554.4},"parameters":{"Text":{"useDynamic":true}},"useDynamic":true},"8481d9bd-1763-456e-9d1f-5f71f714cf44":{"position":{"x":3624.8,"y":1040.8},"conditions":[],"conditionMetadata":[{"id":"acac6661-682c-4710-a6b9-fc25d634cb65","operator":{"name":"Equals","value":"Equals","shortDisplay":"="},"value":"true"}]},"4f785f2f-382f-47d0-9e04-06e3a0e58259":{"position":{"x":3907.2,"y":1318.4},"conditions":[],"conditionMetadata":[{"id":"de5aa2c2-a2b7-41d5-88c5-71eb9568085f","operator":{"name":"Equals","value":"Equals","shortDisplay":"="},"value":"true"}]},"a9869bdd-8c85-4aff-8a42-8f427878cf05":{"position":{"x":3619.2,"y":1321.6},"parameters":{"Media":{"Uri":{"useDynamic":true}}},"useDynamic":true},"475df7b0-1d65-470c-a9f5-c04f70b2d305":{"position":{"x":3323.2,"y":1326.4},"conditions":[],"conditionMetadata":[{"id":"95e05828-4845-4893-bb57-4898779a5774","operator":{"name":"Equals","value":"Equals","shortDisplay":"="},"value":"wav"},{"id":"128d75b6-c33c-4916-b57c-9f0783d390a7","operator":{"name":"Equals","value":"Equals","shortDisplay":"="},"value":"tts"}]},"27f10622-aeb5-4660-86a3-a4efb6335cf2":{"position":{"x":3317.6,"y":1040},"conditions":[],"conditionMetadata":[{"id":"e694cb22-a6e3-477d-b924-8cbe4fa2f65e","operator":{"name":"Equals","value":"Equals","shortDisplay":"="},"value":"error"},{"id":"d184e9ec-9384-4423-b2e2-e3c955dd65a4","operator":{"name":"Equals","value":"Equals","shortDisplay":"="},"value":"continue"}]},"c0e7d711-6bee-43f3-b2f0-c5b6a1f17e11":{"position":{"x":3312,"y":762.4},"parameters":{"LambdaFunctionARN":{"useDynamic":true},"LambdaInvocationAttributes":{"blockAction":{"useDynamic":true},"session":{"useDynamic":true},"selectedOption":{"useDynamic":true}}},"dynamicMetadata":{"blockAction":true,"session":true,"selectedOption":true,"function":false},"useDynamic":true},"b74eb995-3309-4ee6-8591-4a01d1977906":{"position":{"x":2954.4,"y":757.6},"conditions":[],"conditionMetadata":[{"id":"122959a5-e9ca-4c92-b9ec-5c3221683d5a","operator":{"name":"Equals","value":"Equals","shortDisplay":"="},"value":"Timeout"}]},"142a83cc-caf2-44cc-bfce-3c5f199ad3ad":{"position":{"x":2622.4,"y":1189.6},"conditionMetadata":[],"countryCodePrefix":"+1"},"196649ce-581b-436c-80f6-d09b071f7713":{"position":{"x":2616,"y":962.4},"parameters":{"Text":{"useDynamic":true}},"useDynamic":true,"conditionMetadata":[],"countryCodePrefix":"+1"},"b4cfbd52-99a0-42b5-8114-a02a5fc7b9d8":{"position":{"x":2252,"y":763.2},"conditions":[],"conditionMetadata":[{"id":"fd12cc8d-a304-466f-bc06-8af0146e558a","operator":{"name":"Equals","value":"Equals","shortDisplay":"="},"value":"wav"}]},"e329c45e-af4b-4f02-8faf-87a416917855":{"position":{"x":1928,"y":1992},"overrideConsoleVoice":false},"11c1d5ae-6c6f-4327-bc41-47cf420d31c3":{"position":{"x":1611.2,"y":929.6},"conditions":[],"conditionMetadata":[{"id":"4e5d3a3a-5c19-4dac-94f8-92b0f7458a21","operator":{"name":"Equals","value":"Equals","shortDisplay":"="},"value":"true"}]},"91ff62b1-a255-4e20-8768-0cb9206a952c":{"position":{"x":2612,"y":765.6},"parameters":{"Media":{"Uri":{"useDynamic":true}}},"useDynamic":true,"conditionMetadata":[],"countryCodePrefix":"+1"},"d7577ed0-67bd-4399-b794-a5f22072b716":{"position":{"x":2606.4,"y":458.4},"parameters":{"Text":{"useDynamic":true}},"useDynamic":true},"b714ec40-cafc-41be-b425-430901fd4d2e":{"position":{"x":2598.4,"y":163.2},"parameters":{"Media":{"Uri":{"useDynamic":true}}},"useDynamic":true},"4b3fc901-9f16-4d96-b71c-17d9cc140b2d":{"position":{"x":2242.4,"y":160},"conditions":[],"conditionMetadata":[{"id":"e2df1b6e-7b5d-4b6b-a1f2-bf65b72768bc","operator":{"name":"Equals","value":"Equals","shortDisplay":"="},"value":"wav"}]},"c0ae44b4-9f4b-49e3-8eca-cd335504524d":{"position":{"x":3908.8,"y":1553.6},"parameters":{"Attributes":{"callFlowID":{"useDynamic":true}}},"dynamicParams":["callFlowID"]},"aa2fa865-a424-4fc3-a4ae-e226d6ac8622":{"position":{"x":2964,"y":1194.4},"dynamicParams":[]},"7ed248eb-969a-4e52-8c01-c2f57cd9cf81":{"position":{"x":2257.6,"y":1839.2},"dynamicParams":[]},"c07ffe20-003b-4a71-9190-e5c437c1d30b":{"position":{"x":1900.8,"y":160.8},"dynamicParams":[]},"8824ec2a-5d7a-457f-af37-6fc1db5037e0":{"position":{"x":1914.4,"y":658.4},"dynamicParams":[]},"c00b3e1c-473d-40e6-960b-479b83088b4d":{"position":{"x":1607.2,"y":671.2},"parameters":{"LambdaFunctionARN":{"useDynamic":true},"LambdaInvocationAttributes":{"session":{"useDynamic":true},"blockParam":{"useDynamic":true}}},"dynamicMetadata":{"session":true,"blockParam":true,"function":false},"useDynamic":true},"225f94b8-82b3-4757-a195-2f2a5fa22aef":{"position":{"x":2262.4,"y":1084.8},"conditions":[],"conditionMetadata":[{"id":"398202a3-33ec-40eb-a569-8839fbe1aae0","operator":{"name":"Equals","value":"Equals","shortDisplay":"="},"value":"MENU"},{"id":"f843ff1b-f1d3-4517-b357-554a7e24935b","operator":{"name":"Equals","value":"Equals","shortDisplay":"="},"value":"INPUT2"}]},"60db0d6c-b252-4d7b-b9ce-756c922198b8":{"position":{"x":1603.2,"y":432.8},"conditions":[],"conditionMetadata":[{"id":"3f854fbc-aea2-44a0-bbba-052268e77afa","operator":{"name":"Equals","value":"Equals","shortDisplay":"="},"value":"true"}]},"6da96690-8204-4bb5-965c-e7f67f4d817f":{"position":{"x":1919.2,"y":418.4},"conditions":[],"conditionMetadata":[{"id":"0c35d988-989b-44a0-a2da-33976fcbc94b","operator":{"name":"Equals","value":"Equals","shortDisplay":"="},"value":"PLAY"}]},"6b4a121b-2124-4ed5-8788-439d3b126e9d":{"position":{"x":1620,"y":1844},"conditions":[],"conditionMetadata":[{"id":"b60bfa7c-eb84-45f1-abf4-9cbd01878650","operator":{"name":"Equals","value":"Equals","shortDisplay":"="},"value":"fr-CA"}]},"f7fa2931-19da-4543-a0ab-f19bcec035e4":{"position":{"x":1612,"y":1626.4},"parameters":{"ThirdPartyPhoneNumber":{"useDynamic":true}}},"5182b976-b12c-491f-9e21-b563241df7e3":{"position":{"x":1606.4,"y":164.8},"parameters":{"LambdaFunctionARN":{"useDynamic":true},"LambdaInvocationAttributes":{"session":{"useDynamic":true},"blockParam":{"useDynamic":true}}},"dynamicMetadata":{"session":true,"blockParam":true,"function":false},"useDynamic":true},"cc7fa2db-7aac-45f1-8369-897c1a64dda5":{"position":{"x":1226.4,"y":617.6},"conditions":[],"conditionMetadata":[{"id":"125ddb44-9f15-4b51-bd90-203352a920be","operator":{"name":"Equals","value":"Equals","shortDisplay":"="},"value":"true"}]},"3f7f675b-3f79-4bf0-8d1b-d62485687a76":{"position":{"x":902.4,"y":838.4},"parameters":{"Attributes":{"agentTip":{"useDynamic":true}}},"dynamicParams":["agentTip"]},"5823ea3e-5873-4873-bc4d-526f624b0542":{"position":{"x":1227.2,"y":383.2},"dynamicParams":[]},"49b01bde-26c8-4412-a21f-2ba9a6dd6427":{"position":{"x":898.4,"y":388.8},"parameters":{"LambdaFunctionARN":{"useDynamic":true},"LambdaInvocationAttributes":{"blockKey":{"useDynamic":true},"session":{"useDynamic":true},"error":{"useDynamic":true}}},"dynamicMetadata":{"blockKey":true,"session":true,"error":true,"function":false},"useDynamic":true},"eb287618-e653-4c2b-9f7b-3ba0caecb2ee":{"position":{"x":158.4,"y":52.8}},"12c25d54-d602-4df2-91ba-0a1acf54f743":{"position":{"x":912,"y":1565.6},"parameters":{"AnalyticsBehavior":{"AnalyticsLanguage":{"useDynamic":true}}}},"d0148d7d-66e2-43b6-a3ce-3d51b2b14009":{"position":{"x":919.2,"y":1801.6},"parameters":{"AnalyticsBehavior":{"AnalyticsLanguage":{"useDynamic":true}}}},"c0e886c4-0948-48bd-b2c6-d7195a0f985e":{"position":{"x":924,"y":2031.2},"parameters":{"AnalyticsBehavior":{"AnalyticsLanguage":{"useDynamic":true}}}},"6df6d284-9052-48d3-8ebd-922a82defb4d":{"position":{"x":924.8,"y":2234.4},"parameters":{"AnalyticsBehavior":{"AnalyticsLanguage":{"useDynamic":true}}}},"bb6a00d1-384c-45a0-bd59-ccc97c15c0c6":{"position":{"x":574.4,"y":1816.8},"conditions":[],"conditionMetadata":[{"id":"66ff168e-f3b1-451c-b07b-ead12474b0f9","operator":{"name":"Equals","value":"Equals","shortDisplay":"="},"value":"on"}]},"d1dae6f2-fb78-44ac-8bd9-c537dc8af14c":{"position":{"x":572.8,"y":1580},"conditions":[],"conditionMetadata":[{"id":"c70a6faf-4df4-4c57-953b-f2b490293fc7","operator":{"name":"Equals","value":"Equals","shortDisplay":"="},"value":"on"}]},"dc52a40e-7302-475b-8033-e3084fcd7a12":{"position":{"x":901.6,"y":629.6},"conditions":[],"conditionMetadata":[{"id":"ec86dc02-b0ff-44a3-a505-74878e3793bc","operator":{"name":"Equals","value":"Equals","shortDisplay":"="},"value":"200"}]},"fe64488b-c866-4327-8d00-c5f26172441f":{"position":{"x":4181.6,"y":27.2}},"24e396ba-a54d-40fb-ba64-5a118e98f5ab":{"position":{"x":899.2,"y":156},"conditions":[],"conditionMetadata":[{"id":"14d776bb-c21a-449f-ac62-856699bac995","operator":{"name":"Equals","value":"Equals","shortDisplay":"="},"value":"DISCONNECT"}]},"97617087-c286-422f-a378-13f0d57da13f":{"position":{"x":574.4,"y":2044.8},"conditions":[],"conditionMetadata":[{"id":"7ead8bc4-74b8-485d-bf4d-34f5eeac686a","operator":{"name":"Equals","value":"Equals","shortDisplay":"="},"value":"on"}]},"3abe2156-f72a-45bb-a37f-38b587e00556":{"position":{"x":589.6,"y":2296.8},"parameters":{"AnalyticsBehavior":{"AnalyticsLanguage":{"useDynamic":true}}}},"19bc61f1-6904-411d-9092-584c16bfda17":{"position":{"x":2257.6,"y":1628},"dynamicParams":[]},"645c5d8a-3cc2-4bfe-b415-8703c593c055":{"position":{"x":2254.4,"y":1410.4},"parameters":{"Attributes":{"callFlowID":{"useDynamic":true}}},"dynamicParams":["callFlowID"]},"ed494b28-558a-4204-aa10-cf340bb4d120":{"position":{"x":1605.6,"y":1409.6},"parameters":{"Attributes":{"callFlowID":{"useDynamic":true}}},"dynamicParams":["callFlowID"]},"90554413-2ae0-48a0-bf80-0955ec2cf0ba":{"position":{"x":1915.2,"y":1410.4}},"7b2b2ff1-4882-4baa-a1bf-dcb0050dc1c9":{"position":{"x":1912.8,"y":1157.6},"dynamicParams":[]},"2c2dd8c7-7107-48c4-bb89-d2cf6dcf86b6":{"position":{"x":4177.6,"y":185.6},"parameters":{"Attributes":{"callFlowID":{"useDynamic":true}}},"dynamicParams":["callFlowID"]},"5105d52a-b144-411c-8495-937029f809b7":{"position":{"x":911.2,"y":1053.6},"conditions":[],"conditionMetadata":[{"id":"8f96e72a-3239-4372-bab2-27654631bf57","operator":{"name":"Equals","value":"Equals","shortDisplay":"="},"value":"PLAY"},{"id":"cec5e1f7-90cd-460e-9e5f-c23ae7961820","operator":{"name":"Equals","value":"Equals","shortDisplay":"="},"value":"MENU"},{"id":"26d4bd37-4016-4319-a70d-382cb4a67051","operator":{"name":"Equals","value":"Equals","shortDisplay":"="},"value":"SETQUEUE"},{"id":"1b1fe405-9d22-4c05-87f8-a4d4dbd6ddd1","operator":{"name":"Equals","value":"Equals","shortDisplay":"="},"value":"INPUT"},{"id":"7422afe7-88a5-4981-9e62-7f6f17480be7","operator":{"name":"Equals","value":"Equals","shortDisplay":"="},"value":"QUEUE"},{"id":"d9f6b2ef-be75-4af5-bf7a-4be58540fde7","operator":{"name":"Equals","value":"Equals","shortDisplay":"="},"value":"XFER"},{"id":"42472aec-9ddd-4673-bb35-00e7d4585a55","operator":{"name":"Equals","value":"Equals","shortDisplay":"="},"value":"LANGUAGE"}]},"e70e73f5-a77e-4b28-9043-a886d0df110a":{"position":{"x":1613.6,"y":1164.8},"parameters":{"QueueId":{"useDynamic":true}},"useDynamic":true},"74234988-0e04-4f0d-a308-56725291d621":{"position":{"x":480.8,"y":1064.8},"parameters":{"Text":{"useDynamic":true}},"useDynamic":true},"16675bd5-c887-4d73-b57c-12946ff02c43":{"position":{"x":167.2,"y":1068.8},"conditions":[],"conditionMetadata":[{"id":"8ca2a8e2-927c-4f51-9123-905d5d85a7a9","operator":{"name":"Equals","value":"Equals","shortDisplay":"="},"value":"200"}]},"0cc9fa80-8352-4889-b2be-1495bd9d30b5":{"position":{"x":165.6,"y":1591.2},"conditions":[],"conditionMetadata":[{"id":"c81e25b0-30e1-4043-ba41-99916e538da6","operator":{"name":"Equals","value":"Equals","shortDisplay":"="},"value":"post"},{"id":"0f204d9c-14c5-41a9-a542-c7aac45792e1","operator":{"name":"Equals","value":"Equals","shortDisplay":"="},"value":"real"}]},"4b6d240a-57e8-4fa3-93fb-7fe215944927":{"position":{"x":164.8,"y":1281.6},"parameters":{"EventHooks":{"CustomerQueue":{"useDynamic":true}}},"useDynamic":true,"customerOrAgent":true},"5a0a112e-0677-49fe-9b9e-e3075513868e":{"position":{"x":482.4,"y":1276},"parameters":{"EventHooks":{"AgentWhisper":{"useDynamic":true}}},"useDynamic":true,"customerOrAgent":false},"59690381-fc52-4db3-b48a-441da6dcdf97":{"position":{"x":161.6,"y":241.6}},"3539ac20-2c7c-4ad2-85c1-712b4d21b835":{"position":{"x":164,"y":868.8}},"3e790f10-53f9-4f7f-81ec-83f6a13bf501":{"position":{"x":160,"y":653.6},"parameters":{"LambdaFunctionARN":{"useDynamic":true}},"dynamicMetadata":{"function":false},"useDynamic":true},"1996109e-88aa-4db8-bc76-e096abee7768":{"position":{"x":159.2,"y":444.8},"dynamicParams":[]}},"Annotations":[],"name":"Connect-RDF-Agent","description":"USED BY IGNITE-RDF","type":"queueTransfer","status":"published","hash":{}},"Actions":[{"Parameters":{"TextToSpeechEngine":"Neural","TextToSpeechStyle":"None","TextToSpeechVoice":"Gabrielle"},"Identifier":"d6e0d265-e02b-4d8b-9f43-59e333776715","Type":"UpdateContactTextToSpeechVoice","Transitions":{"NextAction":"f75bef2c-8728-43b6-95b7-8d613f7bc892"}},{"Parameters":{"LanguageCode":"fr-CA"},"Identifier":"f75bef2c-8728-43b6-95b7-8d613f7bc892","Type":"UpdateContactData","Transitions":{"NextAction":"2c2dd8c7-7107-48c4-bb89-d2cf6dcf86b6","Errors":[{"NextAction":"2c2dd8c7-7107-48c4-bb89-d2cf6dcf86b6","ErrorType":"NoMatchingError"}]}},{"Parameters":{"Text":"$.External.errorPrompt"},"Identifier":"2e78fb21-0a4f-4e53-8620-5bf748c3fb58","Type":"MessageParticipant","Transitions":{"NextAction":"4f785f2f-382f-47d0-9e04-06e3a0e58259","Errors":[{"NextAction":"c00b3e1c-473d-40e6-960b-479b83088b4d","ErrorType":"NoMatchingError"}]}},{"Parameters":{"ComparisonValue":"$.External.barge"},"Identifier":"8481d9bd-1763-456e-9d1f-5f71f714cf44","Type":"Compare","Transitions":{"NextAction":"5182b976-b12c-491f-9e21-b563241df7e3","Conditions":[{"NextAction":"c00b3e1c-473d-40e6-960b-479b83088b4d","Condition":{"Operator":"Equals","Operands":["true"]}}],"Errors":[{"NextAction":"5182b976-b12c-491f-9e21-b563241df7e3","ErrorType":"NoMatchingCondition"}]}},{"Parameters":{"ComparisonValue":"$.External.menuLoop"},"Identifier":"4f785f2f-382f-47d0-9e04-06e3a0e58259","Type":"Compare","Transitions":{"NextAction":"c0ae44b4-9f4b-49e3-8eca-cd335504524d","Conditions":[{"NextAction":"8481d9bd-1763-456e-9d1f-5f71f714cf44","Condition":{"Operator":"Equals","Operands":["true"]}}],"Errors":[{"NextAction":"c0ae44b4-9f4b-49e3-8eca-cd335504524d","ErrorType":"NoMatchingCondition"}]}},{"Parameters":{"Media":{"Uri":"$.External.errorPrompt","SourceType":"S3","MediaType":"Audio"}},"Identifier":"a9869bdd-8c85-4aff-8a42-8f427878cf05","Type":"MessageParticipant","Transitions":{"NextAction":"4f785f2f-382f-47d0-9e04-06e3a0e58259","Errors":[{"NextAction":"c00b3e1c-473d-40e6-960b-479b83088b4d","ErrorType":"NoMatchingError"}]}},{"Parameters":{"ComparisonValue":"$.External.errorPromptType"},"Identifier":"475df7b0-1d65-470c-a9f5-c04f70b2d305","Type":"Compare","Transitions":{"NextAction":"4f785f2f-382f-47d0-9e04-06e3a0e58259","Conditions":[{"NextAction":"a9869bdd-8c85-4aff-8a42-8f427878cf05","Condition":{"Operator":"Equals","Operands":["wav"]}},{"NextAction":"2e78fb21-0a4f-4e53-8620-5bf748c3fb58","Condition":{"Operator":"Equals","Operands":["tts"]}}],"Errors":[{"NextAction":"4f785f2f-382f-47d0-9e04-06e3a0e58259","ErrorType":"NoMatchingCondition"}]}},{"Parameters":{"ComparisonValue":"$.External.blockAction"},"Identifier":"27f10622-aeb5-4660-86a3-a4efb6335cf2","Type":"Compare","Transitions":{"NextAction":"2c2dd8c7-7107-48c4-bb89-d2cf6dcf86b6","Conditions":[{"NextAction":"475df7b0-1d65-470c-a9f5-c04f70b2d305","Condition":{"Operator":"Equals","Operands":["error"]}},{"NextAction":"225f94b8-82b3-4757-a195-2f2a5fa22aef","Condition":{"Operator":"Equals","Operands":["continue"]}}],"Errors":[{"NextAction":"2c2dd8c7-7107-48c4-bb89-d2cf6dcf86b6","ErrorType":"NoMatchingCondition"}]}},{"Parameters":{"LambdaFunctionARN":"$.Attributes.RDF","InvocationTimeLimitSeconds":"8","LambdaInvocationAttributes":{"blockAction":"$.External.blockAction","session":"$.External.session","selectedOption":"$.StoredCustomerInput","function":"menu"},"ResponseValidation":{"ResponseType":"STRING_MAP"}},"Identifier":"c0e7d711-6bee-43f3-b2f0-c5b6a1f17e11","Type":"InvokeLambdaFunction","Transitions":{"NextAction":"27f10622-aeb5-4660-86a3-a4efb6335cf2","Errors":[{"NextAction":"aa2fa865-a424-4fc3-a4ae-e226d6ac8622","ErrorType":"NoMatchingError"}]}},{"Parameters":{"ComparisonValue":"$.StoredCustomerInput"},"Identifier":"b74eb995-3309-4ee6-8591-4a01d1977906","Type":"Compare","Transitions":{"NextAction":"c0e7d711-6bee-43f3-b2f0-c5b6a1f17e11","Conditions":[{"NextAction":"c00b3e1c-473d-40e6-960b-479b83088b4d","Condition":{"Operator":"Equals","Operands":["Timeout"]}}],"Errors":[{"NextAction":"c0e7d711-6bee-43f3-b2f0-c5b6a1f17e11","ErrorType":"NoMatchingCondition"}]}},{"Parameters":{"StoreInput":"True","InputTimeLimitSeconds":"3","Text":" ","DTMFConfiguration":{"DisableCancelKey":"False"},"InputValidation":{"CustomValidation":{"MaximumLength":"1"}}},"Identifier":"142a83cc-caf2-44cc-bfce-3c5f199ad3ad","Type":"GetParticipantInput","Transitions":{"NextAction":"c0e7d711-6bee-43f3-b2f0-c5b6a1f17e11","Errors":[{"NextAction":"aa2fa865-a424-4fc3-a4ae-e226d6ac8622","ErrorType":"NoMatchingError"}]}},{"Parameters":{"StoreInput":"True","InputTimeLimitSeconds":"1","Text":"$.External.prompt","DTMFConfiguration":{"DisableCancelKey":"False"},"InputValidation":{"CustomValidation":{"MaximumLength":"1"}}},"Identifier":"196649ce-581b-436c-80f6-d09b071f7713","Type":"GetParticipantInput","Transitions":{"NextAction":"b74eb995-3309-4ee6-8591-4a01d1977906","Errors":[{"NextAction":"aa2fa865-a424-4fc3-a4ae-e226d6ac8622","ErrorType":"NoMatchingError"}]}},{"Parameters":{"ComparisonValue":"$.External.promptType"},"Identifier":"b4cfbd52-99a0-42b5-8114-a02a5fc7b9d8","Type":"Compare","Transitions":{"NextAction":"196649ce-581b-436c-80f6-d09b071f7713","Conditions":[{"NextAction":"91ff62b1-a255-4e20-8768-0cb9206a952c","Condition":{"Operator":"Equals","Operands":["wav"]}}],"Errors":[{"NextAction":"196649ce-581b-436c-80f6-d09b071f7713","ErrorType":"NoMatchingCondition"}]}},{"Parameters":{"TextToSpeechVoice":"Joanna"},"Identifier":"e329c45e-af4b-4f02-8faf-87a416917855","Type":"UpdateContactTextToSpeechVoice","Transitions":{"NextAction":"2c2dd8c7-7107-48c4-bb89-d2cf6dcf86b6"}},{"Parameters":{"ComparisonValue":"$.External.promptLoop"},"Identifier":"11c1d5ae-6c6f-4327-bc41-47cf420d31c3","Type":"Compare","Transitions":{"NextAction":"225f94b8-82b3-4757-a195-2f2a5fa22aef","Conditions":[{"NextAction":"b4cfbd52-99a0-42b5-8114-a02a5fc7b9d8","Condition":{"Operator":"Equals","Operands":["true"]}}],"Errors":[{"NextAction":"225f94b8-82b3-4757-a195-2f2a5fa22aef","ErrorType":"NoMatchingCondition"}]}},{"Parameters":{"StoreInput":"True","InputTimeLimitSeconds":"1","Media":{"Uri":"$.External.prompt","SourceType":"S3","MediaType":"Audio"},"DTMFConfiguration":{"DisableCancelKey":"False"},"InputValidation":{"CustomValidation":{"MaximumLength":"1"}}},"Identifier":"91ff62b1-a255-4e20-8768-0cb9206a952c","Type":"GetParticipantInput","Transitions":{"NextAction":"b74eb995-3309-4ee6-8591-4a01d1977906","Errors":[{"NextAction":"aa2fa865-a424-4fc3-a4ae-e226d6ac8622","ErrorType":"NoMatchingError"}]}},{"Parameters":{"Text":"$.External.prompt"},"Identifier":"d7577ed0-67bd-4399-b794-a5f22072b716","Type":"MessageParticipant","Transitions":{"NextAction":"5182b976-b12c-491f-9e21-b563241df7e3","Errors":[{"NextAction":"5182b976-b12c-491f-9e21-b563241df7e3","ErrorType":"NoMatchingError"}]}},{"Parameters":{"Media":{"Uri":"$.External.prompt","SourceType":"S3","MediaType":"Audio"}},"Identifier":"b714ec40-cafc-41be-b425-430901fd4d2e","Type":"MessageParticipant","Transitions":{"NextAction":"5182b976-b12c-491f-9e21-b563241df7e3","Errors":[{"NextAction":"5182b976-b12c-491f-9e21-b563241df7e3","ErrorType":"NoMatchingError"}]}},{"Parameters":{"ComparisonValue":"$.External.promptType"},"Identifier":"4b3fc901-9f16-4d96-b71c-17d9cc140b2d","Type":"Compare","Transitions":{"NextAction":"d7577ed0-67bd-4399-b794-a5f22072b716","Conditions":[{"NextAction":"b714ec40-cafc-41be-b425-430901fd4d2e","Condition":{"Operator":"Equals","Operands":["wav"]}}],"Errors":[{"NextAction":"d7577ed0-67bd-4399-b794-a5f22072b716","ErrorType":"NoMatchingCondition"}]}},{"Parameters":{"Attributes":{"callFlowID":"$.External.maxAction"},"TargetContact":"Current"},"Identifier":"c0ae44b4-9f4b-49e3-8eca-cd335504524d","Type":"UpdateContactAttributes","Transitions":{"NextAction":"24e396ba-a54d-40fb-ba64-5a118e98f5ab","Errors":[{"NextAction":"24e396ba-a54d-40fb-ba64-5a118e98f5ab","ErrorType":"NoMatchingError"}]}},{"Parameters":{"Attributes":{"errorMessage":"Store Input Failure","callFlowID":"ERROR"},"TargetContact":"Current"},"Identifier":"aa2fa865-a424-4fc3-a4ae-e226d6ac8622","Type":"UpdateContactAttributes","Transitions":{"NextAction":"24e396ba-a54d-40fb-ba64-5a118e98f5ab","Errors":[{"NextAction":"24e396ba-a54d-40fb-ba64-5a118e98f5ab","ErrorType":"NoMatchingError"}]}},{"Parameters":{"Attributes":{"errorMessage":"Transfer to Phone Number Failure","callFlowID":"ERROR"},"TargetContact":"Current"},"Identifier":"7ed248eb-969a-4e52-8c01-c2f57cd9cf81","Type":"UpdateContactAttributes","Transitions":{"NextAction":"24e396ba-a54d-40fb-ba64-5a118e98f5ab","Errors":[{"NextAction":"24e396ba-a54d-40fb-ba64-5a118e98f5ab","ErrorType":"NoMatchingError"}]}},{"Parameters":{"Attributes":{"errorMessage":"Play Prompts Failure","callFlowID":"ERROR"},"TargetContact":"Current"},"Identifier":"c07ffe20-003b-4a71-9190-e5c437c1d30b","Type":"UpdateContactAttributes","Transitions":{"NextAction":"24e396ba-a54d-40fb-ba64-5a118e98f5ab","Errors":[{"NextAction":"24e396ba-a54d-40fb-ba64-5a118e98f5ab","ErrorType":"NoMatchingError"}]}},{"Parameters":{"Attributes":{"errorMessage":"Get Input Prompts Failure","callFlowID":"ERROR"},"TargetContact":"Current"},"Identifier":"8824ec2a-5d7a-457f-af37-6fc1db5037e0","Type":"UpdateContactAttributes","Transitions":{"NextAction":"24e396ba-a54d-40fb-ba64-5a118e98f5ab","Errors":[{"NextAction":"24e396ba-a54d-40fb-ba64-5a118e98f5ab","ErrorType":"NoMatchingError"}]}},{"Parameters":{"LambdaFunctionARN":"$.Attributes.RDF","InvocationTimeLimitSeconds":"8","LambdaInvocationAttributes":{"session":"$.External.session","blockParam":"$.External.blockParam","function":"prompts"},"ResponseValidation":{"ResponseType":"STRING_MAP"}},"Identifier":"c00b3e1c-473d-40e6-960b-479b83088b4d","Type":"InvokeLambdaFunction","Transitions":{"NextAction":"11c1d5ae-6c6f-4327-bc41-47cf420d31c3","Errors":[{"NextAction":"8824ec2a-5d7a-457f-af37-6fc1db5037e0","ErrorType":"NoMatchingError"}]}},{"Parameters":{"ComparisonValue":"$.External.blockType"},"Identifier":"225f94b8-82b3-4757-a195-2f2a5fa22aef","Type":"Compare","Transitions":{"NextAction":"142a83cc-caf2-44cc-bfce-3c5f199ad3ad","Conditions":[{"NextAction":"142a83cc-caf2-44cc-bfce-3c5f199ad3ad","Condition":{"Operator":"Equals","Operands":["MENU"]}},{"NextAction":"142a83cc-caf2-44cc-bfce-3c5f199ad3ad","Condition":{"Operator":"Equals","Operands":["INPUT2"]}}],"Errors":[{"NextAction":"142a83cc-caf2-44cc-bfce-3c5f199ad3ad","ErrorType":"NoMatchingCondition"}]}},{"Parameters":{"ComparisonValue":"$.External.promptLoop"},"Identifier":"60db0d6c-b252-4d7b-b9ce-756c922198b8","Type":"Compare","Transitions":{"NextAction":"6da96690-8204-4bb5-965c-e7f67f4d817f","Conditions":[{"NextAction":"4b3fc901-9f16-4d96-b71c-17d9cc140b2d","Condition":{"Operator":"Equals","Operands":["true"]}}],"Errors":[{"NextAction":"6da96690-8204-4bb5-965c-e7f67f4d817f","ErrorType":"NoMatchingCondition"}]}},{"Parameters":{"ComparisonValue":"$.External.blockType"},"Identifier":"6da96690-8204-4bb5-965c-e7f67f4d817f","Type":"Compare","Transitions":{"NextAction":"225f94b8-82b3-4757-a195-2f2a5fa22aef","Conditions":[{"NextAction":"2c2dd8c7-7107-48c4-bb89-d2cf6dcf86b6","Condition":{"Operator":"Equals","Operands":["PLAY"]}}],"Errors":[{"NextAction":"225f94b8-82b3-4757-a195-2f2a5fa22aef","ErrorType":"NoMatchingCondition"}]}},{"Parameters":{"ComparisonValue":"$.External.blockParam"},"Identifier":"6b4a121b-2124-4ed5-8788-439d3b126e9d","Type":"Compare","Transitions":{"NextAction":"e329c45e-af4b-4f02-8faf-87a416917855","Conditions":[{"NextAction":"d6e0d265-e02b-4d8b-9f43-59e333776715","Condition":{"Operator":"Equals","Operands":["fr-CA"]}}],"Errors":[{"NextAction":"e329c45e-af4b-4f02-8faf-87a416917855","ErrorType":"NoMatchingCondition"}]}},{"Parameters":{"ThirdPartyPhoneNumber":"$.External.blockParam","ThirdPartyConnectionTimeLimitSeconds":"30","ContinueFlowExecution":"False"},"Identifier":"f7fa2931-19da-4543-a0ab-f19bcec035e4","Type":"TransferParticipantToThirdParty","Transitions":{"NextAction":"7ed248eb-969a-4e52-8c01-c2f57cd9cf81","Errors":[{"NextAction":"7ed248eb-969a-4e52-8c01-c2f57cd9cf81","ErrorType":"NoMatchingError"}]}},{"Parameters":{"LambdaFunctionARN":"$.Attributes.RDF","InvocationTimeLimitSeconds":"8","LambdaInvocationAttributes":{"session":"$.External.session","blockParam":"$.External.blockParam","function":"prompts"},"ResponseValidation":{"ResponseType":"STRING_MAP"}},"Identifier":"5182b976-b12c-491f-9e21-b563241df7e3","Type":"InvokeLambdaFunction","Transitions":{"NextAction":"60db0d6c-b252-4d7b-b9ce-756c922198b8","Errors":[{"NextAction":"c07ffe20-003b-4a71-9190-e5c437c1d30b","ErrorType":"NoMatchingError"}]}},{"Parameters":{"ComparisonValue":"$.External.barge"},"Identifier":"cc7fa2db-7aac-45f1-8369-897c1a64dda5","Type":"Compare","Transitions":{"NextAction":"5182b976-b12c-491f-9e21-b563241df7e3","Conditions":[{"NextAction":"c00b3e1c-473d-40e6-960b-479b83088b4d","Condition":{"Operator":"Equals","Operands":["true"]}}],"Errors":[{"NextAction":"5182b976-b12c-491f-9e21-b563241df7e3","ErrorType":"NoMatchingCondition"}]}},{"Parameters":{"Attributes":{"agentTip":"$.External.agentTip"},"TargetContact":"Current"},"Identifier":"3f7f675b-3f79-4bf0-8d1b-d62485687a76","Type":"UpdateContactAttributes","Transitions":{"NextAction":"5105d52a-b144-411c-8495-937029f809b7","Errors":[{"NextAction":"5105d52a-b144-411c-8495-937029f809b7","ErrorType":"NoMatchingError"}]}},{"Parameters":{"Attributes":{"errorMessage":"Controller Failure","callFlowID":"ERROR"},"TargetContact":"Current"},"Identifier":"5823ea3e-5873-4873-bc4d-526f624b0542","Type":"UpdateContactAttributes","Transitions":{"NextAction":"24e396ba-a54d-40fb-ba64-5a118e98f5ab","Errors":[{"NextAction":"24e396ba-a54d-40fb-ba64-5a118e98f5ab","ErrorType":"NoMatchingError"}]}},{"Parameters":{"LambdaFunctionARN":"$.Attributes.RDF","InvocationTimeLimitSeconds":"8","LambdaInvocationAttributes":{"blockKey":"$.Attributes.callFlowID","session":"$.External.session","error":"$.Attributes.errorMessage","function":"controller"},"ResponseValidation":{"ResponseType":"STRING_MAP"}},"Identifier":"49b01bde-26c8-4412-a21f-2ba9a6dd6427","Type":"InvokeLambdaFunction","Transitions":{"NextAction":"dc52a40e-7302-475b-8033-e3084fcd7a12","Errors":[{"NextAction":"5823ea3e-5873-4873-bc4d-526f624b0542","ErrorType":"NoMatchingError"}]}},{"Parameters":{"FlowLoggingBehavior":"Enabled"},"Identifier":"eb287618-e653-4c2b-9f7b-3ba0caecb2ee","Type":"UpdateFlowLoggingBehavior","Transitions":{"NextAction":"59690381-fc52-4db3-b48a-441da6dcdf97"}},{"Parameters":{"RecordingBehavior":{"RecordedParticipants":["Agent","Customer"]},"AnalyticsBehavior":{"Enabled":"True","AnalyticsLanguage":"$.External.language","AnalyticsRedactionBehavior":"Disabled","AnalyticsRedactionResults":"RedactedAndOriginal","ChannelConfiguration":{"Chat":{"AnalyticsModes":["ContactLens"]},"Voice":{"AnalyticsModes":["PostContact"]}}}},"Identifier":"12c25d54-d602-4df2-91ba-0a1acf54f743","Type":"UpdateContactRecordingBehavior","Transitions":{"NextAction":"24e396ba-a54d-40fb-ba64-5a118e98f5ab"}},{"Parameters":{"RecordingBehavior":{"RecordedParticipants":["Agent","Customer"]},"AnalyticsBehavior":{"Enabled":"True","AnalyticsLanguage":"$.External.language","AnalyticsRedactionBehavior":"Disabled","AnalyticsRedactionResults":"RedactedAndOriginal","ChannelConfiguration":{"Chat":{"AnalyticsModes":[]},"Voice":{"AnalyticsModes":["PostContact"]}}}},"Identifier":"d0148d7d-66e2-43b6-a3ce-3d51b2b14009","Type":"UpdateContactRecordingBehavior","Transitions":{"NextAction":"24e396ba-a54d-40fb-ba64-5a118e98f5ab"}},{"Parameters":{"RecordingBehavior":{"RecordedParticipants":["Agent","Customer"]},"AnalyticsBehavior":{"Enabled":"True","AnalyticsLanguage":"$.External.language","AnalyticsRedactionBehavior":"Disabled","AnalyticsRedactionResults":"RedactedAndOriginal","ChannelConfiguration":{"Chat":{"AnalyticsModes":["ContactLens"]},"Voice":{"AnalyticsModes":["RealTime"]}}}},"Identifier":"c0e886c4-0948-48bd-b2c6-d7195a0f985e","Type":"UpdateContactRecordingBehavior","Transitions":{"NextAction":"24e396ba-a54d-40fb-ba64-5a118e98f5ab"}},{"Parameters":{"RecordingBehavior":{"RecordedParticipants":["Agent","Customer"]},"AnalyticsBehavior":{"Enabled":"True","AnalyticsLanguage":"$.External.language","AnalyticsRedactionBehavior":"Disabled","AnalyticsRedactionResults":"RedactedAndOriginal","ChannelConfiguration":{"Chat":{"AnalyticsModes":[]},"Voice":{"AnalyticsModes":["RealTime"]}}}},"Identifier":"6df6d284-9052-48d3-8ebd-922a82defb4d","Type":"UpdateContactRecordingBehavior","Transitions":{"NextAction":"24e396ba-a54d-40fb-ba64-5a118e98f5ab"}},{"Parameters":{"ComparisonValue":"$.External.chatAnalytics"},"Identifier":"bb6a00d1-384c-45a0-bd59-ccc97c15c0c6","Type":"Compare","Transitions":{"NextAction":"6df6d284-9052-48d3-8ebd-922a82defb4d","Conditions":[{"NextAction":"c0e886c4-0948-48bd-b2c6-d7195a0f985e","Condition":{"Operator":"Equals","Operands":["on"]}}],"Errors":[{"NextAction":"6df6d284-9052-48d3-8ebd-922a82defb4d","ErrorType":"NoMatchingCondition"}]}},{"Parameters":{"ComparisonValue":"$.External.chatAnalytics"},"Identifier":"d1dae6f2-fb78-44ac-8bd9-c537dc8af14c","Type":"Compare","Transitions":{"NextAction":"d0148d7d-66e2-43b6-a3ce-3d51b2b14009","Conditions":[{"NextAction":"12c25d54-d602-4df2-91ba-0a1acf54f743","Condition":{"Operator":"Equals","Operands":["on"]}}],"Errors":[{"NextAction":"d0148d7d-66e2-43b6-a3ce-3d51b2b14009","ErrorType":"NoMatchingCondition"}]}},{"Parameters":{"ComparisonValue":"$.External.statusCode"},"Identifier":"dc52a40e-7302-475b-8033-e3084fcd7a12","Type":"Compare","Transitions":{"NextAction":"74234988-0e04-4f0d-a308-56725291d621","Conditions":[{"NextAction":"3f7f675b-3f79-4bf0-8d1b-d62485687a76","Condition":{"Operator":"Equals","Operands":["200"]}}],"Errors":[{"NextAction":"74234988-0e04-4f0d-a308-56725291d621","ErrorType":"NoMatchingCondition"}]}},{"Parameters":{},"Identifier":"fe64488b-c866-4327-8d00-c5f26172441f","Type":"DisconnectParticipant","Transitions":{}},{"Parameters":{"ComparisonValue":"$.Attributes.callFlowID"},"Identifier":"24e396ba-a54d-40fb-ba64-5a118e98f5ab","Type":"Compare","Transitions":{"NextAction":"49b01bde-26c8-4412-a21f-2ba9a6dd6427","Conditions":[{"NextAction":"fe64488b-c866-4327-8d00-c5f26172441f","Condition":{"Operator":"Equals","Operands":["DISCONNECT"]}}],"Errors":[{"NextAction":"49b01bde-26c8-4412-a21f-2ba9a6dd6427","ErrorType":"NoMatchingCondition"}]}},{"Parameters":{"ComparisonValue":"$.External.chatAnalytics"},"Identifier":"97617087-c286-422f-a378-13f0d57da13f","Type":"Compare","Transitions":{"NextAction":"24e396ba-a54d-40fb-ba64-5a118e98f5ab","Conditions":[{"NextAction":"3abe2156-f72a-45bb-a37f-38b587e00556","Condition":{"Operator":"Equals","Operands":["on"]}}],"Errors":[{"NextAction":"24e396ba-a54d-40fb-ba64-5a118e98f5ab","ErrorType":"NoMatchingCondition"}]}},{"Parameters":{"RecordingBehavior":{"RecordedParticipants":["Agent","Customer"]},"AnalyticsBehavior":{"Enabled":"True","AnalyticsLanguage":"$.External.language","AnalyticsRedactionBehavior":"Disabled","AnalyticsRedactionResults":"RedactedAndOriginal","ChannelConfiguration":{"Chat":{"AnalyticsModes":["ContactLens"]},"Voice":{"AnalyticsModes":[]}}}},"Identifier":"3abe2156-f72a-45bb-a37f-38b587e00556","Type":"UpdateContactRecordingBehavior","Transitions":{"NextAction":"24e396ba-a54d-40fb-ba64-5a118e98f5ab"}},{"Parameters":{"Attributes":{"errorMessage":"Transfer to Queue Failure","callFlowID":"ERROR"},"TargetContact":"Current"},"Identifier":"19bc61f1-6904-411d-9092-584c16bfda17","Type":"UpdateContactAttributes","Transitions":{"NextAction":"24e396ba-a54d-40fb-ba64-5a118e98f5ab","Errors":[{"NextAction":"24e396ba-a54d-40fb-ba64-5a118e98f5ab","ErrorType":"NoMatchingError"}]}},{"Parameters":{"Attributes":{"callFlowID":"$.External.actionFalse"},"TargetContact":"Current"},"Identifier":"645c5d8a-3cc2-4bfe-b415-8703c593c055","Type":"UpdateContactAttributes","Transitions":{"NextAction":"24e396ba-a54d-40fb-ba64-5a118e98f5ab","Errors":[{"NextAction":"24e396ba-a54d-40fb-ba64-5a118e98f5ab","ErrorType":"NoMatchingError"}]}},{"Parameters":{"Attributes":{"callFlowID":"$.External.blockAction"},"TargetContact":"Current"},"Identifier":"ed494b28-558a-4204-aa10-cf340bb4d120","Type":"UpdateContactAttributes","Transitions":{"NextAction":"90554413-2ae0-48a0-bf80-0955ec2cf0ba","Errors":[{"NextAction":"90554413-2ae0-48a0-bf80-0955ec2cf0ba","ErrorType":"NoMatchingError"}]}},{"Parameters":{},"Identifier":"90554413-2ae0-48a0-bf80-0955ec2cf0ba","Type":"TransferContactToQueue","Transitions":{"NextAction":"19bc61f1-6904-411d-9092-584c16bfda17","Errors":[{"NextAction":"645c5d8a-3cc2-4bfe-b415-8703c593c055","ErrorType":"QueueAtCapacity"},{"NextAction":"19bc61f1-6904-411d-9092-584c16bfda17","ErrorType":"NoMatchingError"}]}},{"Parameters":{"Attributes":{"errorMessage":"Set Queue Failure","callFlowID":"ERROR"},"TargetContact":"Current"},"Identifier":"7b2b2ff1-4882-4baa-a1bf-dcb0050dc1c9","Type":"UpdateContactAttributes","Transitions":{"NextAction":"24e396ba-a54d-40fb-ba64-5a118e98f5ab","Errors":[{"NextAction":"24e396ba-a54d-40fb-ba64-5a118e98f5ab","ErrorType":"NoMatchingError"}]}},{"Parameters":{"Attributes":{"callFlowID":"$.External.blockAction"},"TargetContact":"Current"},"Identifier":"2c2dd8c7-7107-48c4-bb89-d2cf6dcf86b6","Type":"UpdateContactAttributes","Transitions":{"NextAction":"24e396ba-a54d-40fb-ba64-5a118e98f5ab","Errors":[{"NextAction":"24e396ba-a54d-40fb-ba64-5a118e98f5ab","ErrorType":"NoMatchingError"}]}},{"Parameters":{"ComparisonValue":"$.External.blockType"},"Identifier":"5105d52a-b144-411c-8495-937029f809b7","Type":"Compare","Transitions":{"NextAction":"2c2dd8c7-7107-48c4-bb89-d2cf6dcf86b6","Conditions":[{"NextAction":"5182b976-b12c-491f-9e21-b563241df7e3","Condition":{"Operator":"Equals","Operands":["PLAY"]}},{"NextAction":"cc7fa2db-7aac-45f1-8369-897c1a64dda5","Condition":{"Operator":"Equals","Operands":["MENU"]}},{"NextAction":"e70e73f5-a77e-4b28-9043-a886d0df110a","Condition":{"Operator":"Equals","Operands":["SETQUEUE"]}},{"NextAction":"cc7fa2db-7aac-45f1-8369-897c1a64dda5","Condition":{"Operator":"Equals","Operands":["INPUT"]}},{"NextAction":"ed494b28-558a-4204-aa10-cf340bb4d120","Condition":{"Operator":"Equals","Operands":["QUEUE"]}},{"NextAction":"f7fa2931-19da-4543-a0ab-f19bcec035e4","Condition":{"Operator":"Equals","Operands":["XFER"]}},{"NextAction":"6b4a121b-2124-4ed5-8788-439d3b126e9d","Condition":{"Operator":"Equals","Operands":["LANGUAGE"]}}],"Errors":[{"NextAction":"2c2dd8c7-7107-48c4-bb89-d2cf6dcf86b6","ErrorType":"NoMatchingCondition"}]}},{"Parameters":{"QueueId":"$.External.blockParam"},"Identifier":"e70e73f5-a77e-4b28-9043-a886d0df110a","Type":"UpdateContactTargetQueue","Transitions":{"NextAction":"2c2dd8c7-7107-48c4-bb89-d2cf6dcf86b6","Errors":[{"NextAction":"7b2b2ff1-4882-4baa-a1bf-dcb0050dc1c9","ErrorType":"NoMatchingError"}]}},{"Parameters":{"Text":"$.External.body"},"Identifier":"74234988-0e04-4f0d-a308-56725291d621","Type":"MessageParticipant","Transitions":{"NextAction":"fe64488b-c866-4327-8d00-c5f26172441f","Errors":[{"NextAction":"fe64488b-c866-4327-8d00-c5f26172441f","ErrorType":"NoMatchingError"}]}},{"Parameters":{"ComparisonValue":"$.External.statusCode"},"Identifier":"16675bd5-c887-4d73-b57c-12946ff02c43","Type":"Compare","Transitions":{"NextAction":"74234988-0e04-4f0d-a308-56725291d621","Conditions":[{"NextAction":"4b6d240a-57e8-4fa3-93fb-7fe215944927","Condition":{"Operator":"Equals","Operands":["200"]}}],"Errors":[{"NextAction":"74234988-0e04-4f0d-a308-56725291d621","ErrorType":"NoMatchingCondition"}]}},{"Parameters":{"ComparisonValue":"$.External.speechAnalytics"},"Identifier":"0cc9fa80-8352-4889-b2be-1495bd9d30b5","Type":"Compare","Transitions":{"NextAction":"97617087-c286-422f-a378-13f0d57da13f","Conditions":[{"NextAction":"d1dae6f2-fb78-44ac-8bd9-c537dc8af14c","Condition":{"Operator":"Equals","Operands":["post"]}},{"NextAction":"bb6a00d1-384c-45a0-bd59-ccc97c15c0c6","Condition":{"Operator":"Equals","Operands":["real"]}}],"Errors":[{"NextAction":"97617087-c286-422f-a378-13f0d57da13f","ErrorType":"NoMatchingCondition"}]}},{"Parameters":{"EventHooks":{"CustomerQueue":"$.External.QueueFlowID"}},"Identifier":"4b6d240a-57e8-4fa3-93fb-7fe215944927","Type":"UpdateContactEventHooks","Transitions":{"NextAction":"5a0a112e-0677-49fe-9b9e-e3075513868e","Errors":[{"NextAction":"5a0a112e-0677-49fe-9b9e-e3075513868e","ErrorType":"NoMatchingError"}]}},{"Parameters":{"EventHooks":{"AgentWhisper":"$.External.AgentWhisperFlowID"}},"Identifier":"5a0a112e-0677-49fe-9b9e-e3075513868e","Type":"UpdateContactEventHooks","Transitions":{"NextAction":"0cc9fa80-8352-4889-b2be-1495bd9d30b5","Errors":[{"NextAction":"0cc9fa80-8352-4889-b2be-1495bd9d30b5","ErrorType":"NoMatchingError"}]}},{"Parameters":{"RecordingBehavior":{"RecordedParticipants":["Agent","Customer"]},"AnalyticsBehavior":{"Enabled":"True","AnalyticsLanguage":"en-US","AnalyticsRedactionBehavior":"Disabled","AnalyticsRedactionResults":"RedactedAndOriginal","ChannelConfiguration":{"Chat":{"AnalyticsModes":[]},"Voice":{"AnalyticsModes":["PostContact"]}}}},"Identifier":"59690381-fc52-4db3-b48a-441da6dcdf97","Type":"UpdateContactRecordingBehavior","Transitions":{"NextAction":"1996109e-88aa-4db8-bc76-e096abee7768"}},{"Parameters":{"Text":"Sorry.  We are experiencing technical difficulties.  Please try your call again later.  Goodbye."},"Identifier":"3539ac20-2c7c-4ad2-85c1-712b4d21b835","Type":"MessageParticipant","Transitions":{"NextAction":"fe64488b-c866-4327-8d00-c5f26172441f","Errors":[{"NextAction":"fe64488b-c866-4327-8d00-c5f26172441f","ErrorType":"NoMatchingError"}]}},{"Parameters":{"LambdaFunctionARN":"$.Attributes.RDF","InvocationTimeLimitSeconds":"8","LambdaInvocationAttributes":{"function":"agent"},"ResponseValidation":{"ResponseType":"STRING_MAP"}},"Identifier":"3e790f10-53f9-4f7f-81ec-83f6a13bf501","Type":"InvokeLambdaFunction","Transitions":{"NextAction":"16675bd5-c887-4d73-b57c-12946ff02c43","Errors":[{"NextAction":"3539ac20-2c7c-4ad2-85c1-712b4d21b835","ErrorType":"NoMatchingError"}]}},{"Parameters":{"Attributes":{"errorMessage":"NA","RDF":"arn:aws:lambda:<REGION>:<RDF_ACCOUNT>:function:Ignite-RDF:<OU>"},"TargetContact":"Current"},"Identifier":"1996109e-88aa-4db8-bc76-e096abee7768","Type":"UpdateContactAttributes","Transitions":{"NextAction":"3e790f10-53f9-4f7f-81ec-83f6a13bf501","Errors":[{"NextAction":"3539ac20-2c7c-4ad2-85c1-712b4d21b835","ErrorType":"NoMatchingError"}]}}]}
+{
+  "Version": "2019-10-30",
+  "StartAction": "1996109e-88aa-4db8-bc76-e096abee7768",
+  "Metadata": {
+    "entryPointPosition": {
+      "x": 26.4,
+      "y": 72
+    },
+    "ActionMetadata": {
+      "a175b5bf-7fc0-4ebd-be54-2b32f14daba3": {
+        "position": {
+          "x": 2251.2,
+          "y": 452
+        }
+      },
+      "8ccd73d7-5441-4ec9-8c2c-3352c7847478": {
+        "position": {
+          "x": 2252.8,
+          "y": 636.8
+        }
+      },
+      "dc955832-df93-4e16-a404-8970e0114116": {
+        "position": {
+          "x": 3613.6,
+          "y": 471.2
+        }
+      },
+      "16e94047-e070-44aa-bc1d-ef9874e9415e": {
+        "position": {
+          "x": 1955.2,
+          "y": 343.2
+        },
+        "conditions": [],
+        "conditionMetadata": [
+          {
+            "id": "f385340a-c20f-40de-9757-0e19185d2e8c",
+            "operator": {
+              "name": "Equals",
+              "value": "Equals",
+              "shortDisplay": "="
+            },
+            "value": "on"
+          }
+        ]
+      },
+      "067bd0a1-3366-4b7d-a5ea-4bb401580a18": {
+        "position": {
+          "x": 2252,
+          "y": 67.2
+        }
+      },
+      "5860774a-987b-4b72-8c6c-4d3b37f7b8bc": {
+        "position": {
+          "x": 2252,
+          "y": 235.2
+        }
+      },
+      "9dd75250-1aa1-4a7f-bf0c-cafa1bcefb5e": {
+        "position": {
+          "x": 1948.8,
+          "y": 45.6
+        },
+        "conditions": [],
+        "conditionMetadata": [
+          {
+            "id": "e5f363b3-9c07-4d21-bc16-7aa18a5de37e",
+            "operator": {
+              "name": "Equals",
+              "value": "Equals",
+              "shortDisplay": "="
+            },
+            "value": "on"
+          }
+        ]
+      },
+      "a4f7dd1a-15be-4d10-b53f-8ce1b993f685": {
+        "position": {
+          "x": 2566.4,
+          "y": 67.2
+        },
+        "parameters": {
+          "EventHooks": {
+            "CustomerQueue": {
+              "useDynamic": true
+            }
+          }
+        },
+        "useDynamic": true,
+        "customerOrAgent": true
+      },
+      "cc6ebb7f-4535-412e-8c18-e8f384b4223f": {
+        "position": {
+          "x": 1697.6,
+          "y": 42.4
+        },
+        "conditions": [],
+        "conditionMetadata": [
+          {
+            "id": "515be6e4-36a8-48e2-bb57-6db54a984d28",
+            "operator": {
+              "name": "Equals",
+              "value": "Equals",
+              "shortDisplay": "="
+            },
+            "value": "on"
+          }
+        ]
+      },
+      "8ec89265-28c2-4d1c-8b6a-ed07dfb56fea": {
+        "position": {
+          "x": 1212.8,
+          "y": 39.2
+        },
+        "parameters": {
+          "Attributes": {
+            "ConnectRDFInitID": {
+              "useDynamic": true
+            },
+            "ConnectRDFPlayID": {
+              "useDynamic": true
+            },
+            "ConnectRDFMainID": {
+              "useDynamic": true
+            },
+            "ConnectRDFLanguagesID": {
+              "useDynamic": true
+            },
+            "ConnectRDFRecordID": {
+              "useDynamic": true
+            }
+          }
+        },
+        "dynamicParams": [
+          "ConnectRDFInitID",
+          "ConnectRDFPlayID",
+          "ConnectRDFMainID",
+          "ConnectRDFLanguagesID",
+          "ConnectRDFRecordID"
+        ]
+      },
+      "ab7b5e3d-cb6d-4c0d-a478-0178f0046d49": {
+        "position": {
+          "x": 2821.6,
+          "y": 68
+        },
+        "parameters": {
+          "EventHooks": {
+            "AgentWhisper": {
+              "useDynamic": true
+            }
+          }
+        },
+        "useDynamic": true,
+        "customerOrAgent": false
+      },
+      "bb28fc05-d6b2-4d8f-8a19-3861b9b61f66": {
+        "position": {
+          "x": 3330.4,
+          "y": 74.4
+        },
+        "parameters": {
+          "ContactFlowId": {
+            "useDynamic": true
+          }
+        },
+        "useDynamic": true
+      },
+      "c4190be0-81bb-4002-a453-d48b21c7cae6": {
+        "position": {
+          "x": 3078.4,
+          "y": 69.6
+        },
+        "parameters": {
+          "Attributes": {
+            "CPA": {
+              "useDynamic": true
+            },
+            "language": {
+              "useDynamic": true
+            },
+            "session": {
+              "useDynamic": true
+            }
+          }
+        },
+        "dynamicParams": [
+          "CPA",
+          "language",
+          "session"
+        ]
+      },
+      "9df63eea-6fa3-47e6-bed1-2f1a2602f563": {
+        "position": {
+          "x": 3338.4,
+          "y": 465.6
+        }
+      },
+      "18182367-339d-49f3-b926-3edf0709296f": {
+        "position": {
+          "x": 922.4,
+          "y": 42.4
+        },
+        "conditions": [],
+        "conditionMetadata": [
+          {
+            "id": "cd8bcea9-cf47-4be6-97ad-0c24da67bddb",
+            "operator": {
+              "name": "Equals",
+              "value": "Equals",
+              "shortDisplay": "="
+            },
+            "value": "200"
+          }
+        ]
+      },
+      "3e790f10-53f9-4f7f-81ec-83f6a13bf501": {
+        "position": {
+          "x": 664.8,
+          "y": 82.4
+        },
+        "parameters": {
+          "LambdaFunctionARN": {
+            "useDynamic": true
+          }
+        },
+        "dynamicMetadata": {
+          "function": false
+        },
+        "useDynamic": true
+      },
+      "7a07725f-a441-4a90-a029-b3b5c3d70fd3": {
+        "position": {
+          "x": 438.4,
+          "y": 51.2
+        }
+      },
+      "1996109e-88aa-4db8-bc76-e096abee7768": {
+        "position": {
+          "x": 197.6,
+          "y": 52
+        },
+        "dynamicParams": []
+      }
+    },
+    "Annotations": [],
+    "name": "Connect-RDF-Agent",
+    "description": "USED BY IGNITE-RDF",
+    "type": "queueTransfer",
+    "status": "PUBLISHED",
+    "hash": {}
+  },
+  "Actions": [
+    {
+      "Parameters": {
+        "RecordingBehavior": {
+          "RecordedParticipants": [
+            "Agent",
+            "Customer"
+          ],
+          "IVRRecordingBehavior": "Disabled"
+        },
+        "AnalyticsBehavior": {
+          "Enabled": "True",
+          "AnalyticsLanguage": "en-US",
+          "AnalyticsRedactionBehavior": "Enabled",
+          "AnalyticsRedactionResults": "RedactedAndOriginal",
+          "AnalyticsRedactionMaskMode": "PII",
+          "ChannelConfiguration": {
+            "Chat": {
+              "AnalyticsModes": [
+                "ContactLens"
+              ]
+            },
+            "Voice": {
+              "AnalyticsModes": []
+            }
+          }
+        }
+      },
+      "Identifier": "a175b5bf-7fc0-4ebd-be54-2b32f14daba3",
+      "Type": "UpdateContactRecordingBehavior",
+      "Transitions": {
+        "NextAction": "a4f7dd1a-15be-4d10-b53f-8ce1b993f685"
+      }
+    },
+    {
+      "Parameters": {
+        "RecordingBehavior": {
+          "RecordedParticipants": [
+            "Agent",
+            "Customer"
+          ],
+          "IVRRecordingBehavior": "Disabled"
+        },
+        "AnalyticsBehavior": {
+          "Enabled": "True",
+          "AnalyticsLanguage": "en-US",
+          "AnalyticsRedactionBehavior": "Disabled",
+          "AnalyticsRedactionResults": "RedactedAndOriginal",
+          "ChannelConfiguration": {
+            "Chat": {
+              "AnalyticsModes": []
+            },
+            "Voice": {
+              "AnalyticsModes": [
+                "PostContact"
+              ]
+            }
+          }
+        }
+      },
+      "Identifier": "8ccd73d7-5441-4ec9-8c2c-3352c7847478",
+      "Type": "UpdateContactRecordingBehavior",
+      "Transitions": {
+        "NextAction": "a4f7dd1a-15be-4d10-b53f-8ce1b993f685"
+      }
+    },
+    {
+      "Parameters": {},
+      "Identifier": "dc955832-df93-4e16-a404-8970e0114116",
+      "Type": "DisconnectParticipant",
+      "Transitions": {}
+    },
+    {
+      "Parameters": {
+        "ComparisonValue": "$.External.chatAnalytics"
+      },
+      "Identifier": "16e94047-e070-44aa-bc1d-ef9874e9415e",
+      "Type": "Compare",
+      "Transitions": {
+        "NextAction": "8ccd73d7-5441-4ec9-8c2c-3352c7847478",
+        "Conditions": [
+          {
+            "NextAction": "a175b5bf-7fc0-4ebd-be54-2b32f14daba3",
+            "Condition": {
+              "Operator": "Equals",
+              "Operands": [
+                "on"
+              ]
+            }
+          }
+        ],
+        "Errors": [
+          {
+            "NextAction": "8ccd73d7-5441-4ec9-8c2c-3352c7847478",
+            "ErrorType": "NoMatchingCondition"
+          }
+        ]
+      }
+    },
+    {
+      "Parameters": {
+        "RecordingBehavior": {
+          "RecordedParticipants": [
+            "Agent",
+            "Customer"
+          ],
+          "IVRRecordingBehavior": "Disabled"
+        },
+        "AnalyticsBehavior": {
+          "Enabled": "True",
+          "AnalyticsLanguage": "en-US",
+          "AnalyticsRedactionBehavior": "Enabled",
+          "AnalyticsRedactionResults": "RedactedAndOriginal",
+          "AnalyticsRedactionMaskMode": "PII",
+          "ChannelConfiguration": {
+            "Chat": {
+              "AnalyticsModes": [
+                "ContactLens"
+              ]
+            },
+            "Voice": {
+              "AnalyticsModes": [
+                "RealTime"
+              ]
+            }
+          }
+        }
+      },
+      "Identifier": "067bd0a1-3366-4b7d-a5ea-4bb401580a18",
+      "Type": "UpdateContactRecordingBehavior",
+      "Transitions": {
+        "NextAction": "a4f7dd1a-15be-4d10-b53f-8ce1b993f685"
+      }
+    },
+    {
+      "Parameters": {
+        "RecordingBehavior": {
+          "RecordedParticipants": [
+            "Agent",
+            "Customer"
+          ],
+          "IVRRecordingBehavior": "Disabled"
+        },
+        "AnalyticsBehavior": {
+          "Enabled": "True",
+          "AnalyticsLanguage": "en-US",
+          "AnalyticsRedactionBehavior": "Enabled",
+          "AnalyticsRedactionResults": "RedactedAndOriginal",
+          "AnalyticsRedactionMaskMode": "PII",
+          "ChannelConfiguration": {
+            "Chat": {
+              "AnalyticsModes": []
+            },
+            "Voice": {
+              "AnalyticsModes": [
+                "PostContact"
+              ]
+            }
+          }
+        }
+      },
+      "Identifier": "5860774a-987b-4b72-8c6c-4d3b37f7b8bc",
+      "Type": "UpdateContactRecordingBehavior",
+      "Transitions": {
+        "NextAction": "a4f7dd1a-15be-4d10-b53f-8ce1b993f685"
+      }
+    },
+    {
+      "Parameters": {
+        "ComparisonValue": "$.External.chatAnalytics"
+      },
+      "Identifier": "9dd75250-1aa1-4a7f-bf0c-cafa1bcefb5e",
+      "Type": "Compare",
+      "Transitions": {
+        "NextAction": "5860774a-987b-4b72-8c6c-4d3b37f7b8bc",
+        "Conditions": [
+          {
+            "NextAction": "067bd0a1-3366-4b7d-a5ea-4bb401580a18",
+            "Condition": {
+              "Operator": "Equals",
+              "Operands": [
+                "on"
+              ]
+            }
+          }
+        ],
+        "Errors": [
+          {
+            "NextAction": "5860774a-987b-4b72-8c6c-4d3b37f7b8bc",
+            "ErrorType": "NoMatchingCondition"
+          }
+        ]
+      }
+    },
+    {
+      "Parameters": {
+        "EventHooks": {
+          "CustomerQueue": "$.External.QueueFlowID"
+        }
+      },
+      "Identifier": "a4f7dd1a-15be-4d10-b53f-8ce1b993f685",
+      "Type": "UpdateContactEventHooks",
+      "Transitions": {
+        "NextAction": "ab7b5e3d-cb6d-4c0d-a478-0178f0046d49",
+        "Errors": [
+          {
+            "NextAction": "ab7b5e3d-cb6d-4c0d-a478-0178f0046d49",
+            "ErrorType": "NoMatchingError"
+          }
+        ]
+      }
+    },
+    {
+      "Parameters": {
+        "ComparisonValue": "$.External.speechAnalytics"
+      },
+      "Identifier": "cc6ebb7f-4535-412e-8c18-e8f384b4223f",
+      "Type": "Compare",
+      "Transitions": {
+        "NextAction": "16e94047-e070-44aa-bc1d-ef9874e9415e",
+        "Conditions": [
+          {
+            "NextAction": "9dd75250-1aa1-4a7f-bf0c-cafa1bcefb5e",
+            "Condition": {
+              "Operator": "Equals",
+              "Operands": [
+                "on"
+              ]
+            }
+          }
+        ],
+        "Errors": [
+          {
+            "NextAction": "16e94047-e070-44aa-bc1d-ef9874e9415e",
+            "ErrorType": "NoMatchingCondition"
+          }
+        ]
+      }
+    },
+    {
+      "Parameters": {
+        "Attributes": {
+          "ConnectRDFInitID": "$.External.ConnectRDFInitID",
+          "ConnectRDFPlayID": "$.External.ConnectRDFPlayID",
+          "ConnectRDFMainID": "$.External.ConnectRDFMainID",
+          "ConnectRDFLanguagesID": "$.External.ConnectRDFLanguagesID",
+          "ConnectRDFRecordID": "$.External.ConnectRDFRecordID"
+        },
+        "TargetContact": "Current"
+      },
+      "Identifier": "8ec89265-28c2-4d1c-8b6a-ed07dfb56fea",
+      "Type": "UpdateContactAttributes",
+      "Transitions": {
+        "NextAction": "cc6ebb7f-4535-412e-8c18-e8f384b4223f",
+        "Errors": [
+          {
+            "NextAction": "cc6ebb7f-4535-412e-8c18-e8f384b4223f",
+            "ErrorType": "NoMatchingError"
+          }
+        ]
+      }
+    },
+    {
+      "Parameters": {
+        "EventHooks": {
+          "AgentWhisper": "$.External.AgentWhisperFlowID"
+        },
+        "EventHooksConfiguration": {
+          "AgentWhisper": {
+            "DisableExecution": "false"
+          }
+        }
+      },
+      "Identifier": "ab7b5e3d-cb6d-4c0d-a478-0178f0046d49",
+      "Type": "UpdateContactEventHooks",
+      "Transitions": {
+        "NextAction": "c4190be0-81bb-4002-a453-d48b21c7cae6",
+        "Errors": [
+          {
+            "NextAction": "c4190be0-81bb-4002-a453-d48b21c7cae6",
+            "ErrorType": "NoMatchingError"
+          }
+        ]
+      }
+    },
+    {
+      "Parameters": {
+        "ContactFlowId": "$.Attributes.ConnectRDFMainID"
+      },
+      "Identifier": "bb28fc05-d6b2-4d8f-8a19-3861b9b61f66",
+      "Type": "TransferToFlow",
+      "Transitions": {
+        "NextAction": "9df63eea-6fa3-47e6-bed1-2f1a2602f563",
+        "Errors": [
+          {
+            "NextAction": "9df63eea-6fa3-47e6-bed1-2f1a2602f563",
+            "ErrorType": "NoMatchingError"
+          }
+        ]
+      }
+    },
+    {
+      "Parameters": {
+        "Attributes": {
+          "CPA": "$.External.connectFlowType",
+          "language": "$.External.language",
+          "session": "$.External.session"
+        },
+        "TargetContact": "Current"
+      },
+      "Identifier": "c4190be0-81bb-4002-a453-d48b21c7cae6",
+      "Type": "UpdateContactAttributes",
+      "Transitions": {
+        "NextAction": "bb28fc05-d6b2-4d8f-8a19-3861b9b61f66",
+        "Errors": [
+          {
+            "NextAction": "bb28fc05-d6b2-4d8f-8a19-3861b9b61f66",
+            "ErrorType": "NoMatchingError"
+          }
+        ]
+      }
+    },
+    {
+      "Parameters": {
+        "Text": "Sorry.  We are experiencing technical difficulties.  Please try your call again later.  Goodbye."
+      },
+      "Identifier": "9df63eea-6fa3-47e6-bed1-2f1a2602f563",
+      "Type": "MessageParticipant",
+      "Transitions": {
+        "NextAction": "dc955832-df93-4e16-a404-8970e0114116",
+        "Errors": [
+          {
+            "NextAction": "dc955832-df93-4e16-a404-8970e0114116",
+            "ErrorType": "NoMatchingError"
+          }
+        ]
+      }
+    },
+    {
+      "Parameters": {
+        "ComparisonValue": "$.External.statusCode"
+      },
+      "Identifier": "18182367-339d-49f3-b926-3edf0709296f",
+      "Type": "Compare",
+      "Transitions": {
+        "NextAction": "9df63eea-6fa3-47e6-bed1-2f1a2602f563",
+        "Conditions": [
+          {
+            "NextAction": "8ec89265-28c2-4d1c-8b6a-ed07dfb56fea",
+            "Condition": {
+              "Operator": "Equals",
+              "Operands": [
+                "200"
+              ]
+            }
+          }
+        ],
+        "Errors": [
+          {
+            "NextAction": "9df63eea-6fa3-47e6-bed1-2f1a2602f563",
+            "ErrorType": "NoMatchingCondition"
+          }
+        ]
+      }
+    },
+    {
+      "Parameters": {
+        "LambdaFunctionARN": "$.Attributes.RDF",
+        "InvocationTimeLimitSeconds": "8",
+        "LambdaInvocationAttributes": {
+          "function": "agent"
+        },
+        "ResponseValidation": {
+          "ResponseType": "STRING_MAP"
+        }
+      },
+      "Identifier": "3e790f10-53f9-4f7f-81ec-83f6a13bf501",
+      "Type": "InvokeLambdaFunction",
+      "Transitions": {
+        "NextAction": "18182367-339d-49f3-b926-3edf0709296f",
+        "Errors": [
+          {
+            "NextAction": "9df63eea-6fa3-47e6-bed1-2f1a2602f563",
+            "ErrorType": "NoMatchingError"
+          }
+        ]
+      }
+    },
+    {
+      "Parameters": {
+        "FlowLoggingBehavior": "Enabled"
+      },
+      "Identifier": "7a07725f-a441-4a90-a029-b3b5c3d70fd3",
+      "Type": "UpdateFlowLoggingBehavior",
+      "Transitions": {
+        "NextAction": "3e790f10-53f9-4f7f-81ec-83f6a13bf501"
+      }
+    },
+    {
+      "Parameters": {
+        "Attributes": {
+          "errorMessage": "NA",
+          "RDF": "arn:aws:lambda:ca-central-1:577638358850:function:Ignite-RDF:dev",
+          "ContactFlowStart": "Connect-RDF-Agent"
+        },
+        "TargetContact": "Current"
+      },
+      "Identifier": "1996109e-88aa-4db8-bc76-e096abee7768",
+      "Type": "UpdateContactAttributes",
+      "Transitions": {
+        "NextAction": "7a07725f-a441-4a90-a029-b3b5c3d70fd3",
+        "Errors": [
+          {
+            "NextAction": "7a07725f-a441-4a90-a029-b3b5c3d70fd3",
+            "ErrorType": "NoMatchingError"
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -35,7 +35,7 @@
         "conditions": [],
         "conditionMetadata": [
           {
-            "id": "30be0788-5824-4b02-ae4c-4aa4c7c51ced",
+            "id": "1bedd424-2fd8-496d-8b12-e944e736a22b",
             "operator": {
               "name": "Equals",
               "value": "Equals",
@@ -156,7 +156,7 @@
         "conditions": [],
         "conditionMetadata": [
           {
-            "id": "57689d1e-a48a-4fcd-b3f1-e0ce88115e69",
+            "id": "2156e284-772d-42d0-8102-c16e926314f9",
             "operator": {
               "name": "Equals",
               "value": "Equals",
@@ -174,7 +174,7 @@
         "conditions": [],
         "conditionMetadata": [
           {
-            "id": "8959dc69-91b9-4d42-8fb7-68278b5e01ae",
+            "id": "97547a61-ce3b-4051-85e7-a2070d969ea4",
             "operator": {
               "name": "Equals",
               "value": "Equals",
@@ -183,7 +183,7 @@
             "value": "wav"
           },
           {
-            "id": "71788e7e-0261-4b76-9dcc-4728b29c6567",
+            "id": "005d5307-370d-4ed1-baa9-6287290bbb40",
             "operator": {
               "name": "Equals",
               "value": "Equals",
@@ -205,67 +205,6 @@
         },
         "useDynamic": true
       },
-      "ef9ede88-517c-4abb-a818-a2fc2e498d8c": {
-        "position": {
-          "x": 2809.6,
-          "y": 646.4
-        },
-        "conditions": [],
-        "conditionMetadata": [
-          {
-            "id": "d4af9b55-8393-46aa-afbb-969723c8131d",
-            "operator": {
-              "name": "Equals",
-              "value": "Equals",
-              "shortDisplay": "="
-            },
-            "value": "Timeout"
-          }
-        ]
-      },
-      "217132f9-1471-4f6f-95ba-0cd78a0bf43c": {
-        "position": {
-          "x": 2453.6,
-          "y": 648.8
-        },
-        "parameters": {
-          "Media": {
-            "Uri": {
-              "useDynamic": true
-            }
-          }
-        },
-        "useDynamic": true,
-        "conditionMetadata": [],
-        "countryCodePrefix": "+1"
-      },
-      "103ddfbd-f9b7-4bd9-b378-70414f8dc0a1": {
-        "position": {
-          "x": 3538.4,
-          "y": 1336
-        },
-        "dynamicParams": []
-      },
-      "7e6d8145-8048-49e5-a1da-cc4dd042cab1": {
-        "position": {
-          "x": 2818.4,
-          "y": 1634.4
-        },
-        "parameters": {
-          "SSML": {
-            "useDynamic": true
-          },
-          "DTMFConfiguration": {
-            "InputTerminationSequence": {
-              "useDynamic": true
-            }
-          }
-        },
-        "useDynamic": true,
-        "conditionMetadata": [],
-        "useDynamicForTerminatorDigits": true,
-        "countryCodePrefix": "+1"
-      },
       "5a9259bc-73c5-4953-b648-92a7af526a2d": {
         "position": {
           "x": 1883.2,
@@ -274,7 +213,7 @@
         "conditions": [],
         "conditionMetadata": [
           {
-            "id": "65b5af01-56d5-46cb-88c2-35d289aa5003",
+            "id": "dfaab281-1cd9-4399-8002-633ced174f15",
             "operator": {
               "name": "Equals",
               "value": "Equals",
@@ -284,499 +223,6 @@
           }
         ]
       },
-      "1128033c-4298-43c2-88de-db5d1001ab7d": {
-        "position": {
-          "x": 2823.2,
-          "y": 1419.2
-        },
-        "parameters": {
-          "SSML": {
-            "useDynamic": true
-          }
-        },
-        "useDynamic": true,
-        "conditionMetadata": [],
-        "countryCodePrefix": "+1"
-      },
-      "6c554cdd-38a4-4ea7-8bba-4ed0a52d4a6b": {
-        "position": {
-          "x": 2452.8,
-          "y": 1159.2
-        },
-        "conditions": [],
-        "conditionMetadata": [
-          {
-            "id": "12d689dd-c0dd-4ed5-a437-8f3d0bfa64d8",
-            "operator": {
-              "name": "Equals",
-              "value": "Equals",
-              "shortDisplay": "="
-            },
-            "value": "INPUT"
-          }
-        ]
-      },
-      "543fd54f-200c-40d5-ad17-ba57af3fb328": {
-        "position": {
-          "x": 2165.6,
-          "y": 648.8
-        },
-        "conditions": [],
-        "conditionMetadata": [
-          {
-            "id": "cbcd232a-474d-4073-96ad-111a4ffc4b01",
-            "operator": {
-              "name": "Equals",
-              "value": "Equals",
-              "shortDisplay": "="
-            },
-            "value": "true"
-          }
-        ]
-      },
-      "ea65ca68-53c1-445d-89cc-cc0b6ecb07c8": {
-        "position": {
-          "x": 2817.6,
-          "y": 1156
-        },
-        "parameters": {
-          "DTMFConfiguration": {
-            "InputTerminationSequence": {
-              "useDynamic": true
-            }
-          }
-        },
-        "conditionMetadata": [],
-        "useDynamicForTerminatorDigits": true,
-        "countryCodePrefix": "+1"
-      },
-      "d3c1e11f-2eb7-46db-8e44-03f0da30871f": {
-        "position": {
-          "x": 2814.4,
-          "y": 932.8
-        },
-        "conditionMetadata": [],
-        "countryCodePrefix": "+1"
-      },
-      "ac01c335-10a6-41d2-abf1-f9aed4f36a89": {
-        "position": {
-          "x": 2461.6,
-          "y": 933.6
-        },
-        "conditions": [],
-        "conditionMetadata": [
-          {
-            "id": "be5a1cd9-d85f-4b8d-820f-8e5fb9d79c3f",
-            "operator": {
-              "name": "Equals",
-              "value": "Equals",
-              "shortDisplay": "="
-            },
-            "value": "INPUT"
-          }
-        ]
-      },
-      "3bcff2c5-413b-4d43-ad63-57d4d39d46c8": {
-        "position": {
-          "x": 2463.2,
-          "y": 1393.6
-        },
-        "conditions": [],
-        "conditionMetadata": [
-          {
-            "id": "c9018eab-9996-41ed-ae03-52c9e1287d31",
-            "operator": {
-              "name": "Equals",
-              "value": "Equals",
-              "shortDisplay": "="
-            },
-            "value": "off"
-          }
-        ]
-      },
-      "416789fb-8162-4c07-9f04-fa86a7d6b1a0": {
-        "position": {
-          "x": 2800,
-          "y": 1942.4
-        },
-        "parameters": {
-          "SSML": {
-            "useDynamic": true
-          }
-        },
-        "useDynamic": true,
-        "conditionMetadata": [],
-        "countryCodePrefix": "+1"
-      },
-      "fa1deec8-e749-4ea6-9be0-c7655b91d8b2": {
-        "position": {
-          "x": 2822.4,
-          "y": 1854.4
-        },
-        "parameters": {
-          "SSML": {
-            "useDynamic": true
-          }
-        },
-        "useDynamic": true,
-        "conditionMetadata": [],
-        "countryCodePrefix": "+1"
-      },
-      "fce8f6f9-2b06-4cc8-ad48-83e554479a91": {
-        "position": {
-          "x": 2824,
-          "y": 1873.6
-        },
-        "parameters": {
-          "SSML": {
-            "useDynamic": true
-          }
-        },
-        "useDynamic": true,
-        "conditionMetadata": [],
-        "countryCodePrefix": "+1"
-      },
-      "d547f288-7be3-43a1-a107-4a365141f230": {
-        "position": {
-          "x": 2828.8,
-          "y": 1894.4
-        },
-        "parameters": {
-          "SSML": {
-            "useDynamic": true
-          }
-        },
-        "useDynamic": true,
-        "conditionMetadata": [],
-        "countryCodePrefix": "+1"
-      },
-      "5ea6ecb0-b33f-4971-8cbb-5bd4289b739c": {
-        "position": {
-          "x": 2828.8,
-          "y": 1920
-        },
-        "parameters": {
-          "SSML": {
-            "useDynamic": true
-          }
-        },
-        "useDynamic": true,
-        "conditionMetadata": [],
-        "countryCodePrefix": "+1"
-      },
-      "148dc642-bbd1-4102-a13e-68690692206d": {
-        "position": {
-          "x": 2827.2,
-          "y": 1942.4
-        },
-        "parameters": {
-          "SSML": {
-            "useDynamic": true
-          }
-        },
-        "useDynamic": true,
-        "conditionMetadata": [],
-        "countryCodePrefix": "+1"
-      },
-      "f1c67cee-125b-4b13-b531-c80f1dd03e34": {
-        "position": {
-          "x": 2824,
-          "y": 1966.4
-        },
-        "parameters": {
-          "SSML": {
-            "useDynamic": true
-          }
-        },
-        "useDynamic": true,
-        "conditionMetadata": [],
-        "countryCodePrefix": "+1"
-      },
-      "2bc37d09-cea8-4a10-90b7-7e1ea2d2ebbe": {
-        "position": {
-          "x": 2828.8,
-          "y": 1996.8
-        },
-        "parameters": {
-          "SSML": {
-            "useDynamic": true
-          }
-        },
-        "useDynamic": true,
-        "conditionMetadata": [],
-        "countryCodePrefix": "+1"
-      },
-      "fed89dc3-7989-461c-9d2d-6114affe8f38": {
-        "position": {
-          "x": 2825.6,
-          "y": 2028.8
-        },
-        "parameters": {
-          "SSML": {
-            "useDynamic": true
-          }
-        },
-        "useDynamic": true,
-        "conditionMetadata": [],
-        "countryCodePrefix": "+1"
-      },
-      "4efb6b01-8eae-44bc-80c8-0d636ad9c4ca": {
-        "position": {
-          "x": 2828.8,
-          "y": 2052.8
-        },
-        "parameters": {
-          "SSML": {
-            "useDynamic": true
-          }
-        },
-        "useDynamic": true,
-        "conditionMetadata": [],
-        "countryCodePrefix": "+1"
-      },
-      "3319e9ed-151b-4703-a7cd-5df4490cc69f": {
-        "position": {
-          "x": 2830.4,
-          "y": 2075.2
-        },
-        "parameters": {
-          "SSML": {
-            "useDynamic": true
-          }
-        },
-        "useDynamic": true,
-        "conditionMetadata": [],
-        "countryCodePrefix": "+1"
-      },
-      "6ed5b9cb-0dde-44a1-bc7b-5eca78c34231": {
-        "position": {
-          "x": 2828.8,
-          "y": 2097.6
-        },
-        "parameters": {
-          "SSML": {
-            "useDynamic": true
-          }
-        },
-        "useDynamic": true,
-        "conditionMetadata": [],
-        "countryCodePrefix": "+1"
-      },
-      "8d1bc50c-1363-44af-9059-ed616d9587d8": {
-        "position": {
-          "x": 2830.4,
-          "y": 2123.2
-        },
-        "parameters": {
-          "SSML": {
-            "useDynamic": true
-          }
-        },
-        "useDynamic": true,
-        "conditionMetadata": [],
-        "countryCodePrefix": "+1"
-      },
-      "9b9c324f-5d27-4bd7-8e99-9c9070892910": {
-        "position": {
-          "x": 2828.8,
-          "y": 2145.6
-        },
-        "parameters": {
-          "SSML": {
-            "useDynamic": true
-          }
-        },
-        "useDynamic": true,
-        "conditionMetadata": [],
-        "countryCodePrefix": "+1"
-      },
-      "f443f2c3-008b-47f1-9e87-4f7d31c2384c": {
-        "position": {
-          "x": 3226.4,
-          "y": 1100.8
-        },
-        "parameters": {
-          "LambdaFunctionARN": {
-            "useDynamic": true
-          },
-          "LambdaInvocationAttributes": {
-            "blockAction": {
-              "useDynamic": true
-            },
-            "session": {
-              "useDynamic": true
-            },
-            "selectedOption": {
-              "useDynamic": true
-            }
-          }
-        },
-        "dynamicMetadata": {
-          "blockAction": true,
-          "session": true,
-          "selectedOption": true,
-          "function": false
-        },
-        "useDynamic": true
-      },
-      "d2d72e85-ee28-4847-99cd-24cec7c2cc68": {
-        "position": {
-          "x": 2464,
-          "y": 1655.2
-        },
-        "conditions": [],
-        "conditionMetadata": [
-          {
-            "id": "8ad48644-74f3-41eb-8197-b21d246ff12e",
-            "operator": {
-              "name": "Equals",
-              "value": "Equals",
-              "shortDisplay": "="
-            },
-            "value": "2"
-          },
-          {
-            "id": "f44cfb94-2248-494f-88bb-37cfb5a4021e",
-            "operator": {
-              "name": "Equals",
-              "value": "Equals",
-              "shortDisplay": "="
-            },
-            "value": "3"
-          },
-          {
-            "id": "4234f456-22e7-4b33-94b2-a4fd725acd32",
-            "operator": {
-              "name": "Equals",
-              "value": "Equals",
-              "shortDisplay": "="
-            },
-            "value": "4"
-          },
-          {
-            "id": "4babc9f3-7139-47ce-bedf-6b777ff2e448",
-            "operator": {
-              "name": "Equals",
-              "value": "Equals",
-              "shortDisplay": "="
-            },
-            "value": "5"
-          },
-          {
-            "id": "7f114b3e-d53d-46e5-8ed3-6c578603583a",
-            "operator": {
-              "name": "Equals",
-              "value": "Equals",
-              "shortDisplay": "="
-            },
-            "value": "6"
-          },
-          {
-            "id": "a08f4fd5-9034-43b4-a919-e9f0ba0f3dbd",
-            "operator": {
-              "name": "Equals",
-              "value": "Equals",
-              "shortDisplay": "="
-            },
-            "value": "7"
-          },
-          {
-            "id": "33689537-ce7d-4881-8fc0-b94ff5b66eca",
-            "operator": {
-              "name": "Equals",
-              "value": "Equals",
-              "shortDisplay": "="
-            },
-            "value": "8"
-          },
-          {
-            "id": "d3e784b7-abe7-4405-a2e9-3e12cd8c2d3d",
-            "operator": {
-              "name": "Equals",
-              "value": "Equals",
-              "shortDisplay": "="
-            },
-            "value": "9"
-          },
-          {
-            "id": "9f5e6c16-374b-4251-96ec-e50eb5db9ae6",
-            "operator": {
-              "name": "Equals",
-              "value": "Equals",
-              "shortDisplay": "="
-            },
-            "value": "10"
-          },
-          {
-            "id": "b7f976d5-d149-463b-9578-6b8ff267269a",
-            "operator": {
-              "name": "Equals",
-              "value": "Equals",
-              "shortDisplay": "="
-            },
-            "value": "11"
-          },
-          {
-            "id": "a6933e53-2a29-4940-b875-4eb7be11a038",
-            "operator": {
-              "name": "Equals",
-              "value": "Equals",
-              "shortDisplay": "="
-            },
-            "value": "12"
-          },
-          {
-            "id": "7db01c08-c0cc-4957-97b5-ce14f34a31ee",
-            "operator": {
-              "name": "Equals",
-              "value": "Equals",
-              "shortDisplay": "="
-            },
-            "value": "13"
-          },
-          {
-            "id": "9b82aec7-88d6-40df-b875-875d597b8eb4",
-            "operator": {
-              "name": "Equals",
-              "value": "Equals",
-              "shortDisplay": "="
-            },
-            "value": "14"
-          },
-          {
-            "id": "4511b262-845e-40c5-9ea3-a82899ed0ab2",
-            "operator": {
-              "name": "Equals",
-              "value": "Equals",
-              "shortDisplay": "="
-            },
-            "value": "15"
-          },
-          {
-            "id": "37c5ba7c-8f58-4f87-a0df-a608af3e574b",
-            "operator": {
-              "name": "Equals",
-              "value": "Equals",
-              "shortDisplay": "="
-            },
-            "value": "16"
-          }
-        ]
-      },
-      "6e62db93-9182-4a46-85af-cabe07fc4648": {
-        "position": {
-          "x": 2832,
-          "y": 2166.4
-        },
-        "parameters": {
-          "SSML": {
-            "useDynamic": true
-          }
-        },
-        "useDynamic": true,
-        "conditionMetadata": [],
-        "countryCodePrefix": "+1"
-      },
       "651d49b0-833f-41aa-9892-95102bb1a8e1": {
         "position": {
           "x": 2166.4,
@@ -785,7 +231,7 @@
         "conditions": [],
         "conditionMetadata": [
           {
-            "id": "7322e7e5-c363-4f2b-81a4-49a2f2a8f008",
+            "id": "662e8eb1-f991-4e0f-84e6-f919430350bf",
             "operator": {
               "name": "Equals",
               "value": "Equals",
@@ -908,7 +354,7 @@
         "conditions": [],
         "conditionMetadata": [
           {
-            "id": "f369434d-4dba-4bb6-b712-f681a4c5b1ef",
+            "id": "e630cf6e-849d-4c6d-8fb4-59475f87d89e",
             "operator": {
               "name": "Equals",
               "value": "Equals",
@@ -917,7 +363,7 @@
             "value": "error"
           },
           {
-            "id": "cd659a51-1cc6-4d0a-a1b1-ef79f7dc295f",
+            "id": "5b7d9550-8618-4e15-9d42-fe43640aa281",
             "operator": {
               "name": "Equals",
               "value": "Equals",
@@ -935,7 +381,7 @@
         "conditions": [],
         "conditionMetadata": [
           {
-            "id": "56b21aad-26dc-46b1-bbcf-602c6137bc74",
+            "id": "900d3444-588f-4037-bf1d-fc915eb59a67",
             "operator": {
               "name": "Equals",
               "value": "Equals",
@@ -944,7 +390,7 @@
             "value": "PLAY"
           },
           {
-            "id": "4370c51b-9303-45d2-977b-220e05198e98",
+            "id": "f31f72a0-80f4-4266-9410-90de06724afd",
             "operator": {
               "name": "Equals",
               "value": "Equals",
@@ -1027,7 +473,7 @@
         "conditions": [],
         "conditionMetadata": [
           {
-            "id": "c712bb95-b140-4a92-8324-2d931d249df3",
+            "id": "c55308be-d79e-4592-81b6-268fc44d7623",
             "operator": {
               "name": "Equals",
               "value": "Equals",
@@ -1045,7 +491,7 @@
         "conditions": [],
         "conditionMetadata": [
           {
-            "id": "69868851-8618-4d6a-98e3-2da8e2887a4d",
+            "id": "c685fe40-2f72-4784-8c7d-c467ee6700d7",
             "operator": {
               "name": "Equals",
               "value": "Equals",
@@ -1054,7 +500,7 @@
             "value": "PLAY"
           },
           {
-            "id": "674240f9-28e0-48ec-9053-2482bf96ec17",
+            "id": "9800385c-e779-468f-9b7f-b0a9cb3deddb",
             "operator": {
               "name": "Equals",
               "value": "Equals",
@@ -1063,7 +509,7 @@
             "value": "MENU"
           },
           {
-            "id": "f5169805-e328-413b-bb8d-bda05966b268",
+            "id": "e2b19fca-2d2a-48c8-ad86-45854980bee4",
             "operator": {
               "name": "Equals",
               "value": "Equals",
@@ -1072,7 +518,7 @@
             "value": "INPUT"
           },
           {
-            "id": "b0b7961c-e21c-4cb6-ac72-42111d38d8a6",
+            "id": "a0c3ae3e-80a6-4bf9-b377-9b347d48c749",
             "operator": {
               "name": "Equals",
               "value": "Equals",
@@ -1081,7 +527,7 @@
             "value": "RECORD"
           },
           {
-            "id": "ac2ba7b5-0a32-43af-9e6b-7d529ed90d92",
+            "id": "fc55bebf-9e1f-4ba1-9d39-240510ff00d9",
             "operator": {
               "name": "Equals",
               "value": "Equals",
@@ -1090,7 +536,7 @@
             "value": "XFER"
           },
           {
-            "id": "080f3c9a-30a6-492c-8b18-76bb21bda70c",
+            "id": "1c971bb2-6c69-402e-9241-722924f13f67",
             "operator": {
               "name": "Equals",
               "value": "Equals",
@@ -1099,7 +545,7 @@
             "value": "CALLBACK"
           },
           {
-            "id": "496a6c83-25ca-4a70-8310-39c5188c970d",
+            "id": "61fe91be-4d97-4de0-9db8-c862d2f97ad4",
             "operator": {
               "name": "Equals",
               "value": "Equals",
@@ -1157,6 +603,560 @@
           "OLDEST_CONTACT_AGE": true
         },
         "useDynamic": true
+      },
+      "ef9ede88-517c-4abb-a818-a2fc2e498d8c": {
+        "position": {
+          "x": 2809.6,
+          "y": 646.4
+        },
+        "conditions": [],
+        "conditionMetadata": [
+          {
+            "id": "616a12e7-a78f-4e80-9bd7-ffb43bb874a8",
+            "operator": {
+              "name": "Equals",
+              "value": "Equals",
+              "shortDisplay": "="
+            },
+            "value": "Timeout"
+          }
+        ]
+      },
+      "543fd54f-200c-40d5-ad17-ba57af3fb328": {
+        "position": {
+          "x": 2165.6,
+          "y": 648.8
+        },
+        "conditions": [],
+        "conditionMetadata": [
+          {
+            "id": "5e58f160-d455-4fcb-bae2-665db03d04d5",
+            "operator": {
+              "name": "Equals",
+              "value": "Equals",
+              "shortDisplay": "="
+            },
+            "value": "true"
+          }
+        ]
+      },
+      "217132f9-1471-4f6f-95ba-0cd78a0bf43c": {
+        "position": {
+          "x": 2453.6,
+          "y": 648.8
+        },
+        "parameters": {
+          "Media": {
+            "Uri": {
+              "useDynamic": true
+            }
+          }
+        },
+        "useDynamic": true,
+        "conditionMetadata": [],
+        "countryCodePrefix": "+1"
+      },
+      "103ddfbd-f9b7-4bd9-b378-70414f8dc0a1": {
+        "position": {
+          "x": 3538.4,
+          "y": 1336
+        },
+        "dynamicParams": []
+      },
+      "d3c1e11f-2eb7-46db-8e44-03f0da30871f": {
+        "position": {
+          "x": 2814.4,
+          "y": 932.8
+        },
+        "conditionMetadata": [],
+        "countryCodePrefix": "+1"
+      },
+      "ac01c335-10a6-41d2-abf1-f9aed4f36a89": {
+        "position": {
+          "x": 2461.6,
+          "y": 933.6
+        },
+        "conditions": [],
+        "conditionMetadata": [
+          {
+            "id": "49464ec6-9e27-4f0d-a564-4380afdfdce0",
+            "operator": {
+              "name": "Equals",
+              "value": "Equals",
+              "shortDisplay": "="
+            },
+            "value": "INPUT"
+          }
+        ]
+      },
+      "ea65ca68-53c1-445d-89cc-cc0b6ecb07c8": {
+        "position": {
+          "x": 2817.6,
+          "y": 1156
+        },
+        "parameters": {
+          "DTMFConfiguration": {
+            "InputTerminationSequence": {
+              "useDynamic": true
+            }
+          }
+        },
+        "conditionMetadata": [],
+        "useDynamicForTerminatorDigits": true,
+        "countryCodePrefix": "+1"
+      },
+      "6c554cdd-38a4-4ea7-8bba-4ed0a52d4a6b": {
+        "position": {
+          "x": 2452.8,
+          "y": 1159.2
+        },
+        "conditions": [],
+        "conditionMetadata": [
+          {
+            "id": "d716b1db-14e6-479e-8e4f-32832f4b32fb",
+            "operator": {
+              "name": "Equals",
+              "value": "Equals",
+              "shortDisplay": "="
+            },
+            "value": "INPUT"
+          }
+        ]
+      },
+      "1128033c-4298-43c2-88de-db5d1001ab7d": {
+        "position": {
+          "x": 2823.2,
+          "y": 1419.2
+        },
+        "parameters": {
+          "SSML": {
+            "useDynamic": true
+          }
+        },
+        "useDynamic": true,
+        "conditionMetadata": [],
+        "countryCodePrefix": "+1"
+      },
+      "3bcff2c5-413b-4d43-ad63-57d4d39d46c8": {
+        "position": {
+          "x": 2463.2,
+          "y": 1393.6
+        },
+        "conditions": [],
+        "conditionMetadata": [
+          {
+            "id": "52b3136b-bcb6-4f38-b6aa-bd101e52b24f",
+            "operator": {
+              "name": "Equals",
+              "value": "Equals",
+              "shortDisplay": "="
+            },
+            "value": "off"
+          }
+        ]
+      },
+      "7e6d8145-8048-49e5-a1da-cc4dd042cab1": {
+        "position": {
+          "x": 2818.4,
+          "y": 1634.4
+        },
+        "parameters": {
+          "SSML": {
+            "useDynamic": true
+          },
+          "DTMFConfiguration": {
+            "InputTerminationSequence": {
+              "useDynamic": true
+            }
+          }
+        },
+        "useDynamic": true,
+        "conditionMetadata": [],
+        "useDynamicForTerminatorDigits": true,
+        "countryCodePrefix": "+1"
+      },
+      "6e62db93-9182-4a46-85af-cabe07fc4648": {
+        "position": {
+          "x": 2832,
+          "y": 2166.4
+        },
+        "parameters": {
+          "SSML": {
+            "useDynamic": true
+          }
+        },
+        "useDynamic": true,
+        "conditionMetadata": [],
+        "countryCodePrefix": "+1"
+      },
+      "9b9c324f-5d27-4bd7-8e99-9c9070892910": {
+        "position": {
+          "x": 2828.8,
+          "y": 2145.6
+        },
+        "parameters": {
+          "SSML": {
+            "useDynamic": true
+          }
+        },
+        "useDynamic": true,
+        "conditionMetadata": [],
+        "countryCodePrefix": "+1"
+      },
+      "8d1bc50c-1363-44af-9059-ed616d9587d8": {
+        "position": {
+          "x": 2830.4,
+          "y": 2123.2
+        },
+        "parameters": {
+          "SSML": {
+            "useDynamic": true
+          }
+        },
+        "useDynamic": true,
+        "conditionMetadata": [],
+        "countryCodePrefix": "+1"
+      },
+      "6ed5b9cb-0dde-44a1-bc7b-5eca78c34231": {
+        "position": {
+          "x": 2828.8,
+          "y": 2097.6
+        },
+        "parameters": {
+          "SSML": {
+            "useDynamic": true
+          }
+        },
+        "useDynamic": true,
+        "conditionMetadata": [],
+        "countryCodePrefix": "+1"
+      },
+      "3319e9ed-151b-4703-a7cd-5df4490cc69f": {
+        "position": {
+          "x": 2830.4,
+          "y": 2075.2
+        },
+        "parameters": {
+          "SSML": {
+            "useDynamic": true
+          }
+        },
+        "useDynamic": true,
+        "conditionMetadata": [],
+        "countryCodePrefix": "+1"
+      },
+      "4efb6b01-8eae-44bc-80c8-0d636ad9c4ca": {
+        "position": {
+          "x": 2828.8,
+          "y": 2052.8
+        },
+        "parameters": {
+          "SSML": {
+            "useDynamic": true
+          }
+        },
+        "useDynamic": true,
+        "conditionMetadata": [],
+        "countryCodePrefix": "+1"
+      },
+      "fed89dc3-7989-461c-9d2d-6114affe8f38": {
+        "position": {
+          "x": 2825.6,
+          "y": 2028.8
+        },
+        "parameters": {
+          "SSML": {
+            "useDynamic": true
+          }
+        },
+        "useDynamic": true,
+        "conditionMetadata": [],
+        "countryCodePrefix": "+1"
+      },
+      "2bc37d09-cea8-4a10-90b7-7e1ea2d2ebbe": {
+        "position": {
+          "x": 2828.8,
+          "y": 1996.8
+        },
+        "parameters": {
+          "SSML": {
+            "useDynamic": true
+          }
+        },
+        "useDynamic": true,
+        "conditionMetadata": [],
+        "countryCodePrefix": "+1"
+      },
+      "f1c67cee-125b-4b13-b531-c80f1dd03e34": {
+        "position": {
+          "x": 2824,
+          "y": 1966.4
+        },
+        "parameters": {
+          "SSML": {
+            "useDynamic": true
+          }
+        },
+        "useDynamic": true,
+        "conditionMetadata": [],
+        "countryCodePrefix": "+1"
+      },
+      "148dc642-bbd1-4102-a13e-68690692206d": {
+        "position": {
+          "x": 2827.2,
+          "y": 1942.4
+        },
+        "parameters": {
+          "SSML": {
+            "useDynamic": true
+          }
+        },
+        "useDynamic": true,
+        "conditionMetadata": [],
+        "countryCodePrefix": "+1"
+      },
+      "5ea6ecb0-b33f-4971-8cbb-5bd4289b739c": {
+        "position": {
+          "x": 2828.8,
+          "y": 1920
+        },
+        "parameters": {
+          "SSML": {
+            "useDynamic": true
+          }
+        },
+        "useDynamic": true,
+        "conditionMetadata": [],
+        "countryCodePrefix": "+1"
+      },
+      "d547f288-7be3-43a1-a107-4a365141f230": {
+        "position": {
+          "x": 2828.8,
+          "y": 1894.4
+        },
+        "parameters": {
+          "SSML": {
+            "useDynamic": true
+          }
+        },
+        "useDynamic": true,
+        "conditionMetadata": [],
+        "countryCodePrefix": "+1"
+      },
+      "fce8f6f9-2b06-4cc8-ad48-83e554479a91": {
+        "position": {
+          "x": 2824,
+          "y": 1873.6
+        },
+        "parameters": {
+          "SSML": {
+            "useDynamic": true
+          }
+        },
+        "useDynamic": true,
+        "conditionMetadata": [],
+        "countryCodePrefix": "+1"
+      },
+      "416789fb-8162-4c07-9f04-fa86a7d6b1a0": {
+        "position": {
+          "x": 2823.2,
+          "y": 1937.6
+        },
+        "parameters": {
+          "SSML": {
+            "useDynamic": true
+          }
+        },
+        "useDynamic": true,
+        "conditionMetadata": [],
+        "countryCodePrefix": "+1"
+      },
+      "d2d72e85-ee28-4847-99cd-24cec7c2cc68": {
+        "position": {
+          "x": 2464,
+          "y": 1655.2
+        },
+        "conditions": [],
+        "conditionMetadata": [
+          {
+            "id": "06d52bb0-5032-441e-92dd-a4f8a52e0d21",
+            "operator": {
+              "name": "Equals",
+              "value": "Equals",
+              "shortDisplay": "="
+            },
+            "value": "2"
+          },
+          {
+            "id": "3d05934e-77ce-44bf-bdbc-aec18ae9654e",
+            "operator": {
+              "name": "Equals",
+              "value": "Equals",
+              "shortDisplay": "="
+            },
+            "value": "3"
+          },
+          {
+            "id": "9d64c324-b169-4ec2-9284-0a7c32d660a8",
+            "operator": {
+              "name": "Equals",
+              "value": "Equals",
+              "shortDisplay": "="
+            },
+            "value": "4"
+          },
+          {
+            "id": "3a9ee380-3598-4c49-b2aa-fe198747043d",
+            "operator": {
+              "name": "Equals",
+              "value": "Equals",
+              "shortDisplay": "="
+            },
+            "value": "5"
+          },
+          {
+            "id": "b4bea187-cb40-487d-bd8a-b357f3803924",
+            "operator": {
+              "name": "Equals",
+              "value": "Equals",
+              "shortDisplay": "="
+            },
+            "value": "6"
+          },
+          {
+            "id": "eabbe354-2cdf-4ade-8922-29b8cae70578",
+            "operator": {
+              "name": "Equals",
+              "value": "Equals",
+              "shortDisplay": "="
+            },
+            "value": "7"
+          },
+          {
+            "id": "7498e3e5-02ea-4400-ad4c-00bfab4c0f7b",
+            "operator": {
+              "name": "Equals",
+              "value": "Equals",
+              "shortDisplay": "="
+            },
+            "value": "8"
+          },
+          {
+            "id": "9e074984-0cb4-4e79-8965-9d7ffa7d92a9",
+            "operator": {
+              "name": "Equals",
+              "value": "Equals",
+              "shortDisplay": "="
+            },
+            "value": "9"
+          },
+          {
+            "id": "d249fbfa-f961-4186-862f-e8ba5342f69d",
+            "operator": {
+              "name": "Equals",
+              "value": "Equals",
+              "shortDisplay": "="
+            },
+            "value": "10"
+          },
+          {
+            "id": "74b946bd-e3bc-485c-b80f-b4f373254a51",
+            "operator": {
+              "name": "Equals",
+              "value": "Equals",
+              "shortDisplay": "="
+            },
+            "value": "11"
+          },
+          {
+            "id": "719be3c3-ee87-4561-8e85-dc20a984fffe",
+            "operator": {
+              "name": "Equals",
+              "value": "Equals",
+              "shortDisplay": "="
+            },
+            "value": "12"
+          },
+          {
+            "id": "6fc23c94-ed6a-413b-87e3-af33596bd980",
+            "operator": {
+              "name": "Equals",
+              "value": "Equals",
+              "shortDisplay": "="
+            },
+            "value": "13"
+          },
+          {
+            "id": "6d332783-3a74-4181-ae6e-f994dfd0a470",
+            "operator": {
+              "name": "Equals",
+              "value": "Equals",
+              "shortDisplay": "="
+            },
+            "value": "14"
+          },
+          {
+            "id": "41c5007b-f8b6-4e1d-be46-7573e24022e1",
+            "operator": {
+              "name": "Equals",
+              "value": "Equals",
+              "shortDisplay": "="
+            },
+            "value": "15"
+          },
+          {
+            "id": "1816b656-8bd8-4116-8689-75602cd5000d",
+            "operator": {
+              "name": "Equals",
+              "value": "Equals",
+              "shortDisplay": "="
+            },
+            "value": "16"
+          }
+        ]
+      },
+      "f443f2c3-008b-47f1-9e87-4f7d31c2384c": {
+        "position": {
+          "x": 3226.4,
+          "y": 1100.8
+        },
+        "parameters": {
+          "LambdaFunctionARN": {
+            "useDynamic": true
+          },
+          "LambdaInvocationAttributes": {
+            "blockAction": {
+              "useDynamic": true
+            },
+            "session": {
+              "useDynamic": true
+            },
+            "selectedOption": {
+              "useDynamic": true
+            }
+          }
+        },
+        "dynamicMetadata": {
+          "blockAction": true,
+          "session": true,
+          "selectedOption": true,
+          "function": false
+        },
+        "useDynamic": true
+      },
+      "fa1deec8-e749-4ea6-9be0-c7655b91d8b2": {
+        "position": {
+          "x": 2822.4,
+          "y": 1854.4
+        },
+        "parameters": {
+          "SSML": {
+            "useDynamic": true
+          }
+        },
+        "useDynamic": true,
+        "conditionMetadata": [],
+        "countryCodePrefix": "+1"
       }
     },
     "Annotations": [],
@@ -1495,110 +1495,6 @@
     },
     {
       "Parameters": {
-        "ComparisonValue": "$.StoredCustomerInput"
-      },
-      "Identifier": "ef9ede88-517c-4abb-a818-a2fc2e498d8c",
-      "Type": "Compare",
-      "Transitions": {
-        "NextAction": "f443f2c3-008b-47f1-9e87-4f7d31c2384c",
-        "Conditions": [
-          {
-            "NextAction": "8cb9fa56-9d5f-44b8-bac8-4c928634256b",
-            "Condition": {
-              "Operator": "Equals",
-              "Operands": [
-                "Timeout"
-              ]
-            }
-          }
-        ],
-        "Errors": [
-          {
-            "NextAction": "f443f2c3-008b-47f1-9e87-4f7d31c2384c",
-            "ErrorType": "NoMatchingCondition"
-          }
-        ]
-      }
-    },
-    {
-      "Parameters": {
-        "StoreInput": "True",
-        "InputTimeLimitSeconds": "1",
-        "Media": {
-          "Uri": "$.External.prompt",
-          "SourceType": "S3",
-          "MediaType": "Audio"
-        },
-        "DTMFConfiguration": {
-          "DisableCancelKey": "False"
-        },
-        "InputValidation": {
-          "CustomValidation": {
-            "MaximumLength": "1"
-          }
-        }
-      },
-      "Identifier": "217132f9-1471-4f6f-95ba-0cd78a0bf43c",
-      "Type": "GetParticipantInput",
-      "Transitions": {
-        "NextAction": "ef9ede88-517c-4abb-a818-a2fc2e498d8c",
-        "Errors": [
-          {
-            "NextAction": "103ddfbd-f9b7-4bd9-b378-70414f8dc0a1",
-            "ErrorType": "NoMatchingError"
-          }
-        ]
-      }
-    },
-    {
-      "Parameters": {
-        "Attributes": {
-          "errorMessage": "Store Input Failure",
-          "callFlowID": "ERROR"
-        },
-        "TargetContact": "Current"
-      },
-      "Identifier": "103ddfbd-f9b7-4bd9-b378-70414f8dc0a1",
-      "Type": "UpdateContactAttributes",
-      "Transitions": {
-        "NextAction": "8b235a9d-e149-4c1f-8740-0038d997e02f",
-        "Errors": [
-          {
-            "NextAction": "8b235a9d-e149-4c1f-8740-0038d997e02f",
-            "ErrorType": "NoMatchingError"
-          }
-        ]
-      }
-    },
-    {
-      "Parameters": {
-        "StoreInput": "True",
-        "InputTimeLimitSeconds": "3",
-        "SSML": "$.External.prompt",
-        "DTMFConfiguration": {
-          "DisableCancelKey": "False",
-          "InputTerminationSequence": "$.External.globalInputTerm"
-        },
-        "InputValidation": {
-          "CustomValidation": {
-            "MaximumLength": "20"
-          }
-        }
-      },
-      "Identifier": "7e6d8145-8048-49e5-a1da-cc4dd042cab1",
-      "Type": "GetParticipantInput",
-      "Transitions": {
-        "NextAction": "f443f2c3-008b-47f1-9e87-4f7d31c2384c",
-        "Errors": [
-          {
-            "NextAction": "f443f2c3-008b-47f1-9e87-4f7d31c2384c",
-            "ErrorType": "NoMatchingError"
-          }
-        ]
-      }
-    },
-    {
-      "Parameters": {
         "ComparisonValue": "$.External.promptType"
       },
       "Identifier": "5a9259bc-73c5-4953-b648-92a7af526a2d",
@@ -1620,762 +1516,6 @@
           {
             "NextAction": "6c554cdd-38a4-4ea7-8bba-4ed0a52d4a6b",
             "ErrorType": "NoMatchingCondition"
-          }
-        ]
-      }
-    },
-    {
-      "Parameters": {
-        "StoreInput": "True",
-        "InputTimeLimitSeconds": "3",
-        "SSML": "$.External.prompt",
-        "DTMFConfiguration": {
-          "DisableCancelKey": "False"
-        },
-        "InputValidation": {
-          "CustomValidation": {
-            "MaximumLength": "1"
-          }
-        }
-      },
-      "Identifier": "1128033c-4298-43c2-88de-db5d1001ab7d",
-      "Type": "GetParticipantInput",
-      "Transitions": {
-        "NextAction": "f443f2c3-008b-47f1-9e87-4f7d31c2384c",
-        "Errors": [
-          {
-            "NextAction": "f443f2c3-008b-47f1-9e87-4f7d31c2384c",
-            "ErrorType": "NoMatchingError"
-          }
-        ]
-      }
-    },
-    {
-      "Parameters": {
-        "ComparisonValue": "$.External.blockType"
-      },
-      "Identifier": "6c554cdd-38a4-4ea7-8bba-4ed0a52d4a6b",
-      "Type": "Compare",
-      "Transitions": {
-        "NextAction": "1128033c-4298-43c2-88de-db5d1001ab7d",
-        "Conditions": [
-          {
-            "NextAction": "3bcff2c5-413b-4d43-ad63-57d4d39d46c8",
-            "Condition": {
-              "Operator": "Equals",
-              "Operands": [
-                "INPUT"
-              ]
-            }
-          }
-        ],
-        "Errors": [
-          {
-            "NextAction": "1128033c-4298-43c2-88de-db5d1001ab7d",
-            "ErrorType": "NoMatchingCondition"
-          }
-        ]
-      }
-    },
-    {
-      "Parameters": {
-        "ComparisonValue": "$.External.promptLoop"
-      },
-      "Identifier": "543fd54f-200c-40d5-ad17-ba57af3fb328",
-      "Type": "Compare",
-      "Transitions": {
-        "NextAction": "ac01c335-10a6-41d2-abf1-f9aed4f36a89",
-        "Conditions": [
-          {
-            "NextAction": "217132f9-1471-4f6f-95ba-0cd78a0bf43c",
-            "Condition": {
-              "Operator": "Equals",
-              "Operands": [
-                "true"
-              ]
-            }
-          }
-        ],
-        "Errors": [
-          {
-            "NextAction": "ac01c335-10a6-41d2-abf1-f9aed4f36a89",
-            "ErrorType": "NoMatchingCondition"
-          }
-        ]
-      }
-    },
-    {
-      "Parameters": {
-        "StoreInput": "True",
-        "InputTimeLimitSeconds": "3",
-        "Text": " ",
-        "DTMFConfiguration": {
-          "DisableCancelKey": "False",
-          "InputTerminationSequence": "$.External.globalInputTerm"
-        },
-        "InputValidation": {
-          "CustomValidation": {
-            "MaximumLength": "20"
-          }
-        }
-      },
-      "Identifier": "ea65ca68-53c1-445d-89cc-cc0b6ecb07c8",
-      "Type": "GetParticipantInput",
-      "Transitions": {
-        "NextAction": "f443f2c3-008b-47f1-9e87-4f7d31c2384c",
-        "Errors": [
-          {
-            "NextAction": "f443f2c3-008b-47f1-9e87-4f7d31c2384c",
-            "ErrorType": "NoMatchingError"
-          }
-        ]
-      }
-    },
-    {
-      "Parameters": {
-        "StoreInput": "True",
-        "InputTimeLimitSeconds": "3",
-        "Text": " ",
-        "DTMFConfiguration": {
-          "DisableCancelKey": "False"
-        },
-        "InputValidation": {
-          "CustomValidation": {
-            "MaximumLength": "1"
-          }
-        }
-      },
-      "Identifier": "d3c1e11f-2eb7-46db-8e44-03f0da30871f",
-      "Type": "GetParticipantInput",
-      "Transitions": {
-        "NextAction": "f443f2c3-008b-47f1-9e87-4f7d31c2384c",
-        "Errors": [
-          {
-            "NextAction": "103ddfbd-f9b7-4bd9-b378-70414f8dc0a1",
-            "ErrorType": "NoMatchingError"
-          }
-        ]
-      }
-    },
-    {
-      "Parameters": {
-        "ComparisonValue": "$.External.blockType"
-      },
-      "Identifier": "ac01c335-10a6-41d2-abf1-f9aed4f36a89",
-      "Type": "Compare",
-      "Transitions": {
-        "NextAction": "d3c1e11f-2eb7-46db-8e44-03f0da30871f",
-        "Conditions": [
-          {
-            "NextAction": "ea65ca68-53c1-445d-89cc-cc0b6ecb07c8",
-            "Condition": {
-              "Operator": "Equals",
-              "Operands": [
-                "INPUT"
-              ]
-            }
-          }
-        ],
-        "Errors": [
-          {
-            "NextAction": "d3c1e11f-2eb7-46db-8e44-03f0da30871f",
-            "ErrorType": "NoMatchingCondition"
-          }
-        ]
-      }
-    },
-    {
-      "Parameters": {
-        "ComparisonValue": "$.External.globalInputTerm"
-      },
-      "Identifier": "3bcff2c5-413b-4d43-ad63-57d4d39d46c8",
-      "Type": "Compare",
-      "Transitions": {
-        "NextAction": "7e6d8145-8048-49e5-a1da-cc4dd042cab1",
-        "Conditions": [
-          {
-            "NextAction": "d2d72e85-ee28-4847-99cd-24cec7c2cc68",
-            "Condition": {
-              "Operator": "Equals",
-              "Operands": [
-                "off"
-              ]
-            }
-          }
-        ],
-        "Errors": [
-          {
-            "NextAction": "7e6d8145-8048-49e5-a1da-cc4dd042cab1",
-            "ErrorType": "NoMatchingCondition"
-          }
-        ]
-      }
-    },
-    {
-      "Parameters": {
-        "StoreInput": "True",
-        "InputTimeLimitSeconds": "3",
-        "SSML": "$.External.prompt",
-        "DTMFConfiguration": {
-          "DisableCancelKey": "False"
-        },
-        "InputValidation": {
-          "CustomValidation": {
-            "MaximumLength": "6"
-          }
-        }
-      },
-      "Identifier": "416789fb-8162-4c07-9f04-fa86a7d6b1a0",
-      "Type": "GetParticipantInput",
-      "Transitions": {
-        "NextAction": "f443f2c3-008b-47f1-9e87-4f7d31c2384c",
-        "Errors": [
-          {
-            "NextAction": "f443f2c3-008b-47f1-9e87-4f7d31c2384c",
-            "ErrorType": "NoMatchingError"
-          }
-        ]
-      }
-    },
-    {
-      "Parameters": {
-        "StoreInput": "True",
-        "InputTimeLimitSeconds": "3",
-        "SSML": "$.External.prompt",
-        "DTMFConfiguration": {
-          "DisableCancelKey": "False"
-        },
-        "InputValidation": {
-          "CustomValidation": {
-            "MaximumLength": "2"
-          }
-        }
-      },
-      "Identifier": "fa1deec8-e749-4ea6-9be0-c7655b91d8b2",
-      "Type": "GetParticipantInput",
-      "Transitions": {
-        "NextAction": "f443f2c3-008b-47f1-9e87-4f7d31c2384c",
-        "Errors": [
-          {
-            "NextAction": "f443f2c3-008b-47f1-9e87-4f7d31c2384c",
-            "ErrorType": "NoMatchingError"
-          }
-        ]
-      }
-    },
-    {
-      "Parameters": {
-        "StoreInput": "True",
-        "InputTimeLimitSeconds": "3",
-        "SSML": "$.External.prompt",
-        "DTMFConfiguration": {
-          "DisableCancelKey": "False"
-        },
-        "InputValidation": {
-          "CustomValidation": {
-            "MaximumLength": "3"
-          }
-        }
-      },
-      "Identifier": "fce8f6f9-2b06-4cc8-ad48-83e554479a91",
-      "Type": "GetParticipantInput",
-      "Transitions": {
-        "NextAction": "f443f2c3-008b-47f1-9e87-4f7d31c2384c",
-        "Errors": [
-          {
-            "NextAction": "f443f2c3-008b-47f1-9e87-4f7d31c2384c",
-            "ErrorType": "NoMatchingError"
-          }
-        ]
-      }
-    },
-    {
-      "Parameters": {
-        "StoreInput": "True",
-        "InputTimeLimitSeconds": "3",
-        "SSML": "$.External.prompt",
-        "DTMFConfiguration": {
-          "DisableCancelKey": "False"
-        },
-        "InputValidation": {
-          "CustomValidation": {
-            "MaximumLength": "4"
-          }
-        }
-      },
-      "Identifier": "d547f288-7be3-43a1-a107-4a365141f230",
-      "Type": "GetParticipantInput",
-      "Transitions": {
-        "NextAction": "f443f2c3-008b-47f1-9e87-4f7d31c2384c",
-        "Errors": [
-          {
-            "NextAction": "f443f2c3-008b-47f1-9e87-4f7d31c2384c",
-            "ErrorType": "NoMatchingError"
-          }
-        ]
-      }
-    },
-    {
-      "Parameters": {
-        "StoreInput": "True",
-        "InputTimeLimitSeconds": "3",
-        "SSML": "$.External.prompt",
-        "DTMFConfiguration": {
-          "DisableCancelKey": "False"
-        },
-        "InputValidation": {
-          "CustomValidation": {
-            "MaximumLength": "5"
-          }
-        }
-      },
-      "Identifier": "5ea6ecb0-b33f-4971-8cbb-5bd4289b739c",
-      "Type": "GetParticipantInput",
-      "Transitions": {
-        "NextAction": "f443f2c3-008b-47f1-9e87-4f7d31c2384c",
-        "Errors": [
-          {
-            "NextAction": "f443f2c3-008b-47f1-9e87-4f7d31c2384c",
-            "ErrorType": "NoMatchingError"
-          }
-        ]
-      }
-    },
-    {
-      "Parameters": {
-        "StoreInput": "True",
-        "InputTimeLimitSeconds": "3",
-        "SSML": "$.External.prompt",
-        "DTMFConfiguration": {
-          "DisableCancelKey": "False"
-        },
-        "InputValidation": {
-          "CustomValidation": {
-            "MaximumLength": "7"
-          }
-        }
-      },
-      "Identifier": "148dc642-bbd1-4102-a13e-68690692206d",
-      "Type": "GetParticipantInput",
-      "Transitions": {
-        "NextAction": "f443f2c3-008b-47f1-9e87-4f7d31c2384c",
-        "Errors": [
-          {
-            "NextAction": "f443f2c3-008b-47f1-9e87-4f7d31c2384c",
-            "ErrorType": "NoMatchingError"
-          }
-        ]
-      }
-    },
-    {
-      "Parameters": {
-        "StoreInput": "True",
-        "InputTimeLimitSeconds": "3",
-        "SSML": "$.External.prompt",
-        "DTMFConfiguration": {
-          "DisableCancelKey": "False"
-        },
-        "InputValidation": {
-          "CustomValidation": {
-            "MaximumLength": "8"
-          }
-        }
-      },
-      "Identifier": "f1c67cee-125b-4b13-b531-c80f1dd03e34",
-      "Type": "GetParticipantInput",
-      "Transitions": {
-        "NextAction": "f443f2c3-008b-47f1-9e87-4f7d31c2384c",
-        "Errors": [
-          {
-            "NextAction": "f443f2c3-008b-47f1-9e87-4f7d31c2384c",
-            "ErrorType": "NoMatchingError"
-          }
-        ]
-      }
-    },
-    {
-      "Parameters": {
-        "StoreInput": "True",
-        "InputTimeLimitSeconds": "3",
-        "SSML": "$.External.prompt",
-        "DTMFConfiguration": {
-          "DisableCancelKey": "False"
-        },
-        "InputValidation": {
-          "CustomValidation": {
-            "MaximumLength": "9"
-          }
-        }
-      },
-      "Identifier": "2bc37d09-cea8-4a10-90b7-7e1ea2d2ebbe",
-      "Type": "GetParticipantInput",
-      "Transitions": {
-        "NextAction": "f443f2c3-008b-47f1-9e87-4f7d31c2384c",
-        "Errors": [
-          {
-            "NextAction": "f443f2c3-008b-47f1-9e87-4f7d31c2384c",
-            "ErrorType": "NoMatchingError"
-          }
-        ]
-      }
-    },
-    {
-      "Parameters": {
-        "StoreInput": "True",
-        "InputTimeLimitSeconds": "3",
-        "SSML": "$.External.prompt",
-        "DTMFConfiguration": {
-          "DisableCancelKey": "False"
-        },
-        "InputValidation": {
-          "CustomValidation": {
-            "MaximumLength": "10"
-          }
-        }
-      },
-      "Identifier": "fed89dc3-7989-461c-9d2d-6114affe8f38",
-      "Type": "GetParticipantInput",
-      "Transitions": {
-        "NextAction": "f443f2c3-008b-47f1-9e87-4f7d31c2384c",
-        "Errors": [
-          {
-            "NextAction": "f443f2c3-008b-47f1-9e87-4f7d31c2384c",
-            "ErrorType": "NoMatchingError"
-          }
-        ]
-      }
-    },
-    {
-      "Parameters": {
-        "StoreInput": "True",
-        "InputTimeLimitSeconds": "3",
-        "SSML": "$.External.prompt",
-        "DTMFConfiguration": {
-          "DisableCancelKey": "False"
-        },
-        "InputValidation": {
-          "CustomValidation": {
-            "MaximumLength": "11"
-          }
-        }
-      },
-      "Identifier": "4efb6b01-8eae-44bc-80c8-0d636ad9c4ca",
-      "Type": "GetParticipantInput",
-      "Transitions": {
-        "NextAction": "f443f2c3-008b-47f1-9e87-4f7d31c2384c",
-        "Errors": [
-          {
-            "NextAction": "f443f2c3-008b-47f1-9e87-4f7d31c2384c",
-            "ErrorType": "NoMatchingError"
-          }
-        ]
-      }
-    },
-    {
-      "Parameters": {
-        "StoreInput": "True",
-        "InputTimeLimitSeconds": "3",
-        "SSML": "$.External.prompt",
-        "DTMFConfiguration": {
-          "DisableCancelKey": "False"
-        },
-        "InputValidation": {
-          "CustomValidation": {
-            "MaximumLength": "12"
-          }
-        }
-      },
-      "Identifier": "3319e9ed-151b-4703-a7cd-5df4490cc69f",
-      "Type": "GetParticipantInput",
-      "Transitions": {
-        "NextAction": "f443f2c3-008b-47f1-9e87-4f7d31c2384c",
-        "Errors": [
-          {
-            "NextAction": "f443f2c3-008b-47f1-9e87-4f7d31c2384c",
-            "ErrorType": "NoMatchingError"
-          }
-        ]
-      }
-    },
-    {
-      "Parameters": {
-        "StoreInput": "True",
-        "InputTimeLimitSeconds": "3",
-        "SSML": "$.External.prompt",
-        "DTMFConfiguration": {
-          "DisableCancelKey": "False"
-        },
-        "InputValidation": {
-          "CustomValidation": {
-            "MaximumLength": "13"
-          }
-        }
-      },
-      "Identifier": "6ed5b9cb-0dde-44a1-bc7b-5eca78c34231",
-      "Type": "GetParticipantInput",
-      "Transitions": {
-        "NextAction": "f443f2c3-008b-47f1-9e87-4f7d31c2384c",
-        "Errors": [
-          {
-            "NextAction": "f443f2c3-008b-47f1-9e87-4f7d31c2384c",
-            "ErrorType": "NoMatchingError"
-          }
-        ]
-      }
-    },
-    {
-      "Parameters": {
-        "StoreInput": "True",
-        "InputTimeLimitSeconds": "3",
-        "SSML": "$.External.prompt",
-        "DTMFConfiguration": {
-          "DisableCancelKey": "False"
-        },
-        "InputValidation": {
-          "CustomValidation": {
-            "MaximumLength": "14"
-          }
-        }
-      },
-      "Identifier": "8d1bc50c-1363-44af-9059-ed616d9587d8",
-      "Type": "GetParticipantInput",
-      "Transitions": {
-        "NextAction": "f443f2c3-008b-47f1-9e87-4f7d31c2384c",
-        "Errors": [
-          {
-            "NextAction": "f443f2c3-008b-47f1-9e87-4f7d31c2384c",
-            "ErrorType": "NoMatchingError"
-          }
-        ]
-      }
-    },
-    {
-      "Parameters": {
-        "StoreInput": "True",
-        "InputTimeLimitSeconds": "3",
-        "SSML": "$.External.prompt",
-        "DTMFConfiguration": {
-          "DisableCancelKey": "False"
-        },
-        "InputValidation": {
-          "CustomValidation": {
-            "MaximumLength": "15"
-          }
-        }
-      },
-      "Identifier": "9b9c324f-5d27-4bd7-8e99-9c9070892910",
-      "Type": "GetParticipantInput",
-      "Transitions": {
-        "NextAction": "f443f2c3-008b-47f1-9e87-4f7d31c2384c",
-        "Errors": [
-          {
-            "NextAction": "f443f2c3-008b-47f1-9e87-4f7d31c2384c",
-            "ErrorType": "NoMatchingError"
-          }
-        ]
-      }
-    },
-    {
-      "Parameters": {
-        "LambdaFunctionARN": "$.Attributes.RDF",
-        "InvocationTimeLimitSeconds": "8",
-        "LambdaInvocationAttributes": {
-          "blockAction": "$.External.blockAction",
-          "session": "$.External.session",
-          "selectedOption": "$.StoredCustomerInput",
-          "function": "menu"
-        },
-        "ResponseValidation": {
-          "ResponseType": "STRING_MAP"
-        }
-      },
-      "Identifier": "f443f2c3-008b-47f1-9e87-4f7d31c2384c",
-      "Type": "InvokeLambdaFunction",
-      "Transitions": {
-        "NextAction": "f08400f8-eb09-4b2d-94b3-e9b2401133a1",
-        "Errors": [
-          {
-            "NextAction": "103ddfbd-f9b7-4bd9-b378-70414f8dc0a1",
-            "ErrorType": "NoMatchingError"
-          }
-        ]
-      }
-    },
-    {
-      "Parameters": {
-        "ComparisonValue": "$.External.inputLength"
-      },
-      "Identifier": "d2d72e85-ee28-4847-99cd-24cec7c2cc68",
-      "Type": "Compare",
-      "Transitions": {
-        "NextAction": "6e62db93-9182-4a46-85af-cabe07fc4648",
-        "Conditions": [
-          {
-            "NextAction": "fa1deec8-e749-4ea6-9be0-c7655b91d8b2",
-            "Condition": {
-              "Operator": "Equals",
-              "Operands": [
-                "2"
-              ]
-            }
-          },
-          {
-            "NextAction": "fce8f6f9-2b06-4cc8-ad48-83e554479a91",
-            "Condition": {
-              "Operator": "Equals",
-              "Operands": [
-                "3"
-              ]
-            }
-          },
-          {
-            "NextAction": "d547f288-7be3-43a1-a107-4a365141f230",
-            "Condition": {
-              "Operator": "Equals",
-              "Operands": [
-                "4"
-              ]
-            }
-          },
-          {
-            "NextAction": "5ea6ecb0-b33f-4971-8cbb-5bd4289b739c",
-            "Condition": {
-              "Operator": "Equals",
-              "Operands": [
-                "5"
-              ]
-            }
-          },
-          {
-            "NextAction": "416789fb-8162-4c07-9f04-fa86a7d6b1a0",
-            "Condition": {
-              "Operator": "Equals",
-              "Operands": [
-                "6"
-              ]
-            }
-          },
-          {
-            "NextAction": "148dc642-bbd1-4102-a13e-68690692206d",
-            "Condition": {
-              "Operator": "Equals",
-              "Operands": [
-                "7"
-              ]
-            }
-          },
-          {
-            "NextAction": "f1c67cee-125b-4b13-b531-c80f1dd03e34",
-            "Condition": {
-              "Operator": "Equals",
-              "Operands": [
-                "8"
-              ]
-            }
-          },
-          {
-            "NextAction": "2bc37d09-cea8-4a10-90b7-7e1ea2d2ebbe",
-            "Condition": {
-              "Operator": "Equals",
-              "Operands": [
-                "9"
-              ]
-            }
-          },
-          {
-            "NextAction": "fed89dc3-7989-461c-9d2d-6114affe8f38",
-            "Condition": {
-              "Operator": "Equals",
-              "Operands": [
-                "10"
-              ]
-            }
-          },
-          {
-            "NextAction": "4efb6b01-8eae-44bc-80c8-0d636ad9c4ca",
-            "Condition": {
-              "Operator": "Equals",
-              "Operands": [
-                "11"
-              ]
-            }
-          },
-          {
-            "NextAction": "3319e9ed-151b-4703-a7cd-5df4490cc69f",
-            "Condition": {
-              "Operator": "Equals",
-              "Operands": [
-                "12"
-              ]
-            }
-          },
-          {
-            "NextAction": "6ed5b9cb-0dde-44a1-bc7b-5eca78c34231",
-            "Condition": {
-              "Operator": "Equals",
-              "Operands": [
-                "13"
-              ]
-            }
-          },
-          {
-            "NextAction": "8d1bc50c-1363-44af-9059-ed616d9587d8",
-            "Condition": {
-              "Operator": "Equals",
-              "Operands": [
-                "14"
-              ]
-            }
-          },
-          {
-            "NextAction": "9b9c324f-5d27-4bd7-8e99-9c9070892910",
-            "Condition": {
-              "Operator": "Equals",
-              "Operands": [
-                "15"
-              ]
-            }
-          },
-          {
-            "NextAction": "6e62db93-9182-4a46-85af-cabe07fc4648",
-            "Condition": {
-              "Operator": "Equals",
-              "Operands": [
-                "16"
-              ]
-            }
-          }
-        ],
-        "Errors": [
-          {
-            "NextAction": "6e62db93-9182-4a46-85af-cabe07fc4648",
-            "ErrorType": "NoMatchingCondition"
-          }
-        ]
-      }
-    },
-    {
-      "Parameters": {
-        "StoreInput": "True",
-        "InputTimeLimitSeconds": "3",
-        "SSML": "$.External.prompt",
-        "DTMFConfiguration": {
-          "DisableCancelKey": "False"
-        },
-        "InputValidation": {
-          "CustomValidation": {
-            "MaximumLength": "16"
-          }
-        }
-      },
-      "Identifier": "6e62db93-9182-4a46-85af-cabe07fc4648",
-      "Type": "GetParticipantInput",
-      "Transitions": {
-        "NextAction": "f443f2c3-008b-47f1-9e87-4f7d31c2384c",
-        "Errors": [
-          {
-            "NextAction": "f443f2c3-008b-47f1-9e87-4f7d31c2384c",
-            "ErrorType": "NoMatchingError"
           }
         ]
       }
@@ -2907,6 +2047,866 @@
         "Errors": [
           {
             "NextAction": "30312032-5987-4d63-bbfc-6b4eef0e8df1",
+            "ErrorType": "NoMatchingError"
+          }
+        ]
+      }
+    },
+    {
+      "Parameters": {
+        "ComparisonValue": "$.StoredCustomerInput"
+      },
+      "Identifier": "ef9ede88-517c-4abb-a818-a2fc2e498d8c",
+      "Type": "Compare",
+      "Transitions": {
+        "NextAction": "f443f2c3-008b-47f1-9e87-4f7d31c2384c",
+        "Conditions": [
+          {
+            "NextAction": "8cb9fa56-9d5f-44b8-bac8-4c928634256b",
+            "Condition": {
+              "Operator": "Equals",
+              "Operands": [
+                "Timeout"
+              ]
+            }
+          }
+        ],
+        "Errors": [
+          {
+            "NextAction": "f443f2c3-008b-47f1-9e87-4f7d31c2384c",
+            "ErrorType": "NoMatchingCondition"
+          }
+        ]
+      }
+    },
+    {
+      "Parameters": {
+        "ComparisonValue": "$.External.promptLoop"
+      },
+      "Identifier": "543fd54f-200c-40d5-ad17-ba57af3fb328",
+      "Type": "Compare",
+      "Transitions": {
+        "NextAction": "ac01c335-10a6-41d2-abf1-f9aed4f36a89",
+        "Conditions": [
+          {
+            "NextAction": "217132f9-1471-4f6f-95ba-0cd78a0bf43c",
+            "Condition": {
+              "Operator": "Equals",
+              "Operands": [
+                "true"
+              ]
+            }
+          }
+        ],
+        "Errors": [
+          {
+            "NextAction": "ac01c335-10a6-41d2-abf1-f9aed4f36a89",
+            "ErrorType": "NoMatchingCondition"
+          }
+        ]
+      }
+    },
+    {
+      "Parameters": {
+        "StoreInput": "True",
+        "InputTimeLimitSeconds": "1",
+        "Media": {
+          "Uri": "$.External.prompt",
+          "SourceType": "S3",
+          "MediaType": "Audio"
+        },
+        "DTMFConfiguration": {
+          "DisableCancelKey": "False"
+        },
+        "InputValidation": {
+          "CustomValidation": {
+            "MaximumLength": "1"
+          }
+        }
+      },
+      "Identifier": "217132f9-1471-4f6f-95ba-0cd78a0bf43c",
+      "Type": "GetParticipantInput",
+      "Transitions": {
+        "NextAction": "ef9ede88-517c-4abb-a818-a2fc2e498d8c",
+        "Errors": [
+          {
+            "NextAction": "103ddfbd-f9b7-4bd9-b378-70414f8dc0a1",
+            "ErrorType": "NoMatchingError"
+          }
+        ]
+      }
+    },
+    {
+      "Parameters": {
+        "Attributes": {
+          "errorMessage": "Store Input Failure",
+          "callFlowID": "ERROR"
+        },
+        "TargetContact": "Current"
+      },
+      "Identifier": "103ddfbd-f9b7-4bd9-b378-70414f8dc0a1",
+      "Type": "UpdateContactAttributes",
+      "Transitions": {
+        "NextAction": "8b235a9d-e149-4c1f-8740-0038d997e02f",
+        "Errors": [
+          {
+            "NextAction": "8b235a9d-e149-4c1f-8740-0038d997e02f",
+            "ErrorType": "NoMatchingError"
+          }
+        ]
+      }
+    },
+    {
+      "Parameters": {
+        "StoreInput": "True",
+        "InputTimeLimitSeconds": "5",
+        "Text": " ",
+        "DTMFConfiguration": {
+          "DisableCancelKey": "False"
+        },
+        "InputValidation": {
+          "CustomValidation": {
+            "MaximumLength": "1"
+          }
+        }
+      },
+      "Identifier": "d3c1e11f-2eb7-46db-8e44-03f0da30871f",
+      "Type": "GetParticipantInput",
+      "Transitions": {
+        "NextAction": "f443f2c3-008b-47f1-9e87-4f7d31c2384c",
+        "Errors": [
+          {
+            "NextAction": "103ddfbd-f9b7-4bd9-b378-70414f8dc0a1",
+            "ErrorType": "NoMatchingError"
+          }
+        ]
+      }
+    },
+    {
+      "Parameters": {
+        "ComparisonValue": "$.External.blockType"
+      },
+      "Identifier": "ac01c335-10a6-41d2-abf1-f9aed4f36a89",
+      "Type": "Compare",
+      "Transitions": {
+        "NextAction": "d3c1e11f-2eb7-46db-8e44-03f0da30871f",
+        "Conditions": [
+          {
+            "NextAction": "ea65ca68-53c1-445d-89cc-cc0b6ecb07c8",
+            "Condition": {
+              "Operator": "Equals",
+              "Operands": [
+                "INPUT"
+              ]
+            }
+          }
+        ],
+        "Errors": [
+          {
+            "NextAction": "d3c1e11f-2eb7-46db-8e44-03f0da30871f",
+            "ErrorType": "NoMatchingCondition"
+          }
+        ]
+      }
+    },
+    {
+      "Parameters": {
+        "StoreInput": "True",
+        "InputTimeLimitSeconds": "5",
+        "Text": " ",
+        "DTMFConfiguration": {
+          "DisableCancelKey": "False",
+          "InputTerminationSequence": "$.External.globalInputTerm"
+        },
+        "InputValidation": {
+          "CustomValidation": {
+            "MaximumLength": "20"
+          }
+        }
+      },
+      "Identifier": "ea65ca68-53c1-445d-89cc-cc0b6ecb07c8",
+      "Type": "GetParticipantInput",
+      "Transitions": {
+        "NextAction": "f443f2c3-008b-47f1-9e87-4f7d31c2384c",
+        "Errors": [
+          {
+            "NextAction": "f443f2c3-008b-47f1-9e87-4f7d31c2384c",
+            "ErrorType": "NoMatchingError"
+          }
+        ]
+      }
+    },
+    {
+      "Parameters": {
+        "ComparisonValue": "$.External.blockType"
+      },
+      "Identifier": "6c554cdd-38a4-4ea7-8bba-4ed0a52d4a6b",
+      "Type": "Compare",
+      "Transitions": {
+        "NextAction": "1128033c-4298-43c2-88de-db5d1001ab7d",
+        "Conditions": [
+          {
+            "NextAction": "3bcff2c5-413b-4d43-ad63-57d4d39d46c8",
+            "Condition": {
+              "Operator": "Equals",
+              "Operands": [
+                "INPUT"
+              ]
+            }
+          }
+        ],
+        "Errors": [
+          {
+            "NextAction": "1128033c-4298-43c2-88de-db5d1001ab7d",
+            "ErrorType": "NoMatchingCondition"
+          }
+        ]
+      }
+    },
+    {
+      "Parameters": {
+        "StoreInput": "True",
+        "InputTimeLimitSeconds": "5",
+        "SSML": "$.External.prompt",
+        "DTMFConfiguration": {
+          "DisableCancelKey": "False"
+        },
+        "InputValidation": {
+          "CustomValidation": {
+            "MaximumLength": "1"
+          }
+        }
+      },
+      "Identifier": "1128033c-4298-43c2-88de-db5d1001ab7d",
+      "Type": "GetParticipantInput",
+      "Transitions": {
+        "NextAction": "f443f2c3-008b-47f1-9e87-4f7d31c2384c",
+        "Errors": [
+          {
+            "NextAction": "f443f2c3-008b-47f1-9e87-4f7d31c2384c",
+            "ErrorType": "NoMatchingError"
+          }
+        ]
+      }
+    },
+    {
+      "Parameters": {
+        "ComparisonValue": "$.External.globalInputTerm"
+      },
+      "Identifier": "3bcff2c5-413b-4d43-ad63-57d4d39d46c8",
+      "Type": "Compare",
+      "Transitions": {
+        "NextAction": "7e6d8145-8048-49e5-a1da-cc4dd042cab1",
+        "Conditions": [
+          {
+            "NextAction": "d2d72e85-ee28-4847-99cd-24cec7c2cc68",
+            "Condition": {
+              "Operator": "Equals",
+              "Operands": [
+                "off"
+              ]
+            }
+          }
+        ],
+        "Errors": [
+          {
+            "NextAction": "7e6d8145-8048-49e5-a1da-cc4dd042cab1",
+            "ErrorType": "NoMatchingCondition"
+          }
+        ]
+      }
+    },
+    {
+      "Parameters": {
+        "StoreInput": "True",
+        "InputTimeLimitSeconds": "5",
+        "SSML": "$.External.prompt",
+        "DTMFConfiguration": {
+          "DisableCancelKey": "False",
+          "InputTerminationSequence": "$.External.globalInputTerm"
+        },
+        "InputValidation": {
+          "CustomValidation": {
+            "MaximumLength": "20"
+          }
+        }
+      },
+      "Identifier": "7e6d8145-8048-49e5-a1da-cc4dd042cab1",
+      "Type": "GetParticipantInput",
+      "Transitions": {
+        "NextAction": "f443f2c3-008b-47f1-9e87-4f7d31c2384c",
+        "Errors": [
+          {
+            "NextAction": "f443f2c3-008b-47f1-9e87-4f7d31c2384c",
+            "ErrorType": "NoMatchingError"
+          }
+        ]
+      }
+    },
+    {
+      "Parameters": {
+        "StoreInput": "True",
+        "InputTimeLimitSeconds": "5",
+        "SSML": "$.External.prompt",
+        "DTMFConfiguration": {
+          "DisableCancelKey": "False"
+        },
+        "InputValidation": {
+          "CustomValidation": {
+            "MaximumLength": "16"
+          }
+        }
+      },
+      "Identifier": "6e62db93-9182-4a46-85af-cabe07fc4648",
+      "Type": "GetParticipantInput",
+      "Transitions": {
+        "NextAction": "f443f2c3-008b-47f1-9e87-4f7d31c2384c",
+        "Errors": [
+          {
+            "NextAction": "f443f2c3-008b-47f1-9e87-4f7d31c2384c",
+            "ErrorType": "NoMatchingError"
+          }
+        ]
+      }
+    },
+    {
+      "Parameters": {
+        "StoreInput": "True",
+        "InputTimeLimitSeconds": "5",
+        "SSML": "$.External.prompt",
+        "DTMFConfiguration": {
+          "DisableCancelKey": "False"
+        },
+        "InputValidation": {
+          "CustomValidation": {
+            "MaximumLength": "15"
+          }
+        }
+      },
+      "Identifier": "9b9c324f-5d27-4bd7-8e99-9c9070892910",
+      "Type": "GetParticipantInput",
+      "Transitions": {
+        "NextAction": "f443f2c3-008b-47f1-9e87-4f7d31c2384c",
+        "Errors": [
+          {
+            "NextAction": "f443f2c3-008b-47f1-9e87-4f7d31c2384c",
+            "ErrorType": "NoMatchingError"
+          }
+        ]
+      }
+    },
+    {
+      "Parameters": {
+        "StoreInput": "True",
+        "InputTimeLimitSeconds": "5",
+        "SSML": "$.External.prompt",
+        "DTMFConfiguration": {
+          "DisableCancelKey": "False"
+        },
+        "InputValidation": {
+          "CustomValidation": {
+            "MaximumLength": "14"
+          }
+        }
+      },
+      "Identifier": "8d1bc50c-1363-44af-9059-ed616d9587d8",
+      "Type": "GetParticipantInput",
+      "Transitions": {
+        "NextAction": "f443f2c3-008b-47f1-9e87-4f7d31c2384c",
+        "Errors": [
+          {
+            "NextAction": "f443f2c3-008b-47f1-9e87-4f7d31c2384c",
+            "ErrorType": "NoMatchingError"
+          }
+        ]
+      }
+    },
+    {
+      "Parameters": {
+        "StoreInput": "True",
+        "InputTimeLimitSeconds": "5",
+        "SSML": "$.External.prompt",
+        "DTMFConfiguration": {
+          "DisableCancelKey": "False"
+        },
+        "InputValidation": {
+          "CustomValidation": {
+            "MaximumLength": "13"
+          }
+        }
+      },
+      "Identifier": "6ed5b9cb-0dde-44a1-bc7b-5eca78c34231",
+      "Type": "GetParticipantInput",
+      "Transitions": {
+        "NextAction": "f443f2c3-008b-47f1-9e87-4f7d31c2384c",
+        "Errors": [
+          {
+            "NextAction": "f443f2c3-008b-47f1-9e87-4f7d31c2384c",
+            "ErrorType": "NoMatchingError"
+          }
+        ]
+      }
+    },
+    {
+      "Parameters": {
+        "StoreInput": "True",
+        "InputTimeLimitSeconds": "5",
+        "SSML": "$.External.prompt",
+        "DTMFConfiguration": {
+          "DisableCancelKey": "False"
+        },
+        "InputValidation": {
+          "CustomValidation": {
+            "MaximumLength": "12"
+          }
+        }
+      },
+      "Identifier": "3319e9ed-151b-4703-a7cd-5df4490cc69f",
+      "Type": "GetParticipantInput",
+      "Transitions": {
+        "NextAction": "f443f2c3-008b-47f1-9e87-4f7d31c2384c",
+        "Errors": [
+          {
+            "NextAction": "f443f2c3-008b-47f1-9e87-4f7d31c2384c",
+            "ErrorType": "NoMatchingError"
+          }
+        ]
+      }
+    },
+    {
+      "Parameters": {
+        "StoreInput": "True",
+        "InputTimeLimitSeconds": "5",
+        "SSML": "$.External.prompt",
+        "DTMFConfiguration": {
+          "DisableCancelKey": "False"
+        },
+        "InputValidation": {
+          "CustomValidation": {
+            "MaximumLength": "11"
+          }
+        }
+      },
+      "Identifier": "4efb6b01-8eae-44bc-80c8-0d636ad9c4ca",
+      "Type": "GetParticipantInput",
+      "Transitions": {
+        "NextAction": "f443f2c3-008b-47f1-9e87-4f7d31c2384c",
+        "Errors": [
+          {
+            "NextAction": "f443f2c3-008b-47f1-9e87-4f7d31c2384c",
+            "ErrorType": "NoMatchingError"
+          }
+        ]
+      }
+    },
+    {
+      "Parameters": {
+        "StoreInput": "True",
+        "InputTimeLimitSeconds": "5",
+        "SSML": "$.External.prompt",
+        "DTMFConfiguration": {
+          "DisableCancelKey": "False"
+        },
+        "InputValidation": {
+          "CustomValidation": {
+            "MaximumLength": "10"
+          }
+        }
+      },
+      "Identifier": "fed89dc3-7989-461c-9d2d-6114affe8f38",
+      "Type": "GetParticipantInput",
+      "Transitions": {
+        "NextAction": "f443f2c3-008b-47f1-9e87-4f7d31c2384c",
+        "Errors": [
+          {
+            "NextAction": "f443f2c3-008b-47f1-9e87-4f7d31c2384c",
+            "ErrorType": "NoMatchingError"
+          }
+        ]
+      }
+    },
+    {
+      "Parameters": {
+        "StoreInput": "True",
+        "InputTimeLimitSeconds": "5",
+        "SSML": "$.External.prompt",
+        "DTMFConfiguration": {
+          "DisableCancelKey": "False"
+        },
+        "InputValidation": {
+          "CustomValidation": {
+            "MaximumLength": "9"
+          }
+        }
+      },
+      "Identifier": "2bc37d09-cea8-4a10-90b7-7e1ea2d2ebbe",
+      "Type": "GetParticipantInput",
+      "Transitions": {
+        "NextAction": "f443f2c3-008b-47f1-9e87-4f7d31c2384c",
+        "Errors": [
+          {
+            "NextAction": "f443f2c3-008b-47f1-9e87-4f7d31c2384c",
+            "ErrorType": "NoMatchingError"
+          }
+        ]
+      }
+    },
+    {
+      "Parameters": {
+        "StoreInput": "True",
+        "InputTimeLimitSeconds": "5",
+        "SSML": "$.External.prompt",
+        "DTMFConfiguration": {
+          "DisableCancelKey": "False"
+        },
+        "InputValidation": {
+          "CustomValidation": {
+            "MaximumLength": "8"
+          }
+        }
+      },
+      "Identifier": "f1c67cee-125b-4b13-b531-c80f1dd03e34",
+      "Type": "GetParticipantInput",
+      "Transitions": {
+        "NextAction": "f443f2c3-008b-47f1-9e87-4f7d31c2384c",
+        "Errors": [
+          {
+            "NextAction": "f443f2c3-008b-47f1-9e87-4f7d31c2384c",
+            "ErrorType": "NoMatchingError"
+          }
+        ]
+      }
+    },
+    {
+      "Parameters": {
+        "StoreInput": "True",
+        "InputTimeLimitSeconds": "5",
+        "SSML": "$.External.prompt",
+        "DTMFConfiguration": {
+          "DisableCancelKey": "False"
+        },
+        "InputValidation": {
+          "CustomValidation": {
+            "MaximumLength": "7"
+          }
+        }
+      },
+      "Identifier": "148dc642-bbd1-4102-a13e-68690692206d",
+      "Type": "GetParticipantInput",
+      "Transitions": {
+        "NextAction": "f443f2c3-008b-47f1-9e87-4f7d31c2384c",
+        "Errors": [
+          {
+            "NextAction": "f443f2c3-008b-47f1-9e87-4f7d31c2384c",
+            "ErrorType": "NoMatchingError"
+          }
+        ]
+      }
+    },
+    {
+      "Parameters": {
+        "StoreInput": "True",
+        "InputTimeLimitSeconds": "5",
+        "SSML": "$.External.prompt",
+        "DTMFConfiguration": {
+          "DisableCancelKey": "False"
+        },
+        "InputValidation": {
+          "CustomValidation": {
+            "MaximumLength": "5"
+          }
+        }
+      },
+      "Identifier": "5ea6ecb0-b33f-4971-8cbb-5bd4289b739c",
+      "Type": "GetParticipantInput",
+      "Transitions": {
+        "NextAction": "f443f2c3-008b-47f1-9e87-4f7d31c2384c",
+        "Errors": [
+          {
+            "NextAction": "f443f2c3-008b-47f1-9e87-4f7d31c2384c",
+            "ErrorType": "NoMatchingError"
+          }
+        ]
+      }
+    },
+    {
+      "Parameters": {
+        "StoreInput": "True",
+        "InputTimeLimitSeconds": "5",
+        "SSML": "$.External.prompt",
+        "DTMFConfiguration": {
+          "DisableCancelKey": "False"
+        },
+        "InputValidation": {
+          "CustomValidation": {
+            "MaximumLength": "4"
+          }
+        }
+      },
+      "Identifier": "d547f288-7be3-43a1-a107-4a365141f230",
+      "Type": "GetParticipantInput",
+      "Transitions": {
+        "NextAction": "f443f2c3-008b-47f1-9e87-4f7d31c2384c",
+        "Errors": [
+          {
+            "NextAction": "f443f2c3-008b-47f1-9e87-4f7d31c2384c",
+            "ErrorType": "NoMatchingError"
+          }
+        ]
+      }
+    },
+    {
+      "Parameters": {
+        "StoreInput": "True",
+        "InputTimeLimitSeconds": "5",
+        "SSML": "$.External.prompt",
+        "DTMFConfiguration": {
+          "DisableCancelKey": "False"
+        },
+        "InputValidation": {
+          "CustomValidation": {
+            "MaximumLength": "3"
+          }
+        }
+      },
+      "Identifier": "fce8f6f9-2b06-4cc8-ad48-83e554479a91",
+      "Type": "GetParticipantInput",
+      "Transitions": {
+        "NextAction": "f443f2c3-008b-47f1-9e87-4f7d31c2384c",
+        "Errors": [
+          {
+            "NextAction": "f443f2c3-008b-47f1-9e87-4f7d31c2384c",
+            "ErrorType": "NoMatchingError"
+          }
+        ]
+      }
+    },
+    {
+      "Parameters": {
+        "StoreInput": "True",
+        "InputTimeLimitSeconds": "5",
+        "SSML": "$.External.prompt",
+        "DTMFConfiguration": {
+          "DisableCancelKey": "False"
+        },
+        "InputValidation": {
+          "CustomValidation": {
+            "MaximumLength": "6"
+          }
+        }
+      },
+      "Identifier": "416789fb-8162-4c07-9f04-fa86a7d6b1a0",
+      "Type": "GetParticipantInput",
+      "Transitions": {
+        "NextAction": "f443f2c3-008b-47f1-9e87-4f7d31c2384c",
+        "Errors": [
+          {
+            "NextAction": "f443f2c3-008b-47f1-9e87-4f7d31c2384c",
+            "ErrorType": "NoMatchingError"
+          }
+        ]
+      }
+    },
+    {
+      "Parameters": {
+        "ComparisonValue": "$.External.inputLength"
+      },
+      "Identifier": "d2d72e85-ee28-4847-99cd-24cec7c2cc68",
+      "Type": "Compare",
+      "Transitions": {
+        "NextAction": "6e62db93-9182-4a46-85af-cabe07fc4648",
+        "Conditions": [
+          {
+            "NextAction": "fa1deec8-e749-4ea6-9be0-c7655b91d8b2",
+            "Condition": {
+              "Operator": "Equals",
+              "Operands": [
+                "2"
+              ]
+            }
+          },
+          {
+            "NextAction": "fce8f6f9-2b06-4cc8-ad48-83e554479a91",
+            "Condition": {
+              "Operator": "Equals",
+              "Operands": [
+                "3"
+              ]
+            }
+          },
+          {
+            "NextAction": "d547f288-7be3-43a1-a107-4a365141f230",
+            "Condition": {
+              "Operator": "Equals",
+              "Operands": [
+                "4"
+              ]
+            }
+          },
+          {
+            "NextAction": "5ea6ecb0-b33f-4971-8cbb-5bd4289b739c",
+            "Condition": {
+              "Operator": "Equals",
+              "Operands": [
+                "5"
+              ]
+            }
+          },
+          {
+            "NextAction": "416789fb-8162-4c07-9f04-fa86a7d6b1a0",
+            "Condition": {
+              "Operator": "Equals",
+              "Operands": [
+                "6"
+              ]
+            }
+          },
+          {
+            "NextAction": "148dc642-bbd1-4102-a13e-68690692206d",
+            "Condition": {
+              "Operator": "Equals",
+              "Operands": [
+                "7"
+              ]
+            }
+          },
+          {
+            "NextAction": "f1c67cee-125b-4b13-b531-c80f1dd03e34",
+            "Condition": {
+              "Operator": "Equals",
+              "Operands": [
+                "8"
+              ]
+            }
+          },
+          {
+            "NextAction": "2bc37d09-cea8-4a10-90b7-7e1ea2d2ebbe",
+            "Condition": {
+              "Operator": "Equals",
+              "Operands": [
+                "9"
+              ]
+            }
+          },
+          {
+            "NextAction": "fed89dc3-7989-461c-9d2d-6114affe8f38",
+            "Condition": {
+              "Operator": "Equals",
+              "Operands": [
+                "10"
+              ]
+            }
+          },
+          {
+            "NextAction": "4efb6b01-8eae-44bc-80c8-0d636ad9c4ca",
+            "Condition": {
+              "Operator": "Equals",
+              "Operands": [
+                "11"
+              ]
+            }
+          },
+          {
+            "NextAction": "3319e9ed-151b-4703-a7cd-5df4490cc69f",
+            "Condition": {
+              "Operator": "Equals",
+              "Operands": [
+                "12"
+              ]
+            }
+          },
+          {
+            "NextAction": "6ed5b9cb-0dde-44a1-bc7b-5eca78c34231",
+            "Condition": {
+              "Operator": "Equals",
+              "Operands": [
+                "13"
+              ]
+            }
+          },
+          {
+            "NextAction": "8d1bc50c-1363-44af-9059-ed616d9587d8",
+            "Condition": {
+              "Operator": "Equals",
+              "Operands": [
+                "14"
+              ]
+            }
+          },
+          {
+            "NextAction": "9b9c324f-5d27-4bd7-8e99-9c9070892910",
+            "Condition": {
+              "Operator": "Equals",
+              "Operands": [
+                "15"
+              ]
+            }
+          },
+          {
+            "NextAction": "6e62db93-9182-4a46-85af-cabe07fc4648",
+            "Condition": {
+              "Operator": "Equals",
+              "Operands": [
+                "16"
+              ]
+            }
+          }
+        ],
+        "Errors": [
+          {
+            "NextAction": "6e62db93-9182-4a46-85af-cabe07fc4648",
+            "ErrorType": "NoMatchingCondition"
+          }
+        ]
+      }
+    },
+    {
+      "Parameters": {
+        "LambdaFunctionARN": "$.Attributes.RDF",
+        "InvocationTimeLimitSeconds": "8",
+        "LambdaInvocationAttributes": {
+          "blockAction": "$.External.blockAction",
+          "session": "$.External.session",
+          "selectedOption": "$.StoredCustomerInput",
+          "function": "menu"
+        },
+        "ResponseValidation": {
+          "ResponseType": "STRING_MAP"
+        }
+      },
+      "Identifier": "f443f2c3-008b-47f1-9e87-4f7d31c2384c",
+      "Type": "InvokeLambdaFunction",
+      "Transitions": {
+        "NextAction": "f08400f8-eb09-4b2d-94b3-e9b2401133a1",
+        "Errors": [
+          {
+            "NextAction": "103ddfbd-f9b7-4bd9-b378-70414f8dc0a1",
+            "ErrorType": "NoMatchingError"
+          }
+        ]
+      }
+    },
+    {
+      "Parameters": {
+        "StoreInput": "True",
+        "InputTimeLimitSeconds": "5",
+        "SSML": "$.External.prompt",
+        "DTMFConfiguration": {
+          "DisableCancelKey": "False"
+        },
+        "InputValidation": {
+          "CustomValidation": {
+            "MaximumLength": "2"
+          }
+        }
+      },
+      "Identifier": "fa1deec8-e749-4ea6-9be0-c7655b91d8b2",
+      "Type": "GetParticipantInput",
+      "Transitions": {
+        "NextAction": "f443f2c3-008b-47f1-9e87-4f7d31c2384c",
+        "Errors": [
+          {
+            "NextAction": "f443f2c3-008b-47f1-9e87-4f7d31c2384c",
             "ErrorType": "NoMatchingError"
           }
         ]

@@ -1,11 +1,7 @@
 ﻿BLOCK,TYPE,PARAM,ACTION
-START,EVAL,"session.pop('override', False) and 'override_key' in session",true:PQ800|false:PQ005
-PQ005,EVAL,queues.checkAppBusHours(),true:PQ010|false:PQ075
-PQ010,EVAL,not session['queue'].isdigit(),true:PQ090|false:PQ700
-PQ075,EVAL,session['queue']=='Incoming Dispatch',true:PQ090|false:PQ085
-PQ085,PLAY,tts:CSClosedMessage,DISCONNECT
-PQ090,SETQUEUE,session['queue'],PQ100
-PQ100,EXEC,session['queuemetrics'] = queues.getQueueMetrics(session['queueID']),PQ110
+START,EVAL,queues.checkAppBusHours(),true:PQ100|false:PQ050
+PQ050,PLAY,tts:closed,DISCONNECT
+PQ100,GETMETRICS,,PQ110
 PQ110,EVAL,session['function']=='agent',true:PQ125|false:PQ200
 PQ125,EVAL,session['queuemetrics']['agentsOnline'] > 0,true:PQ150|false:PQ200
 PQ150,PLAY,text:The queue is open and staffed.  Please transfer the caller now.,PQ200
@@ -14,13 +10,9 @@ PQ300,EVAL,session['queuemetrics']['agentsOnline'] > 0,true:PQ500|false:PQ400
 PQ400,PLAY,tts:noagents,DISCONNECT
 PQ500,PLAY,tts:monitor,PQ600
 PQ600,QUEUE,,Q100
-PQ700,XFER,session['queue'],DISCONNECT
-PQ800,EVAL,session['authenticated'] == True,true:PQ850|false:PQ005
-PQ850,EXEC,"session['flowIndex'] = int([key for key, value in session['flowControl'].items() if value == ""MenuTree""][0]) if any(value == ""MenuTree"" for key, value in session['flowControl'].items()) else None",RETURN
-Q100,EVAL,session['queuemetrics']['OldestContactAge'] <= 1,true:Q125|false:Q150
-Q125,PLAY,tts:busy1|ordinal:session['queuemetrics']['contactsInQueue']|text: in line for the next available agent.  Your estimated wait time is less than a minute.,Q200
-Q150,PLAY,tts:busy1|ordinal:session['queuemetrics']['contactsInQueue']|tts:busy2|number:session['queuemetrics']['OldestContactAge']|tts:busy3,Q200
-Q200,EVAL,session['queuemetrics']['OldestContactAge'] < int(session['waitCapacity']),true:Q300|false:Q400
+Q100,EXEC,"session['wait_time'] = util.convert_seconds_to_text(session['queuemetrics']['EstimatedWaitTime'],session['language'])",Q150
+Q150,PLAY,tts:busy1|ordinal:session['queuemetrics']['contactsInQueue']|tts:busy2|text:session['wait_time'],Q200
+Q200,EVAL,session['queuemetrics']['EstimatedWaitTime'] < int(session['waitCapacity']),true:Q300|false:Q400
 Q300,PLAY,tts:pleasehold,Q1000
 Q400,EVAL,"session['callBack']==""on""",true:Q500|false:Q300
 Q500,MENU,tts:callbackmenu,invalid:Q600|timeout:Q300|maxaction:Q600
@@ -28,9 +20,8 @@ Q600,INPUT,tts:entercallback,var:callback_number|length:10|action:Q800|seconds:3
 Q700,EXEC,session['callback_number']=session['ani'],Q800
 Q800,PLAY,tts:callbacknotice,Q900
 Q900,CALLBACK,session['callback_number'],DISCONNECT
-Q1000,PLAY,wav:Music_Jazz_MyTimetoFly_Inst_150s,Q1100
-Q1100,EVAL,queues.agentsOnline(),true:Q1200|false:Q1300
+Q1000,PLAY,wav:Music_Jazz_MyTimetoFly_Inst_150s,Q1050
+Q1050,GETMETRICS,,Q1100
+Q1100,EVAL,session['queuemetrics']['agentsOnline'] > 0,true:Q1200|false:Q1300
 Q1200,PLAY,tts:stillbusy,Q400
 Q1300,PLAY,tts:noagents,DISCONNECT
-Q1400,RECORD,tts:voicemail,Q1200 Q1200
-Q2000,SETQUEUE,session['queue'],Q2100 Q2100
