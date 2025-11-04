@@ -1,0 +1,10 @@
+﻿BLOCK,TYPE,PARAM,ACTION
+START,INPUT,tts:EnterUserExtension,var:extension|length:4|action:SearchExtension|seconds:5|maxaction:RETURN|#:GetName
+SearchExtension,EXEC,"session.user_queue_arn = util.search_user_extension(session.tenant_id, session.extension)",CheckUserExtension
+CheckUserExtension,EVAL,session.user_queue_arn != None,true:SetUserTransfer|false:ExtenstionNotFound
+ExtenstionNotFound,PLAY,tts:InvalidExtenstion,START
+GetName,LEX,tts:SayUserName,bot_id:'CZ2USPCKXK'|alias_id:'FYH4SZXJQA'|HandleIntent:SearchName|maxaction:RETURN
+SearchName,EXEC,"session.user_queue_arn = util.search_user_directory(session.tenant_id, session.slots.get('FirstName'),session.slots.get('LastName'))",CheckUserQueue
+CheckUserQueue,EVAL,session.user_queue_arn != None,true:SetUserTransfer|false:UserNotFound
+SetUserTransfer,EXEC,session['flow_action']={'user':session.user_queue_arn},RETURN
+UserNotFound,PLAY,tts:InvalidUser|characters:session['slots'].get('FirstName')|characters:session['slots'].get('LastName'),GetName

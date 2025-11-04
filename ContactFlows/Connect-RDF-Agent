@@ -33,7 +33,7 @@
         "conditions": [],
         "conditionMetadata": [
           {
-            "id": "f385340a-c20f-40de-9757-0e19185d2e8c",
+            "id": "77ee5574-c5c5-4b17-9428-c550ac73d569",
             "operator": {
               "name": "Equals",
               "value": "Equals",
@@ -63,7 +63,7 @@
         "conditions": [],
         "conditionMetadata": [
           {
-            "id": "e5f363b3-9c07-4d21-bc16-7aa18a5de37e",
+            "id": "73e26ef8-7b09-47ce-ab4a-38f11471dc7c",
             "operator": {
               "name": "Equals",
               "value": "Equals",
@@ -87,56 +87,6 @@
         },
         "useDynamic": true,
         "customerOrAgent": true
-      },
-      "cc6ebb7f-4535-412e-8c18-e8f384b4223f": {
-        "position": {
-          "x": 1697.6,
-          "y": 42.4
-        },
-        "conditions": [],
-        "conditionMetadata": [
-          {
-            "id": "515be6e4-36a8-48e2-bb57-6db54a984d28",
-            "operator": {
-              "name": "Equals",
-              "value": "Equals",
-              "shortDisplay": "="
-            },
-            "value": "on"
-          }
-        ]
-      },
-      "8ec89265-28c2-4d1c-8b6a-ed07dfb56fea": {
-        "position": {
-          "x": 1212.8,
-          "y": 39.2
-        },
-        "parameters": {
-          "Attributes": {
-            "ConnectRDFInitID": {
-              "useDynamic": true
-            },
-            "ConnectRDFPlayID": {
-              "useDynamic": true
-            },
-            "ConnectRDFMainID": {
-              "useDynamic": true
-            },
-            "ConnectRDFLanguagesID": {
-              "useDynamic": true
-            },
-            "ConnectRDFRecordID": {
-              "useDynamic": true
-            }
-          }
-        },
-        "dynamicParams": [
-          "ConnectRDFInitID",
-          "ConnectRDFPlayID",
-          "ConnectRDFMainID",
-          "ConnectRDFLanguagesID",
-          "ConnectRDFRecordID"
-        ]
       },
       "ab7b5e3d-cb6d-4c0d-a478-0178f0046d49": {
         "position": {
@@ -195,24 +145,6 @@
           "y": 465.6
         }
       },
-      "18182367-339d-49f3-b926-3edf0709296f": {
-        "position": {
-          "x": 922.4,
-          "y": 42.4
-        },
-        "conditions": [],
-        "conditionMetadata": [
-          {
-            "id": "cd8bcea9-cf47-4be6-97ad-0c24da67bddb",
-            "operator": {
-              "name": "Equals",
-              "value": "Equals",
-              "shortDisplay": "="
-            },
-            "value": "200"
-          }
-        ]
-      },
       "3e790f10-53f9-4f7f-81ec-83f6a13bf501": {
         "position": {
           "x": 664.8,
@@ -240,13 +172,85 @@
           "y": 52
         },
         "dynamicParams": []
+      },
+      "cc6ebb7f-4535-412e-8c18-e8f384b4223f": {
+        "position": {
+          "x": 1697.6,
+          "y": 42.4
+        },
+        "conditions": [],
+        "conditionMetadata": [
+          {
+            "id": "54fd1332-6f04-447c-b727-102d7dc6b3e6",
+            "operator": {
+              "name": "Equals",
+              "value": "Equals",
+              "shortDisplay": "="
+            },
+            "value": "on"
+          }
+        ]
+      },
+      "18182367-339d-49f3-b926-3edf0709296f": {
+        "position": {
+          "x": 922.4,
+          "y": 42.4
+        },
+        "conditions": [],
+        "conditionMetadata": [
+          {
+            "id": "84c25e04-0cd8-46d0-947c-021cd421b51a",
+            "operator": {
+              "name": "Equals",
+              "value": "Equals",
+              "shortDisplay": "="
+            },
+            "value": "200"
+          }
+        ]
+      },
+      "8ec89265-28c2-4d1c-8b6a-ed07dfb56fea": {
+        "position": {
+          "x": 1212.8,
+          "y": 39.2
+        },
+        "parameters": {
+          "Attributes": {
+            "ConnectRDFInitID": {
+              "useDynamic": true
+            },
+            "ConnectRDFPlayID": {
+              "useDynamic": true
+            },
+            "ConnectRDFMainID": {
+              "useDynamic": true
+            },
+            "ConnectRDFLanguagesID": {
+              "useDynamic": true
+            },
+            "ConnectRDFRecordID": {
+              "useDynamic": true
+            },
+            "ConnectRDFPaymentsID": {
+              "useDynamic": true
+            }
+          }
+        },
+        "dynamicParams": [
+          "ConnectRDFInitID",
+          "ConnectRDFPlayID",
+          "ConnectRDFMainID",
+          "ConnectRDFLanguagesID",
+          "ConnectRDFRecordID",
+          "ConnectRDFPaymentsID"
+        ]
       }
     },
     "Annotations": [],
     "name": "Connect-RDF-Agent",
     "description": "USED BY IGNITE-RDF",
     "type": "queueTransfer",
-    "status": "PUBLISHED",
+    "status": "published",
     "hash": {}
   },
   "Actions": [
@@ -463,56 +467,6 @@
     },
     {
       "Parameters": {
-        "ComparisonValue": "$.External.speechAnalytics"
-      },
-      "Identifier": "cc6ebb7f-4535-412e-8c18-e8f384b4223f",
-      "Type": "Compare",
-      "Transitions": {
-        "NextAction": "16e94047-e070-44aa-bc1d-ef9874e9415e",
-        "Conditions": [
-          {
-            "NextAction": "9dd75250-1aa1-4a7f-bf0c-cafa1bcefb5e",
-            "Condition": {
-              "Operator": "Equals",
-              "Operands": [
-                "on"
-              ]
-            }
-          }
-        ],
-        "Errors": [
-          {
-            "NextAction": "16e94047-e070-44aa-bc1d-ef9874e9415e",
-            "ErrorType": "NoMatchingCondition"
-          }
-        ]
-      }
-    },
-    {
-      "Parameters": {
-        "Attributes": {
-          "ConnectRDFInitID": "$.External.ConnectRDFInitID",
-          "ConnectRDFPlayID": "$.External.ConnectRDFPlayID",
-          "ConnectRDFMainID": "$.External.ConnectRDFMainID",
-          "ConnectRDFLanguagesID": "$.External.ConnectRDFLanguagesID",
-          "ConnectRDFRecordID": "$.External.ConnectRDFRecordID"
-        },
-        "TargetContact": "Current"
-      },
-      "Identifier": "8ec89265-28c2-4d1c-8b6a-ed07dfb56fea",
-      "Type": "UpdateContactAttributes",
-      "Transitions": {
-        "NextAction": "cc6ebb7f-4535-412e-8c18-e8f384b4223f",
-        "Errors": [
-          {
-            "NextAction": "cc6ebb7f-4535-412e-8c18-e8f384b4223f",
-            "ErrorType": "NoMatchingError"
-          }
-        ]
-      }
-    },
-    {
-      "Parameters": {
         "EventHooks": {
           "AgentWhisper": "$.External.AgentWhisperFlowID"
         },
@@ -589,33 +543,6 @@
     },
     {
       "Parameters": {
-        "ComparisonValue": "$.External.statusCode"
-      },
-      "Identifier": "18182367-339d-49f3-b926-3edf0709296f",
-      "Type": "Compare",
-      "Transitions": {
-        "NextAction": "9df63eea-6fa3-47e6-bed1-2f1a2602f563",
-        "Conditions": [
-          {
-            "NextAction": "8ec89265-28c2-4d1c-8b6a-ed07dfb56fea",
-            "Condition": {
-              "Operator": "Equals",
-              "Operands": [
-                "200"
-              ]
-            }
-          }
-        ],
-        "Errors": [
-          {
-            "NextAction": "9df63eea-6fa3-47e6-bed1-2f1a2602f563",
-            "ErrorType": "NoMatchingCondition"
-          }
-        ]
-      }
-    },
-    {
-      "Parameters": {
         "LambdaFunctionARN": "$.Attributes.RDF",
         "InvocationTimeLimitSeconds": "8",
         "LambdaInvocationAttributes": {
@@ -651,7 +578,7 @@
       "Parameters": {
         "Attributes": {
           "errorMessage": "NA",
-          "RDF": "arn:aws:lambda:ca-central-1:577638358850:function:Ignite-RDF:dev",
+          "RDF": "arn:aws:lambda:ca-central-1:905418007342:function:Ignite-RDF:dev",
           "ContactFlowStart": "Connect-RDF-Agent"
         },
         "TargetContact": "Current"
@@ -663,6 +590,84 @@
         "Errors": [
           {
             "NextAction": "7a07725f-a441-4a90-a029-b3b5c3d70fd3",
+            "ErrorType": "NoMatchingError"
+          }
+        ]
+      }
+    },
+    {
+      "Parameters": {
+        "ComparisonValue": "$.External.speechAnalytics"
+      },
+      "Identifier": "cc6ebb7f-4535-412e-8c18-e8f384b4223f",
+      "Type": "Compare",
+      "Transitions": {
+        "NextAction": "16e94047-e070-44aa-bc1d-ef9874e9415e",
+        "Conditions": [
+          {
+            "NextAction": "9dd75250-1aa1-4a7f-bf0c-cafa1bcefb5e",
+            "Condition": {
+              "Operator": "Equals",
+              "Operands": [
+                "on"
+              ]
+            }
+          }
+        ],
+        "Errors": [
+          {
+            "NextAction": "16e94047-e070-44aa-bc1d-ef9874e9415e",
+            "ErrorType": "NoMatchingCondition"
+          }
+        ]
+      }
+    },
+    {
+      "Parameters": {
+        "ComparisonValue": "$.External.statusCode"
+      },
+      "Identifier": "18182367-339d-49f3-b926-3edf0709296f",
+      "Type": "Compare",
+      "Transitions": {
+        "NextAction": "9df63eea-6fa3-47e6-bed1-2f1a2602f563",
+        "Conditions": [
+          {
+            "NextAction": "8ec89265-28c2-4d1c-8b6a-ed07dfb56fea",
+            "Condition": {
+              "Operator": "Equals",
+              "Operands": [
+                "200"
+              ]
+            }
+          }
+        ],
+        "Errors": [
+          {
+            "NextAction": "9df63eea-6fa3-47e6-bed1-2f1a2602f563",
+            "ErrorType": "NoMatchingCondition"
+          }
+        ]
+      }
+    },
+    {
+      "Parameters": {
+        "Attributes": {
+          "ConnectRDFInitID": "$.External.ConnectRDFInitID",
+          "ConnectRDFPlayID": "$.External.ConnectRDFPlayID",
+          "ConnectRDFMainID": "$.External.ConnectRDFMainID",
+          "ConnectRDFLanguagesID": "$.External.ConnectRDFLanguagesID",
+          "ConnectRDFRecordID": "$.External.ConnectRDFRecordID",
+          "ConnectRDFPaymentsID": "$.External.ConnectRDFPaymentsID"
+        },
+        "TargetContact": "Current"
+      },
+      "Identifier": "8ec89265-28c2-4d1c-8b6a-ed07dfb56fea",
+      "Type": "UpdateContactAttributes",
+      "Transitions": {
+        "NextAction": "cc6ebb7f-4535-412e-8c18-e8f384b4223f",
+        "Errors": [
+          {
+            "NextAction": "cc6ebb7f-4535-412e-8c18-e8f384b4223f",
             "ErrorType": "NoMatchingError"
           }
         ]

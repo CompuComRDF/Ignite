@@ -1,40 +1,59 @@
 {
   "Version": "2019-10-30",
-  "StartAction": "c13b6c27-8046-4d62-b7ca-8590fab3ed1d",
+  "StartAction": "Turn on flow logging.",
   "Metadata": {
     "entryPointPosition": {
-      "x": -848,
-      "y": -6698.4
+      "x": -1060,
+      "y": -8373.6
     },
     "ActionMetadata": {
-      "c13b6c27-8046-4d62-b7ca-8590fab3ed1d": {
+      "Turn on flow logging.": {
         "position": {
-          "x": -664.8,
-          "y": -6670.4
+          "x": -912,
+          "y": -8306.4
+        },
+        "isFriendlyName": true
+      },
+      "b4c8b352-b7d3-402c-bd79-53512a4e9d7a": {
+        "position": {
+          "x": -630.4,
+          "y": -8307.2
         },
         "parameters": {
-          "PromptId": {
-            "displayName": "Beep.wav"
+          "Attributes": {
+            "vmx3_from": {
+              "useDynamic": true
+            },
+            "vmx3_queue_arn": {
+              "useDynamic": true
+            }
           }
         },
-        "promptName": "Beep.wav"
+        "dynamicParams": [
+          "vmx3_from",
+          "vmx3_queue_arn"
+        ]
       },
-      "0e0c1f4c-685e-4e87-9b1f-a0d265ac96a8": {
+      "9f6409ed-967a-48c4-9518-4eeb63a35d71": {
         "position": {
-          "x": 363.2,
-          "y": -6660.8
-        }
+          "x": -349.6,
+          "y": -8303.2
+        },
+        "toCustomer": false,
+        "fromCustomer": true
       },
-      "da2e51be-2a8e-4826-81fd-8e50b0a63bf8": {
+      "Set the vmx3_flag attribute for processing": {
         "position": {
-          "x": 1151.2,
-          "y": -6637.6
-        }
+          "x": -64,
+          "y": -8305.6
+        },
+        "isFriendlyName": true,
+        "dynamicParams": []
       },
       "7ef412d6-7afe-479b-ae86-713046883ff5": {
         "position": {
-          "x": 640,
-          "y": -6658.4
+          "x": 1190.4,
+          "y": -8301.6
         },
         "parameters": {
           "Attributes": {
@@ -49,8 +68,8 @@
       },
       "79f97480-cbee-47cd-be80-c9a83710c412": {
         "position": {
-          "x": 884,
-          "y": -6653.6
+          "x": 1497.6,
+          "y": -8301.6
         },
         "parameters": {
           "ContactFlowId": {
@@ -59,56 +78,64 @@
         },
         "useDynamic": true
       },
-      "9f6409ed-967a-48c4-9518-4eeb63a35d71": {
+      "da2e51be-2a8e-4826-81fd-8e50b0a63bf8": {
         "position": {
-          "x": -425.6,
-          "y": -6672
-        },
-        "toCustomer": false,
-        "fromCustomer": true
-      },
-      "267ae727-ba97-4884-bcd9-7b12a6e52c8f": {
-        "position": {
-          "x": 88,
-          "y": -6664
-        },
-        "conditionMetadata": [],
-        "countryCodePrefix": "+1"
-      },
-      "b7f0d0ea-1aca-43ef-8750-f81d9bffa8a5": {
-        "position": {
-          "x": -171.2,
-          "y": -6666.4
-        },
-        "parameters": {
-          "LambdaFunctionARN": {
-            "displayName": "ConnectKVS2Audio"
-          },
-          "LambdaInvocationAttributes": {
-            "session": {
-              "useDynamic": true
-            }
-          }
-        },
-        "dynamicMetadata": {
-          "session": true
+          "x": 1809.6,
+          "y": -8294.4
         }
+      },
+      "Play the start recording beep using SSML": {
+        "position": {
+          "x": 236,
+          "y": -8304
+        },
+        "isFriendlyName": true
+      },
+      "0e0c1f4c-685e-4e87-9b1f-a0d265ac96a8": {
+        "position": {
+          "x": 865.6,
+          "y": -8301.6
+        }
+      },
+      "Wait for caller to record.": {
+        "position": {
+          "x": 552,
+          "y": -8306.4
+        },
+        "isFriendlyName": true,
+        "conditionMetadata": []
       }
     },
     "Annotations": [],
     "name": "Connect-RDF-Record",
-    "description": "",
+    "description": "USED BY IGNITE-RDF",
     "type": "contactFlow",
-    "status": "published",
+    "status": "PUBLISHED",
     "hash": {}
   },
   "Actions": [
     {
       "Parameters": {
-        "PromptId": "arn:aws:connect:ca-central-1:590183736637:instance/9e3adf7f-ad34-4a36-ad56-d98502169010/prompt/501ef091-ec41-4c20-b134-f173946742a2"
+        "FlowLoggingBehavior": "Enabled"
       },
-      "Identifier": "c13b6c27-8046-4d62-b7ca-8590fab3ed1d",
-      "Type": "MessageParticipant",
+      "Identifier": "Turn on flow logging.",
+      "Type": "UpdateFlowLoggingBehavior",
+      "Transitions": {
+        "NextAction": "b4c8b352-b7d3-402c-bd79-53512a4e9d7a"
+      }
+    },
+    {
+      "Parameters": {
+        "Attributes": {
+          "vmx3_mode": "task",
+          "vmx3_lang": "en-US",
+          "vmx3_from": "$.CustomerEndpoint.Address",
+          "vmx3_queue_arn": "$.Queue.ARN"
+        },
+        "TargetContact": "Current"
+      },
+      "Identifier": "b4c8b352-b7d3-402c-bd79-53512a4e9d7a",
+      "Type": "UpdateContactAttributes",
       "Transitions": {
         "NextAction": "9f6409ed-967a-48c4-9518-4eeb63a35d71",
         "Errors": [
@@ -121,35 +148,47 @@
     },
     {
       "Parameters": {
-        "MediaStreamingState": "Disabled",
+        "MediaStreamingState": "Enabled",
+        "MediaStreamType": "Audio",
         "Participants": [
           {
             "ParticipantType": "Customer",
             "MediaDirections": [
-              "To",
               "From"
             ]
           }
-        ],
-        "MediaStreamType": "Audio"
+        ]
       },
-      "Identifier": "0e0c1f4c-685e-4e87-9b1f-a0d265ac96a8",
+      "Identifier": "9f6409ed-967a-48c4-9518-4eeb63a35d71",
       "Type": "UpdateContactMediaStreamingBehavior",
       "Transitions": {
-        "NextAction": "7ef412d6-7afe-479b-ae86-713046883ff5",
+        "NextAction": "Set the vmx3_flag attribute for processing",
         "Errors": [
           {
-            "NextAction": "7ef412d6-7afe-479b-ae86-713046883ff5",
+            "NextAction": "Set the vmx3_flag attribute for processing",
             "ErrorType": "NoMatchingError"
           }
         ]
       }
     },
     {
-      "Parameters": {},
-      "Identifier": "da2e51be-2a8e-4826-81fd-8e50b0a63bf8",
-      "Type": "DisconnectParticipant",
-      "Transitions": {}
+      "Parameters": {
+        "Attributes": {
+          "vmx3_flag": "1"
+        },
+        "TargetContact": "Current"
+      },
+      "Identifier": "Set the vmx3_flag attribute for processing",
+      "Type": "UpdateContactAttributes",
+      "Transitions": {
+        "NextAction": "Play the start recording beep using SSML",
+        "Errors": [
+          {
+            "NextAction": "Play the start recording beep using SSML",
+            "ErrorType": "NoMatchingError"
+          }
+        ]
+      }
     },
     {
       "Parameters": {
@@ -187,25 +226,22 @@
       }
     },
     {
+      "Parameters": {},
+      "Identifier": "da2e51be-2a8e-4826-81fd-8e50b0a63bf8",
+      "Type": "DisconnectParticipant",
+      "Transitions": {}
+    },
+    {
       "Parameters": {
-        "MediaStreamingState": "Enabled",
-        "MediaStreamType": "Audio",
-        "Participants": [
-          {
-            "ParticipantType": "Customer",
-            "MediaDirections": [
-              "From"
-            ]
-          }
-        ]
+        "SSML": "<speak>\n  <say-as interpret-as=\"expletive\">beep</say-as>\n</speak>"
       },
-      "Identifier": "9f6409ed-967a-48c4-9518-4eeb63a35d71",
-      "Type": "UpdateContactMediaStreamingBehavior",
+      "Identifier": "Play the start recording beep using SSML",
+      "Type": "MessageParticipant",
       "Transitions": {
-        "NextAction": "b7f0d0ea-1aca-43ef-8750-f81d9bffa8a5",
+        "NextAction": "Wait for caller to record.",
         "Errors": [
           {
-            "NextAction": "b7f0d0ea-1aca-43ef-8750-f81d9bffa8a5",
+            "NextAction": "Wait for caller to record.",
             "ErrorType": "NoMatchingError"
           }
         ]
@@ -213,49 +249,51 @@
     },
     {
       "Parameters": {
-        "StoreInput": "True",
-        "InputTimeLimitSeconds": "180",
-        "SSML": "<speak></speak>",
-        "DTMFConfiguration": {
-          "DisableCancelKey": "False",
-          "InputTerminationSequence": "#"
-        },
-        "InputValidation": {
-          "CustomValidation": {
-            "MaximumLength": "1"
+        "MediaStreamingState": "Disabled",
+        "Participants": [
+          {
+            "ParticipantType": "Customer",
+            "MediaDirections": [
+              "To",
+              "From"
+            ]
           }
-        }
+        ],
+        "MediaStreamType": "Audio"
       },
-      "Identifier": "267ae727-ba97-4884-bcd9-7b12a6e52c8f",
+      "Identifier": "0e0c1f4c-685e-4e87-9b1f-a0d265ac96a8",
+      "Type": "UpdateContactMediaStreamingBehavior",
+      "Transitions": {
+        "NextAction": "7ef412d6-7afe-479b-ae86-713046883ff5",
+        "Errors": [
+          {
+            "NextAction": "7ef412d6-7afe-479b-ae86-713046883ff5",
+            "ErrorType": "NoMatchingError"
+          }
+        ]
+      }
+    },
+    {
+      "Parameters": {
+        "StoreInput": "False",
+        "InputTimeLimitSeconds": "180",
+        "SSML": "<speak>\n<break time=\"5s\"/>\n</speak>"
+      },
+      "Identifier": "Wait for caller to record.",
       "Type": "GetParticipantInput",
       "Transitions": {
         "NextAction": "0e0c1f4c-685e-4e87-9b1f-a0d265ac96a8",
         "Errors": [
           {
             "NextAction": "0e0c1f4c-685e-4e87-9b1f-a0d265ac96a8",
-            "ErrorType": "NoMatchingError"
-          }
-        ]
-      }
-    },
-    {
-      "Parameters": {
-        "LambdaFunctionARN": "arn:aws:lambda:ca-central-1:590183736637:function:ConnectKVS2Audio",
-        "InvocationTimeLimitSeconds": "2",
-        "LambdaInvocationAttributes": {
-          "session": "$.External.session"
-        },
-        "ResponseValidation": {
-          "ResponseType": "STRING_MAP"
-        }
-      },
-      "Identifier": "b7f0d0ea-1aca-43ef-8750-f81d9bffa8a5",
-      "Type": "InvokeLambdaFunction",
-      "Transitions": {
-        "NextAction": "267ae727-ba97-4884-bcd9-7b12a6e52c8f",
-        "Errors": [
+            "ErrorType": "InputTimeLimitExceeded"
+          },
           {
-            "NextAction": "267ae727-ba97-4884-bcd9-7b12a6e52c8f",
+            "NextAction": "0e0c1f4c-685e-4e87-9b1f-a0d265ac96a8",
+            "ErrorType": "NoMatchingCondition"
+          },
+          {
+            "NextAction": "0e0c1f4c-685e-4e87-9b1f-a0d265ac96a8",
             "ErrorType": "NoMatchingError"
           }
         ]

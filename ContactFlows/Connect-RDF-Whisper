@@ -1,1 +1,121 @@
-{"Version":"2019-10-30","StartAction":"2fcd816a-ad33-4d08-af27-b1ac90085fc9","Metadata":{"entryPointPosition":{"x":40,"y":40},"ActionMetadata":{"53add72a-fb9b-4fd2-b8fd-412354f979f6":{"position":{"x":701.6,"y":184}},"f70c2636-662c-4ce6-b3c0-87d06e14df9c":{"position":{"x":436,"y":107.2},"parameters":{"Text":{"useDynamic":true}},"useDynamic":true},"2fcd816a-ad33-4d08-af27-b1ac90085fc9":{"position":{"x":167.2,"y":38.4},"overrideConsoleVoice":false}},"name":"Connect-RDF-Whisper","description":"RDF - Agent whisper","type":"agentWhisper","status":"published","hash":{}},"Actions":[{"Parameters":{},"Identifier":"53add72a-fb9b-4fd2-b8fd-412354f979f6","Type":"EndFlowExecution","Transitions":{}},{"Parameters":{"Text":"$.Attributes.agentTip"},"Identifier":"f70c2636-662c-4ce6-b3c0-87d06e14df9c","Type":"MessageParticipant","Transitions":{"NextAction":"53add72a-fb9b-4fd2-b8fd-412354f979f6"}},{"Parameters":{"TextToSpeechVoice":"Joanna"},"Identifier":"2fcd816a-ad33-4d08-af27-b1ac90085fc9","Type":"UpdateContactTextToSpeechVoice","Transitions":{"NextAction":"f70c2636-662c-4ce6-b3c0-87d06e14df9c"}}]}
+{
+  "Version": "2019-10-30",
+  "StartAction": "63f80021-e0bd-404c-bc2b-4edeb4caa43a",
+  "Metadata": {
+    "entryPointPosition": {
+      "x": 40,
+      "y": 40
+    },
+    "ActionMetadata": {
+      "f70c2636-662c-4ce6-b3c0-87d06e14df9c": {
+        "position": {
+          "x": 674.4,
+          "y": 365.6
+        },
+        "parameters": {
+          "Text": {
+            "useDynamic": true
+          }
+        },
+        "useDynamic": true
+      },
+      "53add72a-fb9b-4fd2-b8fd-412354f979f6": {
+        "position": {
+          "x": 897.6,
+          "y": 367.2
+        }
+      },
+      "2fcd816a-ad33-4d08-af27-b1ac90085fc9": {
+        "position": {
+          "x": 448,
+          "y": 367.2
+        },
+        "parameters": {
+          "TextToSpeechVoice": {
+            "languageCode": "en-US"
+          }
+        },
+        "overrideConsoleVoice": false
+      },
+      "63f80021-e0bd-404c-bc2b-4edeb4caa43a": {
+        "position": {
+          "x": 137.6,
+          "y": 143.2
+        },
+        "conditions": [],
+        "conditionMetadata": [
+          {
+            "id": "ea52777c-c8bf-4905-b08b-40588d7a8b40",
+            "operator": {
+              "name": "Equals",
+              "value": "Equals",
+              "shortDisplay": "="
+            },
+            "value": "TASK"
+          }
+        ]
+      }
+    },
+    "Annotations": [],
+    "name": "Connect-RDF-Whisper",
+    "description": "USED BY IGNITE-RDF",
+    "type": "agentWhisper",
+    "status": "published",
+    "hash": {}
+  },
+  "Actions": [
+    {
+      "Parameters": {
+        "Text": "$.Attributes.agentTip"
+      },
+      "Identifier": "f70c2636-662c-4ce6-b3c0-87d06e14df9c",
+      "Type": "MessageParticipant",
+      "Transitions": {
+        "NextAction": "53add72a-fb9b-4fd2-b8fd-412354f979f6"
+      }
+    },
+    {
+      "Parameters": {},
+      "Identifier": "53add72a-fb9b-4fd2-b8fd-412354f979f6",
+      "Type": "EndFlowExecution",
+      "Transitions": {}
+    },
+    {
+      "Parameters": {
+        "TextToSpeechVoice": "Joanna"
+      },
+      "Identifier": "2fcd816a-ad33-4d08-af27-b1ac90085fc9",
+      "Type": "UpdateContactTextToSpeechVoice",
+      "Transitions": {
+        "NextAction": "f70c2636-662c-4ce6-b3c0-87d06e14df9c"
+      }
+    },
+    {
+      "Parameters": {
+        "ComparisonValue": "$.Channel"
+      },
+      "Identifier": "63f80021-e0bd-404c-bc2b-4edeb4caa43a",
+      "Type": "Compare",
+      "Transitions": {
+        "NextAction": "2fcd816a-ad33-4d08-af27-b1ac90085fc9",
+        "Conditions": [
+          {
+            "NextAction": "53add72a-fb9b-4fd2-b8fd-412354f979f6",
+            "Condition": {
+              "Operator": "Equals",
+              "Operands": [
+                "TASK"
+              ]
+            }
+          }
+        ],
+        "Errors": [
+          {
+            "NextAction": "2fcd816a-ad33-4d08-af27-b1ac90085fc9",
+            "ErrorType": "NoMatchingCondition"
+          }
+        ]
+      }
+    }
+  ]
+}

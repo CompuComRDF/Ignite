@@ -1,11 +1,11 @@
-LABEL,en-US
+﻿LABEL,en-US
 EM01,
 BM01,
 BM02,
 BM03,
-SQ01,Survey Question 1.
-SQ02,
-SQ03,
+SQ01,"On a scale of 1 to 5, with 1 being great, and 5 being poor.  How satisfied were you with today's call?"
+SQ02,"Were we able to resolve your request today?    Press 1 for yes, 2 for no.  "
+SQ03,"Did the representative understand your needs?  Press 1 for yes, 2 for no."
 SQ04,
 SQ05,
 SQ06,
@@ -13,26 +13,70 @@ SQ07,
 SQ08,
 SQ09,
 SQ10,
-surveygreet,"Thanks for participating in our survey.  Using a scale from 1 to 5, where 1 is poor and 5 is great, please rate us on the following questions."
-surveyend,Your survey results have been saved.  Thanks for participating!
+surveygreet,"We appreciate the time you're taking to share your thoughts with us. Your feedback is valued, and will be used to continue to improve the service we provide."
+surveyend,Thank you for your time. We appreciate your assistance in helping us to continue to improve our service.
 surveyerror,There was an error processing your survey responses.
-closed,"Our office is currently closed.  Our operating hours are from 8 a.m. to 4:30 p.m.  If you would like to leave a voice message, please press 1."
-holiday,"Today is a holiday and our office is currently closed.  If you would like to leave a voice message, please press 1."
-monitor,Your call may be monitored or recorded to help improve our services.
-noagents,"We’re sorry, at this time, there are no agents available to take your call.  If you would like to leave a voice message, please press 1."
-pleasehold,Please hold while we transfer you to an agent.
-busy,All agents are currently assisting other callers. Please hold for the next available agent.
-highvolume,We are experiencing unusually high call volumes and extended hold times. Please hold for the next available agent.
-stillbusy,"All agents are still currently assisting other callers. Please hold for the next available agent. If you would like to leave a message, please press 1. To speak to the next available agent press 8 or remain on the line."
-voicemail,Please leave a message after the tone.
+closed,"Our office is currently closed. Regular business hours are 8:00 AM to 4:30 PM Monday to Friday, except statutory holidays."
+holiday,"Our office is currently closed. Regular business hours are 8:00 AM to 4:30 PM Monday to Friday, except statutory holidays."
+monitor,"For accuracy and service quality purposes, your call may be monitored and recorded.  Our team is dedicated to providing you with the best possible service.  Any form of discrimination, or disrespectful behavior, may result in our representative ending your call without resolving your inquiry."
+noagents,Our representatives are unable to take your call at this time.  We apologize for any inconvenience this may cause. Please try back later.
+pleasehold,Please hold for the next available representative.
+busy1,Your call is important to us. All of our representatives are still assisting other callers.  You are currently
+busy2,in line for the next available agent.  Your estimated wait time is 
+busy3,minutes.
+highvolume,We are currently experiencing a high volume of calls.
+stillbusy,Your call is important to us. All of our representatives are still assisting other callers.
+callbackmenu,"If you would like to hold your place in the queue but request a call back when a representative becomes available, please press 1. Otherwise, please remain on the line."
+entercallback,"To receive a call back on the phone number you're calling from, press 1.  Otherwise, please enter the 10-digit phone number you would like us to use. "
+entercallback2,Please enter the 10-digit phone number where you'd like to receive a callback.
+callbacknotice,Thanks!  One of our representatives will call you back shortly.  Thanks for calling.
+voicemail,We are currently not available to take your call.  Please leave a message after the tone and we will return your call as soon as possible.
 saved,Your message has been saved. An agent will return your call as soon as possible. 
 goodbye,Thank you for calling. Goodbye.  
-difficulties,"We apologize, we’re experiencing technical difficulties and cannot take your call at this time. Please try again later."
-InvalidInput1,That was an invalid selection. Please try again
-InvalidInput2,"Sorry, that choice is still invalid. Please try again."
-NoInput1,We did not receive your entry. Please try again.
-NoInput2,We still did not receive your entry.  Please try again.
-MaxInputXfer,"Sorry, we're still having trouble."
+difficulties,"We apologize, we're experiencing technical difficulties and cannot take your call at this time. Please try again later."
+InvalidInput1,That was an invalid selection.
+InvalidInput2,
+NoInput1,Are you still there?
+NoInput2,
+MaxInputXfer,
 enterID,Please enter your identification number.
 youentered,You entered
 confirmentry,"If this is correct, press 1.  Otherwise, press 2."
+AccountBalance1,"<prosody rate=""90%"">Your account balance is"
+AccountBalance2,"<break time=""1000ms""/>Bill payment is due by"
+AccountBalance3,"</prosody><break time=""1000ms""/>To make a credit card payment, press 1.  To repeat the account balance, press 7.  To return to the previous menu, press 9."
+CSClosedMessage,"Our office is currently closed, please call back during regular business hours. Thank you for calling. Goodbye."
+ANIMatch,"We found an account associated with the phone number you're calling from.  If this is the account you're calling about, press 1.  Otherwise, press 2."
+EnterAccountNumber,Please enter your Account Number.
+ReEnterAccountNumber,We do not recognize the account number you entered. Please try re-entering the account number again.
+UnauthClosed,We are unable to complete your request with the information provided.  Please contact us during regular business hours.  Thank you for calling.
+NotAuthenticated,We are unable to access your account with the information you provided.  Please hold while we transfer your call to the next available representative.
+EnterPIN,Please enter your pin.
+ReEnterPIN,The number you entered does not match our records.
+CurrentBalance1,Your current balance is
+CurrentBalance2,"To pay your current balance, press 1. To pay a different amount, press 2."
+EnterPaymentAmount,"Please enter the payment amount you wish to make, in dollars and cents, followed by the pound key.  For example, ten dollars and 50 cents, would be entered as, one zero five zero, followed by the pound key."
+ConfirmPaymentAmount1,We will be processing a total payment amount of 
+ConfirmPaymentAmount2,which includes a 1.75% service fee of 
+ConfirmPaymentAmount3,". To proceed and confirm this payment, press 1. To enter a different amount, press 2."
+GetCCNumber,Please enter your 16 digit credit card number.
+EnterExpiryDate,"Enter your 4 digit expire re date, using month year format. "
+EnterCVV,"Enter the three digit security code, or CVV, found on the back of your credit card."
+PaymentSuccess,Your payment was successful.
+PaymentFailed,We were unable to process your payment.
+ConfirmPhoneReceipt1,"Your transaction reference number is, "
+ConfirmPhoneReceipt2,"To receive a payment confirmation text message to the mobile phone you are calling from, press 1.  To send the receipt to a different mobile phone number, press 2.  To repeat this message, press 7."
+EnterPhoneNumber,Please enter the 10-digit mobile phone number where you would like to receive your payment confirmation.
+ReceiptSent,A receipt of your payment was sent successfully.
+ReceiptFailed,We were unable to send your receipt.
+Reconnect,Please hold while we reconnect you to the representative for further assistance.
+InvalidAmount,The amount entered is invalid.
+InvalidCCNumber,The credit card number entered is invalid.
+InvalidExpDate,The expiry date entered is invalid.
+InvalidCVV,The security code entered is invalid.
+MinimumPayAmount,The payment amount must be at least $10.00. Please enter a new payment amount. 
+MaximumPayAmount,"The payment amount cannot be more than $25,000. Please enter a new payment amount."
+EnterUserExtension,"Please enter the 4 digit extension of the person you're trying to reach.  To use our company directory, press pound."
+InvalidExtenstion,That was an invalid extension
+SayUserName,Please say the first and last name of the person you're trying to reach.
+InvalidUser,I couldn't find
