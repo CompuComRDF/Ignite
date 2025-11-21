@@ -1,2 +1,2 @@
 ﻿BLOCK,TYPE,PARAM,ACTION
-M1,TREE,,
+M1,TREE,,auth:false
