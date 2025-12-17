@@ -16,9 +16,9 @@ SQ10,
 surveygreet,"We appreciate the time you're taking to share your thoughts with us. Your feedback is valued, and will be used to continue to improve the service we provide."
 surveyend,Thank you for your time. We appreciate your assistance in helping us to continue to improve our service.
 surveyerror,There was an error processing your survey responses.
-closed,"Our office is currently closed. Regular business hours are 8:00 AM to 4:30 PM Monday to Friday, except statutory holidays."
-holiday,"Our office is currently closed. Regular business hours are 8:00 AM to 4:30 PM Monday to Friday, except statutory holidays."
-monitor,"For accuracy and service quality purposes, your call may be monitored and recorded.  Our team is dedicated to providing you with the best possible service.  Any form of discrimination, or disrespectful behavior, may result in our representative ending your call without resolving your inquiry."
+closed,Our office is currently closed. 
+holiday,Our office is currently closed. 
+monitor,"For accuracy and service quality purposes, your call may be monitored and recorded."
 noagents,Our representatives are unable to take your call at this time.  We apologize for any inconvenience this may cause. Please try back later.
 pleasehold,Please hold for the next available representative.
 busy1,Your call is important to us. All of our representatives are still assisting other callers.  You are currently
