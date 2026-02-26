@@ -60,18 +60,6 @@
         "conditionMetadata": [],
         "countryCodePrefix": "+1"
       },
-      "9b80b950-cb21-4611-89c2-f534f1f60694": {
-        "position": {
-          "x": 2542.4,
-          "y": 315.2
-        },
-        "parameters": {
-          "SSML": {
-            "useDynamic": true
-          }
-        },
-        "useDynamic": true
-      },
       "dc555f2e-4c71-43f6-8fdf-a8483f9c6e79": {
         "position": {
           "x": 1844.8,
@@ -96,87 +84,12 @@
           }
         }
       },
-      "5e806040-e8b6-4be1-98b1-d623648c1a10": {
-        "position": {
-          "x": 2541.6,
-          "y": 89.6
-        },
-        "parameters": {
-          "Media": {
-            "Uri": {
-              "useDynamic": true
-            }
-          }
-        },
-        "useDynamic": true
-      },
       "752c70af-6829-444d-9495-fe1a36e3b54b": {
         "position": {
           "x": 1600.8,
           "y": 330.4
         },
         "dynamicParams": []
-      },
-      "651d49b0-833f-41aa-9892-95102bb1a8e1": {
-        "position": {
-          "x": 2166.4,
-          "y": 82.4
-        },
-        "conditions": [],
-        "conditionMetadata": [
-          {
-            "id": "8d1b8f91-a79a-4c2f-b3ba-24a3e8bb2748",
-            "operator": {
-              "name": "Equals",
-              "value": "Equals",
-              "shortDisplay": "="
-            },
-            "value": "wav"
-          }
-        ]
-      },
-      "8aca826d-90a7-476f-b272-9d841fc6fd78": {
-        "position": {
-          "x": 1599.2,
-          "y": 90.4
-        },
-        "parameters": {
-          "LambdaFunctionARN": {
-            "useDynamic": true
-          },
-          "LambdaInvocationAttributes": {
-            "session": {
-              "useDynamic": true
-            },
-            "blockParam": {
-              "useDynamic": true
-            }
-          }
-        },
-        "dynamicMetadata": {
-          "session": true,
-          "blockParam": true,
-          "function": false
-        },
-        "useDynamic": true
-      },
-      "e900d4df-a93d-4018-9532-cafdc4b22c58": {
-        "position": {
-          "x": 1883.2,
-          "y": 86.4
-        },
-        "conditions": [],
-        "conditionMetadata": [
-          {
-            "id": "b032914a-e833-4fcc-a5dd-43e39c2f439c",
-            "operator": {
-              "name": "Equals",
-              "value": "Equals",
-              "shortDisplay": "="
-            },
-            "value": "true"
-          }
-        ]
       },
       "a6ac3721-dd08-402f-b719-508b9badcc2f": {
         "position": {
@@ -281,7 +194,7 @@
         "conditions": [],
         "conditionMetadata": [
           {
-            "id": "87eb4baf-04e9-4461-9750-073b81ca4f6a",
+            "id": "0ba61f2f-81f1-4674-be26-c33f43a615ba",
             "operator": {
               "name": "Equals",
               "value": "Equals",
@@ -314,7 +227,7 @@
         "conditions": [],
         "conditionMetadata": [
           {
-            "id": "940ec510-a1e9-4a3c-8c4d-08ac3d7e3582",
+            "id": "f9bb1427-fb11-4c7f-8fe4-052b7e38b0cc",
             "operator": {
               "name": "Equals",
               "value": "Equals",
@@ -435,33 +348,6 @@
           "y": 1098.4
         }
       },
-      "c9430147-38a7-46a8-b092-ea3e8511633a": {
-        "position": {
-          "x": 2164.8,
-          "y": 299.2
-        },
-        "conditions": [],
-        "conditionMetadata": [
-          {
-            "id": "60b3b504-22ef-472d-b8bf-6b2885c36214",
-            "operator": {
-              "name": "Equals",
-              "value": "Equals",
-              "shortDisplay": "="
-            },
-            "value": "PLAY"
-          },
-          {
-            "id": "de6c736f-6b36-4ff7-9ad8-6768ac751a26",
-            "operator": {
-              "name": "Equals",
-              "value": "Equals",
-              "shortDisplay": "="
-            },
-            "value": "RECORD"
-          }
-        ]
-      },
       "5d3e5aeb-5e69-4f10-922e-55e6bba95cce": {
         "position": {
           "x": 872.8,
@@ -470,7 +356,7 @@
         "conditions": [],
         "conditionMetadata": [
           {
-            "id": "7573c9cc-bd1d-45a9-9408-f2760103a7f2",
+            "id": "67963241-5292-4f65-94b8-08ba81fd4c73",
             "operator": {
               "name": "Equals",
               "value": "Equals",
@@ -508,7 +394,7 @@
         "conditions": [],
         "conditionMetadata": [
           {
-            "id": "ad3aaffe-cffe-4a9b-8def-b07f0bcf775a",
+            "id": "d6661882-4812-43b2-82f0-d8ac1a0f70da",
             "operator": {
               "name": "Equals",
               "value": "Equals",
@@ -545,7 +431,7 @@
         "conditions": [],
         "conditionMetadata": [
           {
-            "id": "47195e58-3cec-4011-8c3b-bbc59188c654",
+            "id": "69581a2b-f2b4-4a6c-8751-88757dc16273",
             "operator": {
               "name": "Equals",
               "value": "Equals",
@@ -554,7 +440,7 @@
             "value": "PLAY"
           },
           {
-            "id": "e20ba243-2da6-4bdb-8199-0dd823253e8c",
+            "id": "9c07eb5b-e4cb-4806-bf81-5aff147f17c9",
             "operator": {
               "name": "Equals",
               "value": "Equals",
@@ -563,7 +449,7 @@
             "value": "MENU"
           },
           {
-            "id": "19fbb2d5-cee5-49a6-8596-73dd692b9eaa",
+            "id": "0d384396-0ebe-457a-a89b-48960bda6837",
             "operator": {
               "name": "Equals",
               "value": "Equals",
@@ -572,7 +458,7 @@
             "value": "INPUT"
           },
           {
-            "id": "8fa70ac7-c982-4a4b-b8fc-0283849d6b8c",
+            "id": "79b545d8-bac5-4a67-b78a-fbf4b984635c",
             "operator": {
               "name": "Equals",
               "value": "Equals",
@@ -581,7 +467,7 @@
             "value": "RECORD"
           },
           {
-            "id": "43987e7f-b3aa-44ce-ae5e-ea250858fe5a",
+            "id": "e4264770-9e06-44ea-bb6e-24f46c4acbb0",
             "operator": {
               "name": "Equals",
               "value": "Equals",
@@ -590,7 +476,7 @@
             "value": "XFER"
           },
           {
-            "id": "c5259456-f389-4990-84fd-8a1e9919e67a",
+            "id": "13d18784-bbbf-4e77-9dea-24b83064b70e",
             "operator": {
               "name": "Equals",
               "value": "Equals",
@@ -599,7 +485,7 @@
             "value": "CALLBACK"
           },
           {
-            "id": "f66bee21-fd7e-4370-8843-102e5469d4a4",
+            "id": "d81b8315-8569-4a49-8199-846af7fa2cdb",
             "operator": {
               "name": "Equals",
               "value": "Equals",
@@ -642,7 +528,7 @@
         "conditions": [],
         "conditionMetadata": [
           {
-            "id": "f74e5eed-aa47-42d6-b388-4e918e25b289",
+            "id": "6abfb23f-4131-4f38-aa97-d50027ae8dd7",
             "operator": {
               "name": "Equals",
               "value": "Equals",
@@ -651,7 +537,7 @@
             "value": "wav"
           },
           {
-            "id": "a886bf48-1280-47a7-aa8e-1fb39ab9b945",
+            "id": "0a44bb77-9595-4319-af2b-7b57b0e2da1a",
             "operator": {
               "name": "Equals",
               "value": "Equals",
@@ -685,7 +571,7 @@
         "conditions": [],
         "conditionMetadata": [
           {
-            "id": "179de0a4-9c6d-44f7-b5b5-66262adad952",
+            "id": "d5c24045-892a-408b-9ccf-d5e135dbec5d",
             "operator": {
               "name": "Equals",
               "value": "Equals",
@@ -694,7 +580,7 @@
             "value": "error"
           },
           {
-            "id": "31ddd5fd-8ba5-4a0f-bff8-150b907051d9",
+            "id": "f98cc0c2-85f4-4a69-8cbe-5d8c906f6f2b",
             "operator": {
               "name": "Equals",
               "value": "Equals",
@@ -776,7 +662,7 @@
         "conditions": [],
         "conditionMetadata": [
           {
-            "id": "d0786321-d54d-42b2-9523-cd8580417712",
+            "id": "faa513f3-4a11-474b-b4dc-31389a2ef7aa",
             "operator": {
               "name": "Equals",
               "value": "Equals",
@@ -823,7 +709,7 @@
         "conditions": [],
         "conditionMetadata": [
           {
-            "id": "f7b7333d-4246-41fe-a3d6-3360472f1075",
+            "id": "d23adf45-bf87-464a-a63c-2452a6d516ef",
             "operator": {
               "name": "Equals",
               "value": "Equals",
@@ -841,7 +727,7 @@
         "conditions": [],
         "conditionMetadata": [
           {
-            "id": "352a5d95-970a-4f4d-b8ea-9d09c91f71e1",
+            "id": "35171529-1127-4229-b6f0-07f934625f5d",
             "operator": {
               "name": "Equals",
               "value": "Equals",
@@ -880,7 +766,7 @@
         "conditions": [],
         "conditionMetadata": [
           {
-            "id": "36865ca6-241c-46b0-b02c-f0ee4af2d921",
+            "id": "ee7484e4-a9ec-4719-af74-bb305a645d22",
             "operator": {
               "name": "Equals",
               "value": "Equals",
@@ -953,7 +839,7 @@
         "conditions": [],
         "conditionMetadata": [
           {
-            "id": "5edc8bc0-86eb-465e-b339-a5cd592c5fa6",
+            "id": "3cfb83da-0328-47a1-86dd-22e042be5b51",
             "operator": {
               "name": "Equals",
               "value": "Equals",
@@ -979,7 +865,7 @@
         "conditions": [],
         "conditionMetadata": [
           {
-            "id": "127b50e6-ddce-462a-8d67-552882159b49",
+            "id": "7b1486bc-01a2-43e3-8b73-89f19cd9c3aa",
             "operator": {
               "name": "Equals",
               "value": "Equals",
@@ -1031,6 +917,141 @@
         "useDynamic": true,
         "conditionMetadata": [],
         "countryCodePrefix": "+1"
+      },
+      "e900d4df-a93d-4018-9532-cafdc4b22c58": {
+        "position": {
+          "x": 1883.2,
+          "y": 86.4
+        },
+        "conditions": [],
+        "conditionMetadata": [
+          {
+            "id": "791dcac4-fb90-4255-85a6-7d5e0dc5197f",
+            "operator": {
+              "name": "Equals",
+              "value": "Equals",
+              "shortDisplay": "="
+            },
+            "value": "true"
+          }
+        ]
+      },
+      "5e806040-e8b6-4be1-98b1-d623648c1a10": {
+        "position": {
+          "x": 2541.6,
+          "y": 89.6
+        },
+        "parameters": {
+          "Media": {
+            "Uri": {
+              "useDynamic": true
+            }
+          }
+        },
+        "useDynamic": true
+      },
+      "c9430147-38a7-46a8-b092-ea3e8511633a": {
+        "position": {
+          "x": 2164.8,
+          "y": 299.2
+        },
+        "conditions": [],
+        "conditionMetadata": [
+          {
+            "id": "1626dd66-4a0d-4b92-999f-5623a0f4821a",
+            "operator": {
+              "name": "Equals",
+              "value": "Equals",
+              "shortDisplay": "="
+            },
+            "value": "PLAY"
+          },
+          {
+            "id": "fe3e91b6-03e4-4bbf-8069-e1ddd9a7e40f",
+            "operator": {
+              "name": "Equals",
+              "value": "Equals",
+              "shortDisplay": "="
+            },
+            "value": "RECORD"
+          }
+        ]
+      },
+      "9b80b950-cb21-4611-89c2-f534f1f60694": {
+        "position": {
+          "x": 2542.4,
+          "y": 315.2
+        },
+        "parameters": {
+          "SSML": {
+            "useDynamic": true
+          }
+        },
+        "useDynamic": true
+      },
+      "8aca826d-90a7-476f-b272-9d841fc6fd78": {
+        "position": {
+          "x": 1599.2,
+          "y": 90.4
+        },
+        "parameters": {
+          "LambdaFunctionARN": {
+            "useDynamic": true
+          },
+          "LambdaInvocationAttributes": {
+            "session": {
+              "useDynamic": true
+            },
+            "blockParam": {
+              "useDynamic": true
+            }
+          }
+        },
+        "dynamicMetadata": {
+          "session": true,
+          "blockParam": true,
+          "function": false
+        },
+        "useDynamic": true
+      },
+      "651d49b0-833f-41aa-9892-95102bb1a8e1": {
+        "position": {
+          "x": 2166.4,
+          "y": 82.4
+        },
+        "conditions": [],
+        "conditionMetadata": [
+          {
+            "id": "d355d0cc-e95c-4aee-a06d-7eb8c3c27096",
+            "operator": {
+              "name": "Equals",
+              "value": "Equals",
+              "shortDisplay": "="
+            },
+            "value": "wav"
+          },
+          {
+            "id": "a5a2c190-9710-4a32-8e59-211a3bd282d8",
+            "operator": {
+              "name": "Equals",
+              "value": "Equals",
+              "shortDisplay": "="
+            },
+            "value": "builtin"
+          }
+        ]
+      },
+      "188cc44c-4a52-4555-b02b-2f832684777d": {
+        "position": {
+          "x": 2816,
+          "y": 318.4
+        },
+        "parameters": {
+          "PromptId": {
+            "useDynamic": true
+          }
+        },
+        "useDynamic": true
       }
     },
     "Annotations": [],
@@ -1061,7 +1082,7 @@
     },
     {
       "Parameters": {
-        "PromptId": "arn:aws:connect:ca-central-1:597088050213:instance/49299591-2a80-45be-9620-304e830c41a4/prompt/949cd331-f9a7-46ea-8f17-56cba56778ba"
+        "PromptId": "arn:aws:connect:us-east-1:445048056822:instance/5a26c895-8f6b-4455-99d0-04c4902392cd/prompt/6d52e9af-89d7-4ac6-9fed-64c1a755182d"
       },
       "Identifier": "866bd727-00bc-4fc7-881f-265e3484f4e5",
       "Type": "MessageParticipant",
@@ -1102,7 +1123,7 @@
     },
     {
       "Parameters": {
-        "LambdaFunctionARN": "arn:aws:lambda:ca-central-1:597088050213:function:ConnectKVS2Audio",
+        "LambdaFunctionARN": "arn:aws:lambda:us-east-1:445048056822:function:ConnectKVS2Audio",
         "InvocationTimeLimitSeconds": "2",
         "LambdaInvocationAttributes": {
           "session": "$.External.session"
@@ -1145,22 +1166,6 @@
         "Errors": [
           {
             "NextAction": "31430941-1549-4a75-9db9-33dccfc64a51",
-            "ErrorType": "NoMatchingError"
-          }
-        ]
-      }
-    },
-    {
-      "Parameters": {
-        "SSML": "$.External.prompt"
-      },
-      "Identifier": "9b80b950-cb21-4611-89c2-f534f1f60694",
-      "Type": "MessageParticipant",
-      "Transitions": {
-        "NextAction": "c9430147-38a7-46a8-b092-ea3e8511633a",
-        "Errors": [
-          {
-            "NextAction": "c9430147-38a7-46a8-b092-ea3e8511633a",
             "ErrorType": "NoMatchingError"
           }
         ]
@@ -1226,26 +1231,6 @@
     },
     {
       "Parameters": {
-        "Media": {
-          "Uri": "$.External.prompt",
-          "SourceType": "S3",
-          "MediaType": "Audio"
-        }
-      },
-      "Identifier": "5e806040-e8b6-4be1-98b1-d623648c1a10",
-      "Type": "MessageParticipant",
-      "Transitions": {
-        "NextAction": "8aca826d-90a7-476f-b272-9d841fc6fd78",
-        "Errors": [
-          {
-            "NextAction": "8aca826d-90a7-476f-b272-9d841fc6fd78",
-            "ErrorType": "NoMatchingError"
-          }
-        ]
-      }
-    },
-    {
-      "Parameters": {
         "Attributes": {
           "errorMessage": "Play Prompts Failure",
           "callFlowID": "ERROR"
@@ -1260,85 +1245,6 @@
           {
             "NextAction": "8b235a9d-e149-4c1f-8740-0038d997e02f",
             "ErrorType": "NoMatchingError"
-          }
-        ]
-      }
-    },
-    {
-      "Parameters": {
-        "ComparisonValue": "$.External.promptType"
-      },
-      "Identifier": "651d49b0-833f-41aa-9892-95102bb1a8e1",
-      "Type": "Compare",
-      "Transitions": {
-        "NextAction": "9b80b950-cb21-4611-89c2-f534f1f60694",
-        "Conditions": [
-          {
-            "NextAction": "5e806040-e8b6-4be1-98b1-d623648c1a10",
-            "Condition": {
-              "Operator": "Equals",
-              "Operands": [
-                "wav"
-              ]
-            }
-          }
-        ],
-        "Errors": [
-          {
-            "NextAction": "9b80b950-cb21-4611-89c2-f534f1f60694",
-            "ErrorType": "NoMatchingCondition"
-          }
-        ]
-      }
-    },
-    {
-      "Parameters": {
-        "LambdaFunctionARN": "$.Attributes.RDF",
-        "InvocationTimeLimitSeconds": "8",
-        "LambdaInvocationAttributes": {
-          "session": "$.External.session",
-          "blockParam": "$.External.blockParam",
-          "function": "prompts"
-        },
-        "ResponseValidation": {
-          "ResponseType": "STRING_MAP"
-        }
-      },
-      "Identifier": "8aca826d-90a7-476f-b272-9d841fc6fd78",
-      "Type": "InvokeLambdaFunction",
-      "Transitions": {
-        "NextAction": "e900d4df-a93d-4018-9532-cafdc4b22c58",
-        "Errors": [
-          {
-            "NextAction": "752c70af-6829-444d-9495-fe1a36e3b54b",
-            "ErrorType": "NoMatchingError"
-          }
-        ]
-      }
-    },
-    {
-      "Parameters": {
-        "ComparisonValue": "$.External.promptLoop"
-      },
-      "Identifier": "e900d4df-a93d-4018-9532-cafdc4b22c58",
-      "Type": "Compare",
-      "Transitions": {
-        "NextAction": "c9430147-38a7-46a8-b092-ea3e8511633a",
-        "Conditions": [
-          {
-            "NextAction": "651d49b0-833f-41aa-9892-95102bb1a8e1",
-            "Condition": {
-              "Operator": "Equals",
-              "Operands": [
-                "true"
-              ]
-            }
-          }
-        ],
-        "Errors": [
-          {
-            "NextAction": "c9430147-38a7-46a8-b092-ea3e8511633a",
-            "ErrorType": "NoMatchingCondition"
           }
         ]
       }
@@ -1665,42 +1571,6 @@
           {
             "NextAction": "fa8e4319-7759-42f3-ab25-3a5610718ca4",
             "ErrorType": "NoMatchingError"
-          }
-        ]
-      }
-    },
-    {
-      "Parameters": {
-        "ComparisonValue": "$.External.blockType"
-      },
-      "Identifier": "c9430147-38a7-46a8-b092-ea3e8511633a",
-      "Type": "Compare",
-      "Transitions": {
-        "NextAction": "ac01c335-10a6-41d2-abf1-f9aed4f36a89",
-        "Conditions": [
-          {
-            "NextAction": "fa8e4319-7759-42f3-ab25-3a5610718ca4",
-            "Condition": {
-              "Operator": "Equals",
-              "Operands": [
-                "PLAY"
-              ]
-            }
-          },
-          {
-            "NextAction": "866bd727-00bc-4fc7-881f-265e3484f4e5",
-            "Condition": {
-              "Operator": "Equals",
-              "Operands": [
-                "RECORD"
-              ]
-            }
-          }
-        ],
-        "Errors": [
-          {
-            "NextAction": "ac01c335-10a6-41d2-abf1-f9aed4f36a89",
-            "ErrorType": "NoMatchingCondition"
           }
         ]
       }
@@ -2420,6 +2290,182 @@
         "Errors": [
           {
             "NextAction": "f443f2c3-008b-47f1-9e87-4f7d31c2384c",
+            "ErrorType": "NoMatchingError"
+          }
+        ]
+      }
+    },
+    {
+      "Parameters": {
+        "ComparisonValue": "$.External.promptLoop"
+      },
+      "Identifier": "e900d4df-a93d-4018-9532-cafdc4b22c58",
+      "Type": "Compare",
+      "Transitions": {
+        "NextAction": "c9430147-38a7-46a8-b092-ea3e8511633a",
+        "Conditions": [
+          {
+            "NextAction": "651d49b0-833f-41aa-9892-95102bb1a8e1",
+            "Condition": {
+              "Operator": "Equals",
+              "Operands": [
+                "true"
+              ]
+            }
+          }
+        ],
+        "Errors": [
+          {
+            "NextAction": "c9430147-38a7-46a8-b092-ea3e8511633a",
+            "ErrorType": "NoMatchingCondition"
+          }
+        ]
+      }
+    },
+    {
+      "Parameters": {
+        "Media": {
+          "Uri": "$.External.prompt",
+          "SourceType": "S3",
+          "MediaType": "Audio"
+        }
+      },
+      "Identifier": "5e806040-e8b6-4be1-98b1-d623648c1a10",
+      "Type": "MessageParticipant",
+      "Transitions": {
+        "NextAction": "8aca826d-90a7-476f-b272-9d841fc6fd78",
+        "Errors": [
+          {
+            "NextAction": "8aca826d-90a7-476f-b272-9d841fc6fd78",
+            "ErrorType": "NoMatchingError"
+          }
+        ]
+      }
+    },
+    {
+      "Parameters": {
+        "ComparisonValue": "$.External.blockType"
+      },
+      "Identifier": "c9430147-38a7-46a8-b092-ea3e8511633a",
+      "Type": "Compare",
+      "Transitions": {
+        "NextAction": "ac01c335-10a6-41d2-abf1-f9aed4f36a89",
+        "Conditions": [
+          {
+            "NextAction": "fa8e4319-7759-42f3-ab25-3a5610718ca4",
+            "Condition": {
+              "Operator": "Equals",
+              "Operands": [
+                "PLAY"
+              ]
+            }
+          },
+          {
+            "NextAction": "866bd727-00bc-4fc7-881f-265e3484f4e5",
+            "Condition": {
+              "Operator": "Equals",
+              "Operands": [
+                "RECORD"
+              ]
+            }
+          }
+        ],
+        "Errors": [
+          {
+            "NextAction": "ac01c335-10a6-41d2-abf1-f9aed4f36a89",
+            "ErrorType": "NoMatchingCondition"
+          }
+        ]
+      }
+    },
+    {
+      "Parameters": {
+        "SSML": "$.External.prompt"
+      },
+      "Identifier": "9b80b950-cb21-4611-89c2-f534f1f60694",
+      "Type": "MessageParticipant",
+      "Transitions": {
+        "NextAction": "c9430147-38a7-46a8-b092-ea3e8511633a",
+        "Errors": [
+          {
+            "NextAction": "c9430147-38a7-46a8-b092-ea3e8511633a",
+            "ErrorType": "NoMatchingError"
+          }
+        ]
+      }
+    },
+    {
+      "Parameters": {
+        "LambdaFunctionARN": "$.Attributes.RDF",
+        "InvocationTimeLimitSeconds": "8",
+        "LambdaInvocationAttributes": {
+          "session": "$.External.session",
+          "blockParam": "$.External.blockParam",
+          "function": "prompts"
+        },
+        "ResponseValidation": {
+          "ResponseType": "STRING_MAP"
+        }
+      },
+      "Identifier": "8aca826d-90a7-476f-b272-9d841fc6fd78",
+      "Type": "InvokeLambdaFunction",
+      "Transitions": {
+        "NextAction": "e900d4df-a93d-4018-9532-cafdc4b22c58",
+        "Errors": [
+          {
+            "NextAction": "752c70af-6829-444d-9495-fe1a36e3b54b",
+            "ErrorType": "NoMatchingError"
+          }
+        ]
+      }
+    },
+    {
+      "Parameters": {
+        "ComparisonValue": "$.External.promptType"
+      },
+      "Identifier": "651d49b0-833f-41aa-9892-95102bb1a8e1",
+      "Type": "Compare",
+      "Transitions": {
+        "NextAction": "9b80b950-cb21-4611-89c2-f534f1f60694",
+        "Conditions": [
+          {
+            "NextAction": "5e806040-e8b6-4be1-98b1-d623648c1a10",
+            "Condition": {
+              "Operator": "Equals",
+              "Operands": [
+                "wav"
+              ]
+            }
+          },
+          {
+            "NextAction": "188cc44c-4a52-4555-b02b-2f832684777d",
+            "Condition": {
+              "Operator": "Equals",
+              "Operands": [
+                "builtin"
+              ]
+            }
+          }
+        ],
+        "Errors": [
+          {
+            "NextAction": "9b80b950-cb21-4611-89c2-f534f1f60694",
+            "ErrorType": "NoMatchingCondition"
+          }
+        ]
+      }
+    },
+    {
+      "Parameters": {
+        "PromptId": "$.External.prompt"
+      },
+      "Identifier": "188cc44c-4a52-4555-b02b-2f832684777d",
+      "Type": "MessageParticipant",
+      "Transitions": {
+        "NextAction": "8aca826d-90a7-476f-b272-9d841fc6fd78",
+        "Errors": [
+          {
+            "NextAction": "8aca826d-90a7-476f-b272-9d841fc6fd78",
             "ErrorType": "NoMatchingError"
           }
         ]

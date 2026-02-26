@@ -7,30 +7,6 @@
       "y": 40
     },
     "ActionMetadata": {
-      "f7926ff0-09c1-408f-baa4-2dc5c181a691": {
-        "position": {
-          "x": 2428.8,
-          "y": 45.6
-        },
-        "children": [
-          "f26bcfe3-0911-49a8-bfc6-c9b6b1672142"
-        ],
-        "parameters": {
-          "WisdomAssistantArn": {
-            "displayName": "arn:aws:wisdom:ca-central-1:713881812716:assistant/f0c93a62-eb54-4aef-8137-850225ed7a0e"
-          }
-        },
-        "fragments": {
-          "SetContactData": "f26bcfe3-0911-49a8-bfc6-c9b6b1672142"
-        }
-      },
-      "f26bcfe3-0911-49a8-bfc6-c9b6b1672142": {
-        "position": {
-          "x": 2428.8,
-          "y": 45.6
-        },
-        "dynamicParams": []
-      },
       "b974fef7-ea56-4ab0-8edf-fb7cac228d55": {
         "position": {
           "x": 2872,
@@ -68,60 +44,6 @@
           "CPA",
           "language",
           "session"
-        ]
-      },
-      "5ca57f12-8d47-4d22-af38-ee6f6653f0fd": {
-        "position": {
-          "x": 1673.6,
-          "y": 32
-        },
-        "conditions": [],
-        "conditionMetadata": [
-          {
-            "id": "ba08dd4e-f2ae-47c6-a2f5-a1ffa411ab5f",
-            "operator": {
-              "name": "Equals",
-              "value": "Equals",
-              "shortDisplay": "="
-            },
-            "value": "on"
-          }
-        ]
-      },
-      "ba358679-4d1a-47b5-a522-7f2c8ca631fd": {
-        "position": {
-          "x": 1934.4,
-          "y": 52.8
-        },
-        "conditions": [],
-        "conditionMetadata": [
-          {
-            "id": "2a763283-5aa0-4330-928c-3d5b288be57b",
-            "operator": {
-              "name": "Equals",
-              "value": "Equals",
-              "shortDisplay": "="
-            },
-            "value": "on"
-          }
-        ]
-      },
-      "a8abb7b5-b21a-49b0-9a6c-8663bc32debd": {
-        "position": {
-          "x": 1939.2,
-          "y": 327.2
-        },
-        "conditions": [],
-        "conditionMetadata": [
-          {
-            "id": "4252dc05-1f96-409e-a626-aa2273c0c235",
-            "operator": {
-              "name": "Equals",
-              "value": "Equals",
-              "shortDisplay": "="
-            },
-            "value": "on"
-          }
         ]
       },
       "9e4cc041-9724-47a9-a09c-87e860f75fb9": {
@@ -163,30 +85,6 @@
         "useDynamic": true,
         "customerOrAgent": true
       },
-      "71098510-199b-473c-8aa1-335902906ac7": {
-        "position": {
-          "x": 2186.4,
-          "y": 44.8
-        }
-      },
-      "f357de47-4c12-427d-bf05-72a8182c6aee": {
-        "position": {
-          "x": 2184.8,
-          "y": 201.6
-        }
-      },
-      "2b1dc2f4-2755-403e-812a-b42b46099f6d": {
-        "position": {
-          "x": 2192,
-          "y": 429.6
-        }
-      },
-      "701129cd-16da-44a6-8657-44546072e237": {
-        "position": {
-          "x": 2192,
-          "y": 604
-        }
-      },
       "APPLINK": {
         "position": {
           "x": 172.8,
@@ -212,7 +110,7 @@
         "conditions": [],
         "conditionMetadata": [
           {
-            "id": "2ce5fd63-6327-4de3-8632-7f0b5536b13f",
+            "id": "fa6aa1f7-69fd-483f-8610-7909d1565c27",
             "operator": {
               "name": "Equals",
               "value": "Equals",
@@ -286,18 +184,6 @@
         },
         "useDynamic": true
       },
-      "37131a78-f6cd-4cb5-8d32-69f4e60fb7bd": {
-        "position": {
-          "x": 1441.6,
-          "y": 37.6
-        },
-        "parameters": {
-          "FlowModuleId": {
-            "useDynamic": true
-          }
-        },
-        "useDynamic": true
-      },
       "03bcb226-c6aa-4c39-bbf0-16e1526e4da4": {
         "position": {
           "x": 916,
@@ -306,7 +192,7 @@
         "conditions": [],
         "conditionMetadata": [
           {
-            "id": "0874b73e-148d-4155-a2f6-ae32aca4a1a4",
+            "id": "37da5555-0dd8-4875-b8a4-65bb386aa140",
             "operator": {
               "name": "Equals",
               "value": "Equals",
@@ -351,48 +237,130 @@
           "ConnectRDFRecordID",
           "ConnectRDFPaymentsID"
         ]
+      },
+      "37131a78-f6cd-4cb5-8d32-69f4e60fb7bd": {
+        "position": {
+          "x": 1441.6,
+          "y": 37.6
+        },
+        "parameters": {
+          "FlowModuleId": {
+            "useDynamic": true
+          }
+        },
+        "useDynamic": true
+      },
+      "5ca57f12-8d47-4d22-af38-ee6f6653f0fd": {
+        "position": {
+          "x": 1673.6,
+          "y": 32
+        },
+        "conditions": [],
+        "conditionMetadata": [
+          {
+            "id": "252a24bb-d97f-4584-8ebc-61059c7b074d",
+            "operator": {
+              "name": "Equals",
+              "value": "Equals",
+              "shortDisplay": "="
+            },
+            "value": "on"
+          }
+        ]
+      },
+      "2b1dc2f4-2755-403e-812a-b42b46099f6d": {
+        "position": {
+          "x": 2192,
+          "y": 429.6
+        }
+      },
+      "a8abb7b5-b21a-49b0-9a6c-8663bc32debd": {
+        "position": {
+          "x": 1939.2,
+          "y": 327.2
+        },
+        "conditions": [],
+        "conditionMetadata": [
+          {
+            "id": "b547b42b-ecdb-405a-8a57-cfbcbf5cad10",
+            "operator": {
+              "name": "Equals",
+              "value": "Equals",
+              "shortDisplay": "="
+            },
+            "value": "on"
+          }
+        ]
+      },
+      "701129cd-16da-44a6-8657-44546072e237": {
+        "position": {
+          "x": 2192,
+          "y": 604
+        }
+      },
+      "71098510-199b-473c-8aa1-335902906ac7": {
+        "position": {
+          "x": 2186.4,
+          "y": 44.8
+        }
+      },
+      "ba358679-4d1a-47b5-a522-7f2c8ca631fd": {
+        "position": {
+          "x": 1934.4,
+          "y": 52.8
+        },
+        "conditions": [],
+        "conditionMetadata": [
+          {
+            "id": "e2bdb7a8-952b-40d4-b9f3-f87f60d5edeb",
+            "operator": {
+              "name": "Equals",
+              "value": "Equals",
+              "shortDisplay": "="
+            },
+            "value": "on"
+          }
+        ]
+      },
+      "f7926ff0-09c1-408f-baa4-2dc5c181a691": {
+        "position": {
+          "x": 2428.8,
+          "y": 45.6
+        },
+        "children": [
+          "45b74e6d-065d-4220-a6b2-14991f696afe"
+        ],
+        "parameters": {
+          "WisdomAssistantArn": {
+            "displayName": "arn:aws:wisdom:ca-central-1:713881812716:assistant/f0c93a62-eb54-4aef-8137-850225ed7a0e"
+          }
+        },
+        "fragments": {
+          "SetContactData": "45b74e6d-065d-4220-a6b2-14991f696afe"
+        }
+      },
+      "45b74e6d-065d-4220-a6b2-14991f696afe": {
+        "position": {
+          "x": 2428.8,
+          "y": 45.6
+        },
+        "dynamicParams": []
+      },
+      "f357de47-4c12-427d-bf05-72a8182c6aee": {
+        "position": {
+          "x": 2184.8,
+          "y": 201.6
+        }
       }
     },
     "Annotations": [],
     "name": "Connect-RDF-Init",
     "description": "USED BY IGNITE-RDF",
     "type": "contactFlow",
-    "status": "PUBLISHED",
+    "status": "published",
     "hash": {}
   },
   "Actions": [
-    {
-      "Parameters": {
-        "WisdomAssistantArn": "arn:aws:wisdom:ca-central-1:713881812716:assistant/f0c93a62-eb54-4aef-8137-850225ed7a0e"
-      },
-      "Identifier": "f7926ff0-09c1-408f-baa4-2dc5c181a691",
-      "Type": "CreateWisdomSession",
-      "Transitions": {
-        "NextAction": "f26bcfe3-0911-49a8-bfc6-c9b6b1672142",
-        "Errors": [
-          {
-            "NextAction": "ce43bc0c-45a6-4502-b2b4-2acdc1da3123",
-            "ErrorType": "NoMatchingError"
-          }
-        ]
-      }
-    },
-    {
-      "Parameters": {
-        "WisdomSessionArn": "$.Wisdom.SessionArn"
-      },
-      "Identifier": "f26bcfe3-0911-49a8-bfc6-c9b6b1672142",
-      "Type": "UpdateContactData",
-      "Transitions": {
-        "NextAction": "ce43bc0c-45a6-4502-b2b4-2acdc1da3123",
-        "Errors": [
-          {
-            "NextAction": "ce43bc0c-45a6-4502-b2b4-2acdc1da3123",
-            "ErrorType": "NoMatchingError"
-          }
-        ]
-      }
-    },
     {
       "Parameters": {
         "EventHooks": {
@@ -433,87 +401,6 @@
           {
             "NextAction": "a0c9ae70-0ca1-4a8e-9fa0-2986e9034733",
             "ErrorType": "NoMatchingError"
-          }
-        ]
-      }
-    },
-    {
-      "Parameters": {
-        "ComparisonValue": "$.External.speechAnalytics"
-      },
-      "Identifier": "5ca57f12-8d47-4d22-af38-ee6f6653f0fd",
-      "Type": "Compare",
-      "Transitions": {
-        "NextAction": "a8abb7b5-b21a-49b0-9a6c-8663bc32debd",
-        "Conditions": [
-          {
-            "NextAction": "ba358679-4d1a-47b5-a522-7f2c8ca631fd",
-            "Condition": {
-              "Operator": "Equals",
-              "Operands": [
-                "on"
-              ]
-            }
-          }
-        ],
-        "Errors": [
-          {
-            "NextAction": "a8abb7b5-b21a-49b0-9a6c-8663bc32debd",
-            "ErrorType": "NoMatchingCondition"
-          }
-        ]
-      }
-    },
-    {
-      "Parameters": {
-        "ComparisonValue": "$.External.chatAnalytics"
-      },
-      "Identifier": "ba358679-4d1a-47b5-a522-7f2c8ca631fd",
-      "Type": "Compare",
-      "Transitions": {
-        "NextAction": "f357de47-4c12-427d-bf05-72a8182c6aee",
-        "Conditions": [
-          {
-            "NextAction": "71098510-199b-473c-8aa1-335902906ac7",
-            "Condition": {
-              "Operator": "Equals",
-              "Operands": [
-                "on"
-              ]
-            }
-          }
-        ],
-        "Errors": [
-          {
-            "NextAction": "f357de47-4c12-427d-bf05-72a8182c6aee",
-            "ErrorType": "NoMatchingCondition"
-          }
-        ]
-      }
-    },
-    {
-      "Parameters": {
-        "ComparisonValue": "$.External.chatAnalytics"
-      },
-      "Identifier": "a8abb7b5-b21a-49b0-9a6c-8663bc32debd",
-      "Type": "Compare",
-      "Transitions": {
-        "NextAction": "701129cd-16da-44a6-8657-44546072e237",
-        "Conditions": [
-          {
-            "NextAction": "2b1dc2f4-2755-403e-812a-b42b46099f6d",
-            "Condition": {
-              "Operator": "Equals",
-              "Operands": [
-                "on"
-              ]
-            }
-          }
-        ],
-        "Errors": [
-          {
-            "NextAction": "701129cd-16da-44a6-8657-44546072e237",
-            "ErrorType": "NoMatchingCondition"
           }
         ]
       }
@@ -576,173 +463,6 @@
     },
     {
       "Parameters": {
-        "RecordingBehavior": {
-          "RecordedParticipants": [
-            "Agent",
-            "Customer"
-          ],
-          "IVRRecordingBehavior": "Disabled"
-        },
-        "AnalyticsBehavior": {
-          "Enabled": "True",
-          "AnalyticsLanguage": "en-US",
-          "AnalyticsRedactionBehavior": "Enabled",
-          "AnalyticsRedactionResults": "RedactedAndOriginal",
-          "AnalyticsRedactionMaskMode": "PII",
-          "ChannelConfiguration": {
-            "Chat": {
-              "AnalyticsModes": [
-                "ContactLens"
-              ]
-            },
-            "Voice": {
-              "AnalyticsModes": [
-                "RealTime"
-              ]
-            }
-          },
-          "SummaryConfiguration": {
-            "SummaryModes": [
-              "PostContact"
-            ]
-          },
-          "SentimentConfiguration": {
-            "Enabled": "True"
-          }
-        }
-      },
-      "Identifier": "71098510-199b-473c-8aa1-335902906ac7",
-      "Type": "UpdateContactRecordingBehavior",
-      "Transitions": {
-        "NextAction": "f7926ff0-09c1-408f-baa4-2dc5c181a691"
-      }
-    },
-    {
-      "Parameters": {
-        "RecordingBehavior": {
-          "RecordedParticipants": [
-            "Agent",
-            "Customer"
-          ],
-          "IVRRecordingBehavior": "Disabled"
-        },
-        "AnalyticsBehavior": {
-          "Enabled": "True",
-          "AnalyticsLanguage": "en-US",
-          "AnalyticsRedactionBehavior": "Enabled",
-          "AnalyticsRedactionResults": "RedactedAndOriginal",
-          "AnalyticsRedactionMaskMode": "PII",
-          "ChannelConfiguration": {
-            "Chat": {
-              "AnalyticsModes": []
-            },
-            "Voice": {
-              "AnalyticsModes": [
-                "RealTime"
-              ]
-            }
-          },
-          "SummaryConfiguration": {
-            "SummaryModes": [
-              "PostContact"
-            ]
-          },
-          "SentimentConfiguration": {
-            "Enabled": "True"
-          }
-        }
-      },
-      "Identifier": "f357de47-4c12-427d-bf05-72a8182c6aee",
-      "Type": "UpdateContactRecordingBehavior",
-      "Transitions": {
-        "NextAction": "f7926ff0-09c1-408f-baa4-2dc5c181a691"
-      }
-    },
-    {
-      "Parameters": {
-        "RecordingBehavior": {
-          "RecordedParticipants": [
-            "Agent",
-            "Customer"
-          ],
-          "IVRRecordingBehavior": "Disabled"
-        },
-        "AnalyticsBehavior": {
-          "Enabled": "True",
-          "AnalyticsLanguage": "en-US",
-          "AnalyticsRedactionBehavior": "Enabled",
-          "AnalyticsRedactionResults": "RedactedAndOriginal",
-          "AnalyticsRedactionMaskMode": "PII",
-          "ChannelConfiguration": {
-            "Chat": {
-              "AnalyticsModes": [
-                "ContactLens"
-              ]
-            },
-            "Voice": {
-              "AnalyticsModes": [
-                "RealTime"
-              ]
-            }
-          },
-          "SummaryConfiguration": {
-            "SummaryModes": [
-              "PostContact"
-            ]
-          },
-          "SentimentConfiguration": {
-            "Enabled": "True"
-          }
-        }
-      },
-      "Identifier": "2b1dc2f4-2755-403e-812a-b42b46099f6d",
-      "Type": "UpdateContactRecordingBehavior",
-      "Transitions": {
-        "NextAction": "f7926ff0-09c1-408f-baa4-2dc5c181a691"
-      }
-    },
-    {
-      "Parameters": {
-        "RecordingBehavior": {
-          "RecordedParticipants": [
-            "Agent",
-            "Customer"
-          ],
-          "IVRRecordingBehavior": "Disabled"
-        },
-        "AnalyticsBehavior": {
-          "Enabled": "True",
-          "AnalyticsLanguage": "en-US",
-          "AnalyticsRedactionBehavior": "Disabled",
-          "AnalyticsRedactionResults": "RedactedAndOriginal",
-          "ChannelConfiguration": {
-            "Chat": {
-              "AnalyticsModes": []
-            },
-            "Voice": {
-              "AnalyticsModes": [
-                "RealTime"
-              ]
-            }
-          },
-          "SummaryConfiguration": {
-            "SummaryModes": [
-              "PostContact"
-            ]
-          },
-          "SentimentConfiguration": {
-            "Enabled": "True"
-          }
-        }
-      },
-      "Identifier": "701129cd-16da-44a6-8657-44546072e237",
-      "Type": "UpdateContactRecordingBehavior",
-      "Transitions": {
-        "NextAction": "f7926ff0-09c1-408f-baa4-2dc5c181a691"
-      }
-    },
-    {
-      "Parameters": {
         "Attributes": {
           "APPLINK": "$.Attributes.blockParam"
         },
@@ -792,7 +512,7 @@
         "Attributes": {
           "callFlowID": "init",
           "errorMessage": "NA",
-          "RDF": "arn:aws:lambda:ca-central-1:577638358850:function:Ignite-RDF:dev",
+          "RDF": "arn:aws:lambda:us-east-1:628842227499:function:Ignite-RDF:uat",
           "ANI": "$.CustomerEndpoint.Address",
           "ContactFlowStart": "Connect-RDF-Init"
         },
@@ -870,22 +590,6 @@
     },
     {
       "Parameters": {
-        "FlowModuleId": "$.Attributes.ConnectRDFLanguagesID"
-      },
-      "Identifier": "37131a78-f6cd-4cb5-8d32-69f4e60fb7bd",
-      "Type": "InvokeFlowModule",
-      "Transitions": {
-        "NextAction": "5ca57f12-8d47-4d22-af38-ee6f6653f0fd",
-        "Errors": [
-          {
-            "NextAction": "f283917b-50e5-496a-8014-c56ee78de4ca",
-            "ErrorType": "NoMatchingError"
-          }
-        ]
-      }
-    },
-    {
-      "Parameters": {
         "ComparisonValue": "$.External.statusCode"
       },
       "Identifier": "03bcb226-c6aa-4c39-bbf0-16e1526e4da4",
@@ -933,6 +637,274 @@
             "ErrorType": "NoMatchingError"
           }
         ]
+      }
+    },
+    {
+      "Parameters": {
+        "FlowModuleId": "$.Attributes.ConnectRDFLanguagesID"
+      },
+      "Identifier": "37131a78-f6cd-4cb5-8d32-69f4e60fb7bd",
+      "Type": "InvokeFlowModule",
+      "Transitions": {
+        "NextAction": "5ca57f12-8d47-4d22-af38-ee6f6653f0fd",
+        "Errors": [
+          {
+            "NextAction": "5ca57f12-8d47-4d22-af38-ee6f6653f0fd",
+            "ErrorType": "NoMatchingCondition"
+          },
+          {
+            "NextAction": "f283917b-50e5-496a-8014-c56ee78de4ca",
+            "ErrorType": "NoMatchingError"
+          }
+        ]
+      }
+    },
+    {
+      "Parameters": {
+        "ComparisonValue": "$.External.speechAnalytics"
+      },
+      "Identifier": "5ca57f12-8d47-4d22-af38-ee6f6653f0fd",
+      "Type": "Compare",
+      "Transitions": {
+        "NextAction": "a8abb7b5-b21a-49b0-9a6c-8663bc32debd",
+        "Conditions": [
+          {
+            "NextAction": "ba358679-4d1a-47b5-a522-7f2c8ca631fd",
+            "Condition": {
+              "Operator": "Equals",
+              "Operands": [
+                "on"
+              ]
+            }
+          }
+        ],
+        "Errors": [
+          {
+            "NextAction": "a8abb7b5-b21a-49b0-9a6c-8663bc32debd",
+            "ErrorType": "NoMatchingCondition"
+          }
+        ]
+      }
+    },
+    {
+      "Parameters": {
+        "RecordingBehavior": {
+          "RecordedParticipants": [],
+          "IVRRecordingBehavior": "Disabled"
+        },
+        "AnalyticsBehavior": {
+          "Enabled": "True",
+          "AnalyticsLanguage": "en-US",
+          "AnalyticsRedactionBehavior": "Enabled",
+          "AnalyticsRedactionResults": "RedactedAndOriginal",
+          "AnalyticsRedactionMaskMode": "PII",
+          "ChannelConfiguration": {
+            "Chat": {
+              "AnalyticsModes": [
+                "ContactLens"
+              ]
+            },
+            "Voice": {
+              "AnalyticsModes": []
+            }
+          },
+          "SummaryConfiguration": {
+            "SummaryModes": [
+              "PostContact"
+            ]
+          },
+          "SentimentConfiguration": {
+            "Enabled": "True"
+          }
+        }
+      },
+      "Identifier": "2b1dc2f4-2755-403e-812a-b42b46099f6d",
+      "Type": "UpdateContactRecordingBehavior",
+      "Transitions": {
+        "NextAction": "f7926ff0-09c1-408f-baa4-2dc5c181a691"
+      }
+    },
+    {
+      "Parameters": {
+        "ComparisonValue": "$.External.chatAnalytics"
+      },
+      "Identifier": "a8abb7b5-b21a-49b0-9a6c-8663bc32debd",
+      "Type": "Compare",
+      "Transitions": {
+        "NextAction": "701129cd-16da-44a6-8657-44546072e237",
+        "Conditions": [
+          {
+            "NextAction": "2b1dc2f4-2755-403e-812a-b42b46099f6d",
+            "Condition": {
+              "Operator": "Equals",
+              "Operands": [
+                "on"
+              ]
+            }
+          }
+        ],
+        "Errors": [
+          {
+            "NextAction": "701129cd-16da-44a6-8657-44546072e237",
+            "ErrorType": "NoMatchingCondition"
+          }
+        ]
+      }
+    },
+    {
+      "Parameters": {
+        "RecordingBehavior": {
+          "RecordedParticipants": [],
+          "IVRRecordingBehavior": "Disabled"
+        }
+      },
+      "Identifier": "701129cd-16da-44a6-8657-44546072e237",
+      "Type": "UpdateContactRecordingBehavior",
+      "Transitions": {
+        "NextAction": "f7926ff0-09c1-408f-baa4-2dc5c181a691"
+      }
+    },
+    {
+      "Parameters": {
+        "RecordingBehavior": {
+          "RecordedParticipants": [
+            "Agent",
+            "Customer"
+          ],
+          "IVRRecordingBehavior": "Disabled"
+        },
+        "AnalyticsBehavior": {
+          "Enabled": "True",
+          "AnalyticsLanguage": "en-US",
+          "AnalyticsRedactionBehavior": "Enabled",
+          "AnalyticsRedactionResults": "RedactedAndOriginal",
+          "AnalyticsRedactionMaskMode": "PII",
+          "ChannelConfiguration": {
+            "Chat": {
+              "AnalyticsModes": [
+                "ContactLens"
+              ]
+            },
+            "Voice": {
+              "AnalyticsModes": [
+                "RealTime"
+              ]
+            }
+          },
+          "SummaryConfiguration": {
+            "SummaryModes": [
+              "PostContact"
+            ]
+          },
+          "SentimentConfiguration": {
+            "Enabled": "True"
+          }
+        }
+      },
+      "Identifier": "71098510-199b-473c-8aa1-335902906ac7",
+      "Type": "UpdateContactRecordingBehavior",
+      "Transitions": {
+        "NextAction": "f7926ff0-09c1-408f-baa4-2dc5c181a691"
+      }
+    },
+    {
+      "Parameters": {
+        "ComparisonValue": "$.External.chatAnalytics"
+      },
+      "Identifier": "ba358679-4d1a-47b5-a522-7f2c8ca631fd",
+      "Type": "Compare",
+      "Transitions": {
+        "NextAction": "f357de47-4c12-427d-bf05-72a8182c6aee",
+        "Conditions": [
+          {
+            "NextAction": "71098510-199b-473c-8aa1-335902906ac7",
+            "Condition": {
+              "Operator": "Equals",
+              "Operands": [
+                "on"
+              ]
+            }
+          }
+        ],
+        "Errors": [
+          {
+            "NextAction": "f357de47-4c12-427d-bf05-72a8182c6aee",
+            "ErrorType": "NoMatchingCondition"
+          }
+        ]
+      }
+    },
+    {
+      "Parameters": {
+        "WisdomAssistantArn": "arn:aws:wisdom:ca-central-1:713881812716:assistant/f0c93a62-eb54-4aef-8137-850225ed7a0e"
+      },
+      "Identifier": "f7926ff0-09c1-408f-baa4-2dc5c181a691",
+      "Type": "CreateWisdomSession",
+      "Transitions": {
+        "NextAction": "45b74e6d-065d-4220-a6b2-14991f696afe",
+        "Errors": [
+          {
+            "NextAction": "ce43bc0c-45a6-4502-b2b4-2acdc1da3123",
+            "ErrorType": "NoMatchingError"
+          }
+        ]
+      }
+    },
+    {
+      "Parameters": {
+        "WisdomSessionArn": "$.Wisdom.SessionArn"
+      },
+      "Identifier": "45b74e6d-065d-4220-a6b2-14991f696afe",
+      "Type": "UpdateContactData",
+      "Transitions": {
+        "NextAction": "ce43bc0c-45a6-4502-b2b4-2acdc1da3123",
+        "Errors": [
+          {
+            "NextAction": "ce43bc0c-45a6-4502-b2b4-2acdc1da3123",
+            "ErrorType": "NoMatchingError"
+          }
+        ]
+      }
+    },
+    {
+      "Parameters": {
+        "RecordingBehavior": {
+          "RecordedParticipants": [
+            "Agent",
+            "Customer"
+          ],
+          "IVRRecordingBehavior": "Disabled"
+        },
+        "AnalyticsBehavior": {
+          "Enabled": "True",
+          "AnalyticsLanguage": "en-US",
+          "AnalyticsRedactionBehavior": "Enabled",
+          "AnalyticsRedactionResults": "RedactedAndOriginal",
+          "AnalyticsRedactionMaskMode": "PII",
+          "ChannelConfiguration": {
+            "Chat": {
+              "AnalyticsModes": []
+            },
+            "Voice": {
+              "AnalyticsModes": [
+                "RealTime"
+              ]
+            }
+          },
+          "SummaryConfiguration": {
+            "SummaryModes": [
+              "PostContact"
+            ]
+          },
+          "SentimentConfiguration": {
+            "Enabled": "True"
+          }
+        }
+      },
+      "Identifier": "f357de47-4c12-427d-bf05-72a8182c6aee",
+      "Type": "UpdateContactRecordingBehavior",
+      "Transitions": {
+        "NextAction": "f7926ff0-09c1-408f-baa4-2dc5c181a691"
       }
     }
   ]
