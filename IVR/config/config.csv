@@ -15,4 +15,3 @@ chatAnalytics,off
 queueCapacity,75
 waitCapacity,120
 wait_time,on
-callRecordings,on
